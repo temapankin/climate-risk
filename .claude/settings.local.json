@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 list *)",
+      "Bash(jupyter nbconvert *)",
+      "Bash(/opt/miniconda3/envs/default_env/bin/jupyter nbconvert *)",
+      "Bash(/opt/miniconda3/envs/default_env/bin/python -m papermill --version)",
+      "Bash(/opt/miniconda3/envs/default_env/bin/pip install *)",
+      "Bash(/opt/miniconda3/envs/default_env/bin/python -c ' *)",
+      "Read(//dev/**)"
+    ]
+  }
+}
