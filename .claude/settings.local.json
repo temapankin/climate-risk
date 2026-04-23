@@ -11,7 +11,12 @@
       "Bash(python3 -c ' *)",
       "Bash(conda run -n base python3 -c ' *)",
       "Bash(conda env *)",
-      "Bash(conda run -n default_env python3 -c ' *)"
+      "Bash(conda run -n default_env python3 -c ' *)",
+      "Bash(jupyter kernelspec *)",
+      "Bash(/opt/miniconda3/envs/default_env/bin/python -)",
+      "Bash(ln -sf FRD_Coastal_34001_Geodatabase_20170524 /Volumes/SSD/climate-risk/data/FRD_Coastal_34001.gdb)",
+      "Bash(ogrinfo /Volumes/SSD/climate-risk/data/FRD_Coastal_34001.gdb)",
+      "Bash(python3)"
     ]
   }
 }

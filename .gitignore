@@ -1,2 +1,5 @@
 data
 .claude/
+CLAUDE.md
+data/parcels_modiv_joined.parquet
+data/
