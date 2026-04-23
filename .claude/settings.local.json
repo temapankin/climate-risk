@@ -7,7 +7,11 @@
       "Bash(/opt/miniconda3/envs/default_env/bin/python -m papermill --version)",
       "Bash(/opt/miniconda3/envs/default_env/bin/pip install *)",
       "Bash(/opt/miniconda3/envs/default_env/bin/python -c ' *)",
-      "Read(//dev/**)"
+      "Read(//dev/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(conda run -n base python3 -c ' *)",
+      "Bash(conda env *)",
+      "Bash(conda run -n default_env python3 -c ' *)"
     ]
   }
 }
