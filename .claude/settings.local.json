@@ -22,7 +22,14 @@
       "Bash(curl -s \"https://njmaps1.rad.rutgers.edu/arcgis/rest/services/CoastalFlooding/FEMA_NFHL_Effective_041220/MapServer/1/query?where=1%3D1&returnCountOnly=true&f=json\")",
       "Bash(python -c \" import pyarrow.parquet as pq pf = pq.ParquetDataset\\('data/parcels_shore.parquet'\\) schema = pf.schema_arrow for f in schema: print\\(f.name, f.type\\) \")",
       "Bash(/opt/miniconda3/envs/myenv/bin/python -c ' *)",
-      "Bash(conda info *)"
+      "Bash(conda info *)",
+      "Bash(/usr/bin/env python3 -c ' *)",
+      "Bash(conda run *)",
+      "Bash(/opt/miniconda3/envs/*/bin/python -c \"import duckdb; print\\('ok'\\)\")",
+      "WebSearch",
+      "WebFetch(domain:njgin.state.nj.us)",
+      "WebFetch(domain:appraisersforum.com)",
+      "WebFetch(domain:www.camdencounty.com)"
     ]
   }
 }

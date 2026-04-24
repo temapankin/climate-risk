@@ -1,35 +1,27 @@
 library(tidycensus)
 library(dplyr)
 
-# Pull ACS B25004 for NJ coastal tracts
-acs_seasonal <- get_acs(
-  geography = "tract",
-  variables = c(
-    total_vacant   = "B25004_001",
-    seasonal_units = "B25004_006" 
-  ),
-  state = "NJ",
-  county = c("Ocean", "Monmouth", "Atlantic", "Cape May"),
-  year = 2022,
-  output = "wide"
-) |>
-  mutate(pct_seasonal_acs = seasonal_unitsE / total_vacantE)
-
-# export to csv
-
-
 SHORE_COUNTIES <- c("Ocean", "Monmouth", "Atlantic", "Cape May")
 
-# Pull two non-overlapping vintages
-acs_early <- get_acs(geography = "tract", variables = c(total = "B25001_001", seasonal = "B25004_006"),
-                     state = "NJ", county = SHORE_COUNTIES, year = 2013, survey = "acs5", output = "wide")
+ACS_VARS <- c(total = "B25001_001", seasonal = "B25004_006")
 
-acs_late  <- get_acs(geography = "tract", variables = c(total = "B25001_001", seasonal = "B25004_006"),
-                     state = "NJ", county = SHORE_COUNTIES, year = 2023, survey = "acs5", output = "wide")
+# 2013 ACS → covers MOD-IV sales 2005–2013
+acs_2013 <- get_acs(
+  geography = "tract", variables = ACS_VARS,
+  state = "NJ", county = SHORE_COUNTIES,
+  year = 2013, survey = "acs5", output = "wide"
+) |>
+  mutate(pct_seasonal = seasonalE / totalE) |>
+  select(GEOID, NAME, pct_seasonal)
 
-# Compute shares
-acs_early <- acs_early |> mutate(pct_seasonal = seasonalE / totalE, period = "early")
-acs_late  <- acs_late  |> mutate(pct_seasonal = seasonalE / totalE, period = "late")
+# 2023 ACS → covers MOD-IV sales 2014–2024
+acs_2023 <- get_acs(
+  geography = "tract", variables = ACS_VARS,
+  state = "NJ", county = SHORE_COUNTIES,
+  year = 2023, survey = "acs5", output = "wide"
+) |>
+  mutate(pct_seasonal = seasonalE / totalE) |>
+  select(GEOID, NAME, pct_seasonal)
 
-write.csv(acs_early, "data/acs_seasonal_early.csv", row.names = FALSE)
-write.csv(acs_late, "data/acs_seasonal_late.csv", row.names = FALSE)
+write.csv(acs_2013, "data/acs_seasonal_2013.csv", row.names = FALSE)
+write.csv(acs_2023, "data/acs_seasonal_2023.csv", row.names = FALSE)
