@@ -16,7 +16,13 @@
       "Bash(/opt/miniconda3/envs/default_env/bin/python -)",
       "Bash(ln -sf FRD_Coastal_34001_Geodatabase_20170524 /Volumes/SSD/climate-risk/data/FRD_Coastal_34001.gdb)",
       "Bash(ogrinfo /Volumes/SSD/climate-risk/data/FRD_Coastal_34001.gdb)",
-      "Bash(python3)"
+      "Bash(python3)",
+      "Bash(curl -s \"https://njmaps1.rad.rutgers.edu/arcgis/rest/services/CoastalFlooding/FEMA_NFHL_Effective_041220/MapServer/1?f=json\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('maxRecordCount:', d.get\\('maxRecordCount'\\)\\); print\\('geometryType:', d.get\\('geometryType'\\)\\); print\\('name:', d.get\\('name'\\)\\); print\\('fields:', [f['name'] for f in d.get\\('fields',[]\\)][:10]\\)\")",
+      "Bash(curl -s \"https://njmaps1.rad.rutgers.edu/arcgis/rest/services/CoastalFlooding/FEMA_NFHL_Effective_041220/MapServer/1/query?where=1%3D1&returnCountOnly=true&f=json\")",
+      "Bash(python -c \" import pyarrow.parquet as pq pf = pq.ParquetDataset\\('data/parcels_shore.parquet'\\) schema = pf.schema_arrow for f in schema: print\\(f.name, f.type\\) \")",
+      "Bash(/opt/miniconda3/envs/myenv/bin/python -c ' *)",
+      "Bash(conda info *)"
     ]
   }
 }
