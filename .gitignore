@@ -3,3 +3,7 @@ data
 CLAUDE.md
 data/parcels_modiv_joined.parquet
 data/
+problems.md
+._problems.md
+main.tex
+.claude/settings.local.json

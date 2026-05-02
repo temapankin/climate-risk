@@ -31,7 +31,9 @@
       "WebFetch(domain:appraisersforum.com)",
       "WebFetch(domain:www.camdencounty.com)",
       "Bash(Rscript -e \"pkgs <- c\\('arrow','sf','tigris','ggplot2','patchwork','dplyr','viridis','scales','sfarrow','RColorBrewer'\\); installed <- installed.packages\\(\\)[,'Package']; cat\\(paste\\(pkgs, pkgs %in% installed, sep=': '\\), sep='\\\\n'\\)\")",
-      "Bash(Rscript -e \"install.packages\\('arrow', repos='https://cloud.r-project.org', quiet=TRUE\\); library\\(arrow\\); cat\\('arrow version:', as.character\\(packageVersion\\('arrow'\\)\\), '\\\\n'\\)\")"
+      "Bash(Rscript -e \"install.packages\\('arrow', repos='https://cloud.r-project.org', quiet=TRUE\\); library\\(arrow\\); cat\\('arrow version:', as.character\\(packageVersion\\('arrow'\\)\\), '\\\\n'\\)\")",
+      "WebFetch(domain:www.rdocumentation.org)",
+      "Bash(Rscript 20_models_hedonic.r)"
     ]
   }
 }
