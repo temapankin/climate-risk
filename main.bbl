@@ -1,0 +1,1947 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{andrews-PersistingJerseyShore}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9a63ac498dc7b35a10c0ecc2c2e10421}{%
+           family={Andrews},
+           familyi={A\bibinitperiod},
+           given={Clinton\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \strng{fullhash}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \strng{fullhashraw}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \strng{bibnamehash}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \strng{authorbibnamehash}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \strng{authornamehash}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \strng{authorfullhash}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \strng{authorfullhashraw}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many coastal settlements persist despite repeated damage from storms and flooding. This may be less about willful ignorance and more about the attractiveness of coastal amenities outweighing the perceived risks of living in a location for certain people. This study investigates how resort municipalities located along the beaches of the Jersey Shore differ from the rest of New Jersey, USA, with the purpose of clarifying the special features of Shore communities’ housing stocks, real estate markets, risks, and populations. The case study uses data from the U.S. Census and other governmental sources to create a quantitative portrait of the Shore and presents logistic regression model results showing that features associated with Shore communities include high seasonal vacancy rates, high median housing values, high FEMA damage claims, and year-round populations with lower non-white percentage and lower median household incomes than the statewide values. Jersey Shore municipalities host many second homes, have housing values that are higher than the statewide average and show little net growth in population and housing units, but see continued housing investment (new construction and alterations) at a rate averaging USD 2.2 billion annually in 2023 USD over 20 years. Implications for public policy are to incentivize risk management behavior by second-home owners and owner-occupiers differently from one another, and view nostalgia-based arguments for special treatment with skepticism.}
+      \field{langid}{english}
+      \field{title}{Persisting on the {{Jersey Shore}}}
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/C8N9P2NW/Andrewspersisting-on-the-jersey-shore.pdf
+      \endverb
+    \endentry
+    \entry{baldaufetal2020-DoesClimateChange}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=348c7bca0d563e5930ae31a0bcec7136}{%
+           family={Baldauf},
+           familyi={B\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa37059b0400fe91aa65eed5612c21ea}{%
+           family={Garlappi},
+           familyi={G\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0edb183e4562329a17433be424124c92}{%
+           family={Yannelis},
+           familyi={Y\bibinitperiod},
+           given={Constantine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford Academic}%
+      }
+      \strng{namehash}{811a1b1798c9595dc87d1950acabb667}
+      \strng{fullhash}{4d4d62c5e5a47f3327f705f8e0a97b5c}
+      \strng{fullhashraw}{4d4d62c5e5a47f3327f705f8e0a97b5c}
+      \strng{bibnamehash}{4d4d62c5e5a47f3327f705f8e0a97b5c}
+      \strng{authorbibnamehash}{4d4d62c5e5a47f3327f705f8e0a97b5c}
+      \strng{authornamehash}{811a1b1798c9595dc87d1950acabb667}
+      \strng{authorfullhash}{4d4d62c5e5a47f3327f705f8e0a97b5c}
+      \strng{authorfullhashraw}{4d4d62c5e5a47f3327f705f8e0a97b5c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. This paper studies whether house prices reflect belief differences about climate change. We show that in an equilibrium model of housing choice i}
+      \field{day}{1}
+      \field{issn}{0893-9454}
+      \field{journaltitle}{The Review of Financial Studies}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{3}
+      \field{shortjournal}{Rev Financ Stud}
+      \field{shorttitle}{Does {{Climate Change Affect Real Estate Prices}}?}
+      \field{title}{Does {{Climate Change Affect Real Estate Prices}}? {{Only If You Believe In It}}}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{33}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1256\bibrangedash 1295}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1093/rfs/hhz073
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/6QMC5Q9Z/BaldaufGarlappi2020_does-climate-change-affect-real-estate-p.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1093/rfs/hhz073
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1093/rfs/hhz073
+      \endverb
+      \keyw{✅}
+    \endentry
+    \entry{buntenkahn2014-ImpactEmergingClimate}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bc0ef1600106b9e12e9a6f71d32fe7e5}{%
+           family={Bunten},
+           familyi={B\bibinitperiod},
+           given={Devin\bibnamedelima Michelle},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2544604c2fbeb84470874a7ff930aa23}{%
+           family={Kahn},
+           familyi={K\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \strng{namehash}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \strng{fullhash}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \strng{fullhashraw}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \strng{bibnamehash}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \strng{authorbibnamehash}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \strng{authornamehash}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \strng{authorfullhash}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \strng{authorfullhashraw}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the typical asset market, an asset featuring uninsurable idiosyncratic risk must offer a higher rate of return to compensate risk-averse investors. A home offers a standard asset’s risk and return opportunities, but it also bundles access to its city’s amenities—and to its climate risks. As climate change research reveals the true nature of these risks, how does the equilibrium real estate pricing gradient change when households can sort into different cities? When the population is homogeneous, the real estate pricing gradient instantly reflects the “new news”. With population heterogeneity, an event study research design will underestimate the valuation of climate risk for households in low-risk cities while overestimating the valuation of households in high-risk areas.}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{w20018}
+      \field{title}{The {{Impact}} of {{Emerging Climate Risks}} on {{Urban Real Estate Price Dynamics}}}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{w20018}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.3386/w20018
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/VQ3PNGTA/BuntenKahn2014_the-impact-of-emerging-climate-risks-on.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.nber.org/papers/w20018.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.nber.org/papers/w20018.pdf
+      \endverb
+    \endentry
+    \entry{chen2025-DoesPublicConcern}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4bc1d156d5d6d18ef68124b9f76186d3}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Haoxi},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \strng{fullhash}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \strng{fullhashraw}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \strng{bibnamehash}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \strng{authorbibnamehash}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \strng{authornamehash}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \strng{authorfullhash}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \strng{authorfullhashraw}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Climate change introduces great uncertainty into the global real estate market. Existing studies mainly focus on the response of property prices to physical environmental changes, particularly the direct impact of extreme climate events on property values. This study innovatively quantifies public concern about climate change by introducing the novel concept of the Public Climate Change Concern Index (PCCCI). We then link this index to key indicators of the housing market, analysing how public concern about climate change influences the local housing market. Through a case study of Zhengzhou's housing market in China, we explore how public concern about climate change influences property transactions. It discloses that public climate change concern largely impacts transaction volumes, transaction areas and transaction prices of the housing market, highlighting how climate change exacerbates market uncertainty. Consequently, we advocate incorporating public climate change concern as a necessary variable in real estate market analysis to better understand and address the impacts of climate change on this sector. This new research perspective not only enriches the study of real estate markets but also provides novel theoretical and empirical foundations for policy-making and market forecasting.}
+      \field{day}{1}
+      \field{issn}{0197-3975}
+      \field{journaltitle}{Habitat International}
+      \field{month}{11}
+      \field{shortjournal}{Habitat International}
+      \field{title}{Does Public Concern about Climate Change Affect Real Estate Market Behaviour?}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{165}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{103542}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.habitatint.2025.103542
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/FUMWICLR/Chen2025_does-public-concern-about-climate-change.pdf;/Users/artyom/Zotero/storage/I795433A/S0197397525002589.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0197397525002589
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0197397525002589
+      \endverb
+      \keyw{Climate change,Housing market,Public concern,Wavelet analysis}
+    \endentry
+    \entry{collado-gonzalezetal2025-SecondHomesTourism}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6e6e31f62eccac795536928883782a98}{%
+           family={Collado-González},
+           familyi={C\bibinithyphendelim G\bibinitperiod},
+           given={José\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=adf88647e5ebb471cc4a435f37159f1b}{%
+           family={Alonsopérez-Chiossi},
+           familyi={A\bibinithyphendelim C\bibinitperiod},
+           given={Maria\bibnamedelima José},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de8ce0760b8e7abcb8cc4a2018dea111}{%
+           family={Alcalá-Ordóñez},
+           familyi={A\bibinithyphendelim O\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b4bac0e0702dc32a9062afbd129c73a}{%
+           family={Zapata-Aguirre},
+           familyi={Z\bibinithyphendelim A\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da230d5abc367a8b0740a3c6da3bbe16}
+      \strng{fullhash}{140325f6d48420dc5ba4b8a7325c7d6b}
+      \strng{fullhashraw}{140325f6d48420dc5ba4b8a7325c7d6b}
+      \strng{bibnamehash}{140325f6d48420dc5ba4b8a7325c7d6b}
+      \strng{authorbibnamehash}{140325f6d48420dc5ba4b8a7325c7d6b}
+      \strng{authornamehash}{da230d5abc367a8b0740a3c6da3bbe16}
+      \strng{authorfullhash}{140325f6d48420dc5ba4b8a7325c7d6b}
+      \strng{authorfullhashraw}{140325f6d48420dc5ba4b8a7325c7d6b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Over recent years, second-home tourism has gained special relevance, leading to the publication of numerous works that attempt to analyze this type of tourism from distinct perspectives. This has resulted in a trend within the scientific literature that deals with analyzing the economic impacts of this tourism. Although different systematic reviews have been performed, taking different approaches, no review of the scientific literature has undertaken the analysis of the main economic impacts generated by second-home tourism. This study presents a comprehensive review of 33 peer-reviewed papers. The impacts seem to be positive on employment, especially in sectors such as construction and property maintenance, or on spending and economic growth by favoring retail activity, but negative on rental and housing prices. Therefore, policy recommendations include the application of retail incentives, the granting of licences for holiday home rentals or the application of tax incentives, among others.}
+      \field{day}{2}
+      \field{issn}{1940-7963, 1940-7971}
+      \field{journaltitle}{Journal of Policy Research in Tourism, Leisure and Events}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{shortjournal}{Journal of Policy Research in Tourism, Leisure and Events}
+      \field{shorttitle}{Second Homes Tourism}
+      \field{title}{Second Homes Tourism: A Literature Review from an Economic Perspective}
+      \field{urlday}{21}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{17}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{966\bibrangedash 1002}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1080/19407963.2025.2475958
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/T4QYCUIZ/Collado-GonzálezAlonsopérez-Chiossi2025_second-homes-tourism-a-literature-revie.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/19407963.2025.2475958
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/19407963.2025.2475958
+      \endverb
+    \endentry
+    \entry{gibsonetal2017-ClimateChangeFlood}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f052ee560daa0fbbb3bb1daa27d8743d}{%
+           family={Gibson},
+           familyi={G\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eeafc8fbe0eca35fb02fe0cc73e89cb3}{%
+           family={Mullins},
+           familyi={M\bibinitperiod},
+           given={Jamie\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2b5bf528e9d001acddf4e8ad46993e3}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f29ec49f975dd718490483dec232bedb}
+      \strng{fullhash}{be486d32f76d82e4d28cda162c4c4bad}
+      \strng{fullhashraw}{be486d32f76d82e4d28cda162c4c4bad}
+      \strng{bibnamehash}{be486d32f76d82e4d28cda162c4c4bad}
+      \strng{authorbibnamehash}{be486d32f76d82e4d28cda162c4c4bad}
+      \strng{authornamehash}{f29ec49f975dd718490483dec232bedb}
+      \strng{authorfullhash}{be486d32f76d82e4d28cda162c4c4bad}
+      \strng{authorfullhashraw}{be486d32f76d82e4d28cda162c4c4bad}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Applying a hedonic difference-in-differences framework to a census of residential property transactions in New York City 2003-2016.5, we estimate the effects of 3 flood risk signals: 1) the Biggert-Waters Flood Insurance Reform Act of 2012, which increased premiums; 2) Hurricane Sandy; and 3) new FEMA floodplain maps. On average each signal decreases sale prices by approximately 5 percent. Properties for which a signal provides more new information exhibit larger effects: for properties not flooded by Sandy but included in the new floodplain, sale prices fall approximately 12 to nearly 23 percent. Informed by a theoretical model, we decompose our reduced-form treatment effects into the costs of insurance premium changes and updating, finding that new maps (an information signal) induce belief changes broadly comparable to those from insurance reform (a price signal). Using Google data, we document increases in flood-related search intensity coincident with flood risk signals.}
+      \field{shorttitle}{Climate Change , Flood Risk , and Property Values}
+      \field{title}{Climate Change , Flood Risk , and Property Values : {{Evidence}} from {{New York City}}}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.semanticscholar.org/paper/Climate-change-%2C-flood-risk-%2C-and-property-values-%3A-Gibson-Mullins/db8c8db3c3e8a13c8d9bda62f9f160b8d334aa75
+      \endverb
+      \verb{url}
+      \verb https://www.semanticscholar.org/paper/Climate-change-%2C-flood-risk-%2C-and-property-values-%3A-Gibson-Mullins/db8c8db3c3e8a13c8d9bda62f9f160b8d334aa75
+      \endverb
+    \endentry
+    \entry{gil2024-NotGentrificationNot}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e730680202782e830360afadd69eff71}{%
+           family={Gil},
+           familyi={G\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e730680202782e830360afadd69eff71}
+      \strng{fullhash}{e730680202782e830360afadd69eff71}
+      \strng{fullhashraw}{e730680202782e830360afadd69eff71}
+      \strng{bibnamehash}{e730680202782e830360afadd69eff71}
+      \strng{authorbibnamehash}{e730680202782e830360afadd69eff71}
+      \strng{authornamehash}{e730680202782e830360afadd69eff71}
+      \strng{authorfullhash}{e730680202782e830360afadd69eff71}
+      \strng{authorfullhashraw}{e730680202782e830360afadd69eff71}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The rapid growth of short-term rentals (STRs) is leading researchers to frame these urban transformations indifferently as gentrification, touristification or tourism gentrification. This paper proposes that these concepts, though closely related, are not best suited to explain the urban transformations created by STRs. Using a theoretical and empirical approach, it attempts to delve into this theoretical debate. Since housing assetization is what ultimately drives the process, STRs should be framed as a specific form of housing assetization. It is suggested that the term that best captures this urban accumulation strategy and has greater explanatory power is that of STR housing assetization. The aim of this paper is twofold. Firstly, to theoretically justify the suitability of the STR housing assetization concept and specify its particularities as an urban accumulation strategy. Secondly, this accumulation strategy can be empirically observed by analyzing how STR markets develop in particular cities. For this purpose, the Spanish city of Valencia has been chosen.}
+      \field{day}{2}
+      \field{issn}{0735-2166, 1467-9906}
+      \field{journaltitle}{Journal of Urban Affairs}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{6}
+      \field{shortjournal}{Journal of Urban Affairs}
+      \field{shorttitle}{Not Gentrification, Not Touristification}
+      \field{title}{Not Gentrification, Not Touristification: {{Short-term}} Rentals as a Housing Assetization Strategy}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{46}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1125\bibrangedash 1145}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1080/07352166.2023.2242532
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/LECUYW4H/Gil2024_not-gentrification,-not-touristification.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/07352166.2023.2242532
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/07352166.2023.2242532
+      \endverb
+      \keyw{✅}
+    \endentry
+    \entry{gourevitchetal2023-UnpricedClimateRisk}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=0d3b0656e0545dc9631862ee435a1f78}{%
+           family={Gourevitch},
+           familyi={G\bibinitperiod},
+           given={Jesse\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79c70c1901630dfd6cd00a05cee88a7c}{%
+           family={Kousky},
+           familyi={K\bibinitperiod},
+           given={Carolyn},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0dd885ef51f83cf43d73c4fea803f9b6}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Yanjun\bibnamedelima (Penny)},
+           giveni={Y\bibinitperiod\bibinitdelim (\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6607f7ad25d72632206596225cedd11}{%
+           family={Nolte},
+           familyi={N\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=653cf3c472c303368f6d482e1b34c73d}{%
+           family={Pollack},
+           familyi={P\bibinitperiod},
+           given={Adam\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=515631b6819dc130eb2e6fa6e6866d68}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={Jeremy\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31da66621f25d0778149d1cad3f7cf59}{%
+           family={Weill},
+           familyi={W\bibinitperiod},
+           given={Joakim\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{6ae3378e3815872742463d08ec061d09}
+      \strng{fullhash}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \strng{fullhashraw}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \strng{bibnamehash}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \strng{authorbibnamehash}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \strng{authornamehash}{6ae3378e3815872742463d08ec061d09}
+      \strng{authorfullhash}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \strng{authorfullhashraw}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Climate change impacts threaten the stability of the US housing market. In response to growing concerns that increasing costs of flooding are not fully captured in property values, we quantify the magnitude of unpriced flood risk in the housing market by comparing the empirical and economically efficient prices for properties at risk. We find that residential properties exposed to flood risk are overvalued by US\$121–US\$237 billion, depending on the discount rate. In general, highly overvalued properties are concentrated in counties along the coast with no flood risk disclosure laws and where there is less concern about climate change. Low-income households are at greater risk of losing home equity from price deflation, and municipalities that are heavily reliant on property taxes for revenue are vulnerable to budgetary shortfalls. The consequences of these financial risks will depend on policy choices that influence who bears the costs of climate change.}
+      \field{issn}{1758-6798}
+      \field{journaltitle}{Nature Climate Change}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{3}
+      \field{shortjournal}{Nat. Clim. Chang.}
+      \field{title}{Unpriced Climate Risk and the Potential Consequences of Overvaluation in {{US}} Housing Markets}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{250\bibrangedash 257}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/s41558-023-01594-8
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/TG5BZU6R/GourevitchKousky2023_unpriced-climate-risk-and-the-potential.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41558-023-01594-8
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41558-023-01594-8
+      \endverb
+      \keyw{Climate-change adaptation,Climate-change impacts,Environmental economics}
+    \endentry
+    \entry{hinoburke2020-DoesInformationClimate}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7ae86296ffef20fa40572eb8cf2cd69c}{%
+           family={Hino},
+           familyi={H\bibinitperiod},
+           given={Miyuki},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc8245e7c2a58c63604e2816e127e747}{%
+           family={Burke},
+           familyi={B\bibinitperiod},
+           given={Marshall},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \strng{fullhash}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \strng{fullhashraw}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \strng{bibnamehash}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \strng{authorbibnamehash}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \strng{authornamehash}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \strng{authorfullhash}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \strng{authorfullhashraw}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Floods and other climate hazards pose a widespread and growing threat to housing and infrastructure around the world. By incorporating climate risk into asset prices, markets can discourage excessive development in hazardous areas. However, the extent to which markets actually price these risks remains poorly understood. Here we measure the effect of information about flood risk on residential property values in the United States. Using multiple empirical approaches and two decades of sales data covering the universe of homes in the US, we find little evidence that housing markets fully price information about flood risk in aggregate. However, the price penalty for flood risk is larger for commercial buyers and in states where sellers must disclose information about flood risk to potential buyers, suggesting that policies to improve risk communication could influence market outcomes. Our findings indicate that floodplain homes in the US are currently overvalued by a total of \$34B, raising concerns about the stability of real estate markets as climate risks become more salient and severe.}
+      \field{eprinttype}{National Bureau of Economic Research}
+      \field{month}{2}
+      \field{number}{26807}
+      \field{series}{Working {{Paper Series}}}
+      \field{title}{Does {{Information About Climate Risk Affect Property Values}}?}
+      \field{type}{Working Paper}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3386/w26807
+      \endverb
+      \verb{eprint}
+      \verb 26807
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/BIZ7RFQ8/HinoBurke2020_does-information-about-climate-risk-affe.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nber.org/papers/w26807
+      \endverb
+      \verb{url}
+      \verb https://www.nber.org/papers/w26807
+      \endverb
+      \keyw{✅}
+    \endentry
+    \entry{murfinspiegel2020-RiskSeaLevel}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1457bd1a767b69adeddba4ac7e880817}{%
+           family={Murfin},
+           familyi={M\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abde834dcb7a3fd9336f22c4d53b20f8}{%
+           family={Spiegel},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Oxford University Press, The Society for Financial Studies]}%
+      }
+      \strng{namehash}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \strng{fullhash}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \strng{fullhashraw}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \strng{bibnamehash}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \strng{authorbibnamehash}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \strng{authornamehash}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \strng{authorfullhash}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \strng{authorfullhashraw}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using a comprehensive database of coastal home sales merged with data on elevation relative to local tides, we compare prices for houses based on their inundation threshold under projections of sea level rise. The analysis separates the sensitivity of housing to rising seas from other confounding characteristics by exploiting cross-sectional differences in relative sea level rise due to vertical land motion. This provides variation in the expected time to inundation for properties of similar elevation and distance from the coast. In a variety of specifications and test settings, we find precisely estimated null results suggesting limited price effects.}
+      \field{eprinttype}{jstor}
+      \field{issn}{0893-9454}
+      \field{journaltitle}{The Review of Financial Studies}
+      \field{number}{3}
+      \field{title}{Is the {{Risk}} of {{Sea Level Rise Capitalized}} in {{Residential Real Estate}}?}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{33}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1217\bibrangedash 1255}
+      \range{pages}{39}
+      \verb{eprint}
+      \verb 48574184
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/48574184
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/48574184
+      \endverb
+    \endentry
+    \entry{perles-ribesetal2025-RelationshipShorttermRentals}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e6d218ebea344317fd7af58877fea3d1}{%
+           family={Perles-Ribes},
+           familyi={P\bibinithyphendelim R\bibinitperiod},
+           given={J.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c88cc55e0ac1c6e22651b5c33b10a33}{%
+           family={Ramón-Rodríguez},
+           familyi={R\bibinithyphendelim R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19c246d55d7d739463a20e96c8fc9a91}{%
+           family={Torregrosa-Martí},
+           familyi={T\bibinithyphendelim M\bibinitperiod},
+           given={Teresa},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e75682207f1933e4eaca5ea8d3561be0}{%
+           family={Ivars-Baidal},
+           familyi={I\bibinithyphendelim B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8ef97fb810b1e4dd0df49b52ed326574}
+      \strng{fullhash}{0eec79698f252c0a31d6226241ad4880}
+      \strng{fullhashraw}{0eec79698f252c0a31d6226241ad4880}
+      \strng{bibnamehash}{0eec79698f252c0a31d6226241ad4880}
+      \strng{authorbibnamehash}{0eec79698f252c0a31d6226241ad4880}
+      \strng{authornamehash}{8ef97fb810b1e4dd0df49b52ed326574}
+      \strng{authorfullhash}{0eec79698f252c0a31d6226241ad4880}
+      \strng{authorfullhashraw}{0eec79698f252c0a31d6226241ad4880}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The rise of short-term rentals (STRs), particularly through platforms like Airbnb, has significantly influenced real estate markets, sparking widespread academic and social debate. While extensive research has focused on urban contexts, studies on traditional coastal tourist destinations remain limited. This research examines the case of Calpe, a sun-and-beach tourist destination on the Spanish Mediterranean coastline. Using time series analysis techniques for the period 2010–2024, the relationship between STRs, rental prices, and property sales is explored. Findings indicate that STR proliferation typically correlates with higher housing prices and rental prices. However, after incorporating relevant control variables an inverse relationship is revealed for the case of rental prices. The study underscores the need for localized regulatory approaches to mitigate STR impacts and balance tourism’s economic benefits with social sustainability. These insights offer critical guidance for policymakers addressing housing challenges in established tourist destinations.}
+      \field{day}{16}
+      \field{issn}{1940-7963, 1940-7971}
+      \field{journaltitle}{Journal of Policy Research in Tourism, Leisure and Events}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{shortjournal}{Journal of Policy Research in Tourism, Leisure and Events}
+      \field{title}{The Relationship among Short-Term Rentals, House Prices and Rental Prices in Consolidated Tourism Destinations}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/19407963.2025.2490245
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/9XIGCP6N/Perles-RibesRamón-Rodríguez2025_the-relationship-among-short-term-rental.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/19407963.2025.2490245
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/19407963.2025.2490245
+      \endverb
+      \keyw{✅}
+    \endentry
+    \entry{putra2017-RealPropertyMarket}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=93e7fff22db1cb8cab5a4380061c9f75}{%
+           family={Putra},
+           familyi={P\bibinitperiod},
+           given={Handi\bibnamedelima Chandra},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Rutgers, The State University of New Jersey}%
+      }
+      \list{location}{1}{%
+        {New Brunswick, New Jersey}%
+      }
+      \strng{namehash}{93e7fff22db1cb8cab5a4380061c9f75}
+      \strng{fullhash}{93e7fff22db1cb8cab5a4380061c9f75}
+      \strng{fullhashraw}{93e7fff22db1cb8cab5a4380061c9f75}
+      \strng{bibnamehash}{93e7fff22db1cb8cab5a4380061c9f75}
+      \strng{authorbibnamehash}{93e7fff22db1cb8cab5a4380061c9f75}
+      \strng{authornamehash}{93e7fff22db1cb8cab5a4380061c9f75}
+      \strng{authorfullhash}{93e7fff22db1cb8cab5a4380061c9f75}
+      \strng{authorfullhashraw}{93e7fff22db1cb8cab5a4380061c9f75}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{Real {{Property Market Responses}} to {{Coastal Flooding}}}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/FC32QYTQ/Putrareal-property-market-responses-to-coasta.pdf
+      \endverb
+    \endentry
+    \entry{sussmanetal2014-EstimatesChangesCountylevel}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=2ff7e16b35524cf1134b15cb06ba3c77}{%
+           family={Sussman},
+           familyi={S\bibinitperiod},
+           given={Frances},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=676ce22f8e006751a2c04b70dfc31736}{%
+           family={Saha},
+           familyi={S\bibinitperiod},
+           given={Bansari},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca941f09fb419fb4546650ba33330c07}{%
+           family={Bierwagen},
+           familyi={B\bibinitperiod},
+           given={Britta\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61d146921188c010ef91b522899f7209}{%
+           family={Weaver},
+           familyi={W\bibinitperiod},
+           given={Christopher\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04e84916ef213d9fa123e6e54b2546de}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={Will},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6714f670ea4a220db77f90987092c19}{%
+           family={Morefield},
+           familyi={M\bibinitperiod},
+           given={Philip\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1c4da12b7282757fa1d62c3cd2a547e}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {World Scientific Publishing Co.}%
+      }
+      \strng{namehash}{523976b6e61a253a2e145566a040a7ba}
+      \strng{fullhash}{121a06da8a1e34d049d7281352fc5920}
+      \strng{fullhashraw}{121a06da8a1e34d049d7281352fc5920}
+      \strng{bibnamehash}{121a06da8a1e34d049d7281352fc5920}
+      \strng{authorbibnamehash}{121a06da8a1e34d049d7281352fc5920}
+      \strng{authornamehash}{523976b6e61a253a2e145566a040a7ba}
+      \strng{authorfullhash}{121a06da8a1e34d049d7281352fc5920}
+      \strng{authorfullhashraw}{121a06da8a1e34d049d7281352fc5920}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Climate in a given location influences people's housing decisions, and changes in climate may affect these decisions in ways that alter our understanding of desirable locations. This study examines the potential sensitivity of future housing prices in the United States to changes in temperature, precipitation, and humidity by developing a hedonic regression model of the relationship between climate variables and housing prices and exploring implications of different climate futures for the amenity value of climate in these prices. The model shows a significant relationship between housing prices in urban areas and certain climate variables. The study then examines the sensitivity of the amenity value of climate to future climate scenarios. Results suggest that, nationally, climate change represents a disamenity, particularly in central-to-southeastern states. However, detailed housing prices vary spatially and among scenarios. Seasonal variation in temperature, including the relative magnitudes of the change in January and July temperatures, is a key determinant of housing price change, contributing to variation across both climate scenarios and geographic location.}
+      \field{issn}{2010-0078}
+      \field{journaltitle}{Climate Change Economics}
+      \field{month}{8}
+      \field{number}{03}
+      \field{shortjournal}{Clim. Change Econ.}
+      \field{title}{Estimates of Changes in County-Level Housing Prices in the United States under Scenarios of Future Climate Change}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{05}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1450009}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1142/S2010007814500092
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/BQD77S7D/SussmanSaha2014_estimates-of-changes-in-county-level-hou.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/S2010007814500092
+      \endverb
+      \verb{url}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/S2010007814500092
+      \endverb
+      \keyw{Amenity value,climate change,downscaled climate data,hedonic housing model,quality of life}
+    \endentry
+    \entry{valenzuela-martinetal2025-ExplanatoryFactorsDistribution}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=13fcd9d6b01d0d20870f656186b04398}{%
+           family={Valenzuela-Martin},
+           familyi={V\bibinithyphendelim M\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38941e62fcf3178d6685fb0a26cdf9f1}{%
+           family={Miguel},
+           familyi={M\bibinitperiod},
+           given={Sofía\bibnamedelimb Mendoza\bibnamedelima De},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae05a5ca7041b3851d93b60a015427e6}{%
+           family={Villar-Navascués},
+           familyi={V\bibinithyphendelim N\bibinitperiod},
+           given={Rubén},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07a25748a7e9877d5830d9d52d694853}{%
+           family={Gálvez-Pérez},
+           familyi={G\bibinithyphendelim P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a151e440aef84d5a50f47918b7411493}{%
+           family={Abad},
+           familyi={A\bibinitperiod},
+           given={Begoña\bibnamedelima Guirao},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2321f469cdb64d8d7fbc9132a5fd71c8}{%
+           family={Bañón},
+           familyi={B\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e9ab674128f62af7923c6b46b21d9c1d}
+      \strng{fullhash}{383df1e68d55c924ddea8fe0433b4cc7}
+      \strng{fullhashraw}{383df1e68d55c924ddea8fe0433b4cc7}
+      \strng{bibnamehash}{383df1e68d55c924ddea8fe0433b4cc7}
+      \strng{authorbibnamehash}{383df1e68d55c924ddea8fe0433b4cc7}
+      \strng{authornamehash}{e9ab674128f62af7923c6b46b21d9c1d}
+      \strng{authorfullhash}{383df1e68d55c924ddea8fe0433b4cc7}
+      \strng{authorfullhashraw}{383df1e68d55c924ddea8fe0433b4cc7}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The popularization of the use of STRs as an alternative to traditional accommodation has significantly changed the accommodation sector. This is not a new phenomenon; however their exponential growth accounts for a disruptive scope in many cities. In this context, the article aims to identify the factors that drive the location of STRs in the city of Alicante, a traditional sun and beach destination, to assess whether there is a relationship with second homes and whether the influence of this factor varies spatially, which could indicate the existence of different patterns of use and occupation of these dwellings by their owners. A Geographically Weighted Regression model is used to identify its determining factors. To complement the main methodology, a clustering analysis was carried out considering the number of blocked days per month of each STRs with the purpose of spatially characterizing the typology of the STRs offer in Alicante. The results of the research show, on the one hand, that there are four factors that explain the location of the STRs in Alicante: the percentage of non-main housing, the percentage of foreign population, the percentage of main housing in rental regime and the distance to the main beaches of the municipality. On the other hand, the STRs with the highest number of blocked days are concentrated in Playa de San Juan, while the majority of STRs without blocked days, which are identified as commercial dwellings, are located in the city center.}
+      \field{day}{2}
+      \field{issn}{1940-7963, 1940-7971}
+      \field{journaltitle}{Journal of Policy Research in Tourism, Leisure and Events}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{shortjournal}{Journal of Policy Research in Tourism, Leisure and Events}
+      \field{shorttitle}{Explanatory Factors for the Distribution of Short-Term Rentals in Coastal Destinations}
+      \field{title}{Explanatory Factors for the Distribution of Short-Term Rentals in Coastal Destinations: The Impact of Second Homes in {{Alicante}}}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{17}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1056\bibrangedash 1074}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1080/19407963.2025.2466192
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/B8DURK5T/Valenzuela-MartinMiguel2025_explanatory-factors-for-the-distribution.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/19407963.2025.2466192
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/19407963.2025.2466192
+      \endverb
+    \endentry
+    \entry{wassmer2022-ValueProximityVacation}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ba78734db5a49044ea421a91315cf0bd}{%
+           family={Wassmer},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Inc}%
+      }
+      \strng{namehash}{ba78734db5a49044ea421a91315cf0bd}
+      \strng{fullhash}{ba78734db5a49044ea421a91315cf0bd}
+      \strng{fullhashraw}{ba78734db5a49044ea421a91315cf0bd}
+      \strng{bibnamehash}{ba78734db5a49044ea421a91315cf0bd}
+      \strng{authorbibnamehash}{ba78734db5a49044ea421a91315cf0bd}
+      \strng{authornamehash}{ba78734db5a49044ea421a91315cf0bd}
+      \strng{authorfullhash}{ba78734db5a49044ea421a91315cf0bd}
+      \strng{authorfullhashraw}{ba78734db5a49044ea421a91315cf0bd}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Based upon a hedonic regression analysis of home sales in the City of South Lake Tahoe (CA), a vacation home rental (VHR) sells for more than a similar non-VHR. In addition, the presence of VHRs within a quarter-mile radius of a home sale also raises its value. However, the overall effect on the value of all home sale values from the presence of VHRs in South Lake Tahoe is negative. VHRs benefit owners and neighbors near them, but overall reduce the city’s residential property values. These findings offer a logical basis for the heated discussions often observed over planning activities that restrict the presence of VHRs and/or attempt to mitigate their neighborhood effects. The paper concludes with implications for planning policy directed at VHRs.}
+      \field{day}{1}
+      \field{issn}{0739-456X}
+      \field{journaltitle}{Journal of Planning Education and Research}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{The {{Value}} of {{Proximity}} to a {{Vacation Home Rental}} in a {{Resort Community}}}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{42}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{638\bibrangedash 653}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1177/0739456X19844814
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/8AQM82AR/Wassmer2022_the-value-of-proximity-to-a-vacation-hom.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0739456X19844814
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0739456X19844814
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{andrews-PersistingJerseyShore}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9a63ac498dc7b35a10c0ecc2c2e10421}{%
+           family={Andrews},
+           familyi={A\bibinitperiod},
+           given={Clinton\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \strng{fullhash}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \strng{fullhashraw}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \strng{bibnamehash}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \strng{authorbibnamehash}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \strng{authornamehash}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \strng{authorfullhash}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \strng{authorfullhashraw}{9a63ac498dc7b35a10c0ecc2c2e10421}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many coastal settlements persist despite repeated damage from storms and flooding. This may be less about willful ignorance and more about the attractiveness of coastal amenities outweighing the perceived risks of living in a location for certain people. This study investigates how resort municipalities located along the beaches of the Jersey Shore differ from the rest of New Jersey, USA, with the purpose of clarifying the special features of Shore communities’ housing stocks, real estate markets, risks, and populations. The case study uses data from the U.S. Census and other governmental sources to create a quantitative portrait of the Shore and presents logistic regression model results showing that features associated with Shore communities include high seasonal vacancy rates, high median housing values, high FEMA damage claims, and year-round populations with lower non-white percentage and lower median household incomes than the statewide values. Jersey Shore municipalities host many second homes, have housing values that are higher than the statewide average and show little net growth in population and housing units, but see continued housing investment (new construction and alterations) at a rate averaging USD 2.2 billion annually in 2023 USD over 20 years. Implications for public policy are to incentivize risk management behavior by second-home owners and owner-occupiers differently from one another, and view nostalgia-based arguments for special treatment with skepticism.}
+      \field{langid}{english}
+      \field{title}{Persisting on the {{Jersey Shore}}}
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/C8N9P2NW/Andrewspersisting-on-the-jersey-shore.pdf
+      \endverb
+    \endentry
+    \entry{baldaufetal2020-DoesClimateChange}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=348c7bca0d563e5930ae31a0bcec7136}{%
+           family={Baldauf},
+           familyi={B\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa37059b0400fe91aa65eed5612c21ea}{%
+           family={Garlappi},
+           familyi={G\bibinitperiod},
+           given={Lorenzo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0edb183e4562329a17433be424124c92}{%
+           family={Yannelis},
+           familyi={Y\bibinitperiod},
+           given={Constantine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford Academic}%
+      }
+      \strng{namehash}{811a1b1798c9595dc87d1950acabb667}
+      \strng{fullhash}{4d4d62c5e5a47f3327f705f8e0a97b5c}
+      \strng{fullhashraw}{4d4d62c5e5a47f3327f705f8e0a97b5c}
+      \strng{bibnamehash}{4d4d62c5e5a47f3327f705f8e0a97b5c}
+      \strng{authorbibnamehash}{4d4d62c5e5a47f3327f705f8e0a97b5c}
+      \strng{authornamehash}{811a1b1798c9595dc87d1950acabb667}
+      \strng{authorfullhash}{4d4d62c5e5a47f3327f705f8e0a97b5c}
+      \strng{authorfullhashraw}{4d4d62c5e5a47f3327f705f8e0a97b5c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract. This paper studies whether house prices reflect belief differences about climate change. We show that in an equilibrium model of housing choice i}
+      \field{day}{1}
+      \field{issn}{0893-9454}
+      \field{journaltitle}{The Review of Financial Studies}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{3}
+      \field{shortjournal}{Rev Financ Stud}
+      \field{shorttitle}{Does {{Climate Change Affect Real Estate Prices}}?}
+      \field{title}{Does {{Climate Change Affect Real Estate Prices}}? {{Only If You Believe In It}}}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{33}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1256\bibrangedash 1295}
+      \range{pages}{40}
+      \verb{doi}
+      \verb 10.1093/rfs/hhz073
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/6QMC5Q9Z/BaldaufGarlappi2020_does-climate-change-affect-real-estate-p.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1093/rfs/hhz073
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1093/rfs/hhz073
+      \endverb
+      \keyw{✅}
+    \endentry
+    \entry{buntenkahn2014-ImpactEmergingClimate}{report}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bc0ef1600106b9e12e9a6f71d32fe7e5}{%
+           family={Bunten},
+           familyi={B\bibinitperiod},
+           given={Devin\bibnamedelima Michelle},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2544604c2fbeb84470874a7ff930aa23}{%
+           family={Kahn},
+           familyi={K\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \strng{namehash}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \strng{fullhash}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \strng{fullhashraw}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \strng{bibnamehash}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \strng{authorbibnamehash}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \strng{authornamehash}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \strng{authorfullhash}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \strng{authorfullhashraw}{885c4320d5e51a9a07fc881d9f61e2d5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the typical asset market, an asset featuring uninsurable idiosyncratic risk must offer a higher rate of return to compensate risk-averse investors. A home offers a standard asset’s risk and return opportunities, but it also bundles access to its city’s amenities—and to its climate risks. As climate change research reveals the true nature of these risks, how does the equilibrium real estate pricing gradient change when households can sort into different cities? When the population is homogeneous, the real estate pricing gradient instantly reflects the “new news”. With population heterogeneity, an event study research design will underestimate the valuation of climate risk for households in low-risk cities while overestimating the valuation of households in high-risk areas.}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{w20018}
+      \field{title}{The {{Impact}} of {{Emerging Climate Risks}} on {{Urban Real Estate Price Dynamics}}}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{w20018}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.3386/w20018
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/VQ3PNGTA/BuntenKahn2014_the-impact-of-emerging-climate-risks-on.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.nber.org/papers/w20018.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.nber.org/papers/w20018.pdf
+      \endverb
+    \endentry
+    \entry{chen2025-DoesPublicConcern}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4bc1d156d5d6d18ef68124b9f76186d3}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Haoxi},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \strng{fullhash}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \strng{fullhashraw}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \strng{bibnamehash}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \strng{authorbibnamehash}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \strng{authornamehash}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \strng{authorfullhash}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \strng{authorfullhashraw}{4bc1d156d5d6d18ef68124b9f76186d3}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Climate change introduces great uncertainty into the global real estate market. Existing studies mainly focus on the response of property prices to physical environmental changes, particularly the direct impact of extreme climate events on property values. This study innovatively quantifies public concern about climate change by introducing the novel concept of the Public Climate Change Concern Index (PCCCI). We then link this index to key indicators of the housing market, analysing how public concern about climate change influences the local housing market. Through a case study of Zhengzhou's housing market in China, we explore how public concern about climate change influences property transactions. It discloses that public climate change concern largely impacts transaction volumes, transaction areas and transaction prices of the housing market, highlighting how climate change exacerbates market uncertainty. Consequently, we advocate incorporating public climate change concern as a necessary variable in real estate market analysis to better understand and address the impacts of climate change on this sector. This new research perspective not only enriches the study of real estate markets but also provides novel theoretical and empirical foundations for policy-making and market forecasting.}
+      \field{day}{1}
+      \field{issn}{0197-3975}
+      \field{journaltitle}{Habitat International}
+      \field{month}{11}
+      \field{shortjournal}{Habitat International}
+      \field{title}{Does Public Concern about Climate Change Affect Real Estate Market Behaviour?}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{165}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{103542}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.habitatint.2025.103542
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/FUMWICLR/Chen2025_does-public-concern-about-climate-change.pdf;/Users/artyom/Zotero/storage/I795433A/S0197397525002589.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0197397525002589
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0197397525002589
+      \endverb
+      \keyw{Climate change,Housing market,Public concern,Wavelet analysis}
+    \endentry
+    \entry{collado-gonzalezetal2025-SecondHomesTourism}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6e6e31f62eccac795536928883782a98}{%
+           family={Collado-González},
+           familyi={C\bibinithyphendelim G\bibinitperiod},
+           given={José\bibnamedelima Carlos},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=adf88647e5ebb471cc4a435f37159f1b}{%
+           family={Alonsopérez-Chiossi},
+           familyi={A\bibinithyphendelim C\bibinitperiod},
+           given={Maria\bibnamedelima José},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de8ce0760b8e7abcb8cc4a2018dea111}{%
+           family={Alcalá-Ordóñez},
+           familyi={A\bibinithyphendelim O\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b4bac0e0702dc32a9062afbd129c73a}{%
+           family={Zapata-Aguirre},
+           familyi={Z\bibinithyphendelim A\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{da230d5abc367a8b0740a3c6da3bbe16}
+      \strng{fullhash}{140325f6d48420dc5ba4b8a7325c7d6b}
+      \strng{fullhashraw}{140325f6d48420dc5ba4b8a7325c7d6b}
+      \strng{bibnamehash}{140325f6d48420dc5ba4b8a7325c7d6b}
+      \strng{authorbibnamehash}{140325f6d48420dc5ba4b8a7325c7d6b}
+      \strng{authornamehash}{da230d5abc367a8b0740a3c6da3bbe16}
+      \strng{authorfullhash}{140325f6d48420dc5ba4b8a7325c7d6b}
+      \strng{authorfullhashraw}{140325f6d48420dc5ba4b8a7325c7d6b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Over recent years, second-home tourism has gained special relevance, leading to the publication of numerous works that attempt to analyze this type of tourism from distinct perspectives. This has resulted in a trend within the scientific literature that deals with analyzing the economic impacts of this tourism. Although different systematic reviews have been performed, taking different approaches, no review of the scientific literature has undertaken the analysis of the main economic impacts generated by second-home tourism. This study presents a comprehensive review of 33 peer-reviewed papers. The impacts seem to be positive on employment, especially in sectors such as construction and property maintenance, or on spending and economic growth by favoring retail activity, but negative on rental and housing prices. Therefore, policy recommendations include the application of retail incentives, the granting of licences for holiday home rentals or the application of tax incentives, among others.}
+      \field{day}{2}
+      \field{issn}{1940-7963, 1940-7971}
+      \field{journaltitle}{Journal of Policy Research in Tourism, Leisure and Events}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{shortjournal}{Journal of Policy Research in Tourism, Leisure and Events}
+      \field{shorttitle}{Second Homes Tourism}
+      \field{title}{Second Homes Tourism: A Literature Review from an Economic Perspective}
+      \field{urlday}{21}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{17}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{966\bibrangedash 1002}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1080/19407963.2025.2475958
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/T4QYCUIZ/Collado-GonzálezAlonsopérez-Chiossi2025_second-homes-tourism-a-literature-revie.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/19407963.2025.2475958
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/19407963.2025.2475958
+      \endverb
+    \endentry
+    \entry{gibsonetal2017-ClimateChangeFlood}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f052ee560daa0fbbb3bb1daa27d8743d}{%
+           family={Gibson},
+           familyi={G\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eeafc8fbe0eca35fb02fe0cc73e89cb3}{%
+           family={Mullins},
+           familyi={M\bibinitperiod},
+           given={Jamie\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2b5bf528e9d001acddf4e8ad46993e3}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f29ec49f975dd718490483dec232bedb}
+      \strng{fullhash}{be486d32f76d82e4d28cda162c4c4bad}
+      \strng{fullhashraw}{be486d32f76d82e4d28cda162c4c4bad}
+      \strng{bibnamehash}{be486d32f76d82e4d28cda162c4c4bad}
+      \strng{authorbibnamehash}{be486d32f76d82e4d28cda162c4c4bad}
+      \strng{authornamehash}{f29ec49f975dd718490483dec232bedb}
+      \strng{authorfullhash}{be486d32f76d82e4d28cda162c4c4bad}
+      \strng{authorfullhashraw}{be486d32f76d82e4d28cda162c4c4bad}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Applying a hedonic difference-in-differences framework to a census of residential property transactions in New York City 2003-2016.5, we estimate the effects of 3 flood risk signals: 1) the Biggert-Waters Flood Insurance Reform Act of 2012, which increased premiums; 2) Hurricane Sandy; and 3) new FEMA floodplain maps. On average each signal decreases sale prices by approximately 5 percent. Properties for which a signal provides more new information exhibit larger effects: for properties not flooded by Sandy but included in the new floodplain, sale prices fall approximately 12 to nearly 23 percent. Informed by a theoretical model, we decompose our reduced-form treatment effects into the costs of insurance premium changes and updating, finding that new maps (an information signal) induce belief changes broadly comparable to those from insurance reform (a price signal). Using Google data, we document increases in flood-related search intensity coincident with flood risk signals.}
+      \field{shorttitle}{Climate Change , Flood Risk , and Property Values}
+      \field{title}{Climate Change , Flood Risk , and Property Values : {{Evidence}} from {{New York City}}}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.semanticscholar.org/paper/Climate-change-%2C-flood-risk-%2C-and-property-values-%3A-Gibson-Mullins/db8c8db3c3e8a13c8d9bda62f9f160b8d334aa75
+      \endverb
+      \verb{url}
+      \verb https://www.semanticscholar.org/paper/Climate-change-%2C-flood-risk-%2C-and-property-values-%3A-Gibson-Mullins/db8c8db3c3e8a13c8d9bda62f9f160b8d334aa75
+      \endverb
+    \endentry
+    \entry{gil2024-NotGentrificationNot}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e730680202782e830360afadd69eff71}{%
+           family={Gil},
+           familyi={G\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e730680202782e830360afadd69eff71}
+      \strng{fullhash}{e730680202782e830360afadd69eff71}
+      \strng{fullhashraw}{e730680202782e830360afadd69eff71}
+      \strng{bibnamehash}{e730680202782e830360afadd69eff71}
+      \strng{authorbibnamehash}{e730680202782e830360afadd69eff71}
+      \strng{authornamehash}{e730680202782e830360afadd69eff71}
+      \strng{authorfullhash}{e730680202782e830360afadd69eff71}
+      \strng{authorfullhashraw}{e730680202782e830360afadd69eff71}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The rapid growth of short-term rentals (STRs) is leading researchers to frame these urban transformations indifferently as gentrification, touristification or tourism gentrification. This paper proposes that these concepts, though closely related, are not best suited to explain the urban transformations created by STRs. Using a theoretical and empirical approach, it attempts to delve into this theoretical debate. Since housing assetization is what ultimately drives the process, STRs should be framed as a specific form of housing assetization. It is suggested that the term that best captures this urban accumulation strategy and has greater explanatory power is that of STR housing assetization. The aim of this paper is twofold. Firstly, to theoretically justify the suitability of the STR housing assetization concept and specify its particularities as an urban accumulation strategy. Secondly, this accumulation strategy can be empirically observed by analyzing how STR markets develop in particular cities. For this purpose, the Spanish city of Valencia has been chosen.}
+      \field{day}{2}
+      \field{issn}{0735-2166, 1467-9906}
+      \field{journaltitle}{Journal of Urban Affairs}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{6}
+      \field{shortjournal}{Journal of Urban Affairs}
+      \field{shorttitle}{Not Gentrification, Not Touristification}
+      \field{title}{Not Gentrification, Not Touristification: {{Short-term}} Rentals as a Housing Assetization Strategy}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{46}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1125\bibrangedash 1145}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1080/07352166.2023.2242532
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/LECUYW4H/Gil2024_not-gentrification,-not-touristification.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/07352166.2023.2242532
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/07352166.2023.2242532
+      \endverb
+      \keyw{✅}
+    \endentry
+    \entry{gourevitchetal2023-UnpricedClimateRisk}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=0d3b0656e0545dc9631862ee435a1f78}{%
+           family={Gourevitch},
+           familyi={G\bibinitperiod},
+           given={Jesse\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79c70c1901630dfd6cd00a05cee88a7c}{%
+           family={Kousky},
+           familyi={K\bibinitperiod},
+           given={Carolyn},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0dd885ef51f83cf43d73c4fea803f9b6}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Yanjun\bibnamedelima (Penny)},
+           giveni={Y\bibinitperiod\bibinitdelim (\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6607f7ad25d72632206596225cedd11}{%
+           family={Nolte},
+           familyi={N\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=653cf3c472c303368f6d482e1b34c73d}{%
+           family={Pollack},
+           familyi={P\bibinitperiod},
+           given={Adam\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=515631b6819dc130eb2e6fa6e6866d68}{%
+           family={Porter},
+           familyi={P\bibinitperiod},
+           given={Jeremy\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=31da66621f25d0778149d1cad3f7cf59}{%
+           family={Weill},
+           familyi={W\bibinitperiod},
+           given={Joakim\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{6ae3378e3815872742463d08ec061d09}
+      \strng{fullhash}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \strng{fullhashraw}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \strng{bibnamehash}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \strng{authorbibnamehash}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \strng{authornamehash}{6ae3378e3815872742463d08ec061d09}
+      \strng{authorfullhash}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \strng{authorfullhashraw}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Climate change impacts threaten the stability of the US housing market. In response to growing concerns that increasing costs of flooding are not fully captured in property values, we quantify the magnitude of unpriced flood risk in the housing market by comparing the empirical and economically efficient prices for properties at risk. We find that residential properties exposed to flood risk are overvalued by US\$121–US\$237 billion, depending on the discount rate. In general, highly overvalued properties are concentrated in counties along the coast with no flood risk disclosure laws and where there is less concern about climate change. Low-income households are at greater risk of losing home equity from price deflation, and municipalities that are heavily reliant on property taxes for revenue are vulnerable to budgetary shortfalls. The consequences of these financial risks will depend on policy choices that influence who bears the costs of climate change.}
+      \field{issn}{1758-6798}
+      \field{journaltitle}{Nature Climate Change}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{3}
+      \field{shortjournal}{Nat. Clim. Chang.}
+      \field{title}{Unpriced Climate Risk and the Potential Consequences of Overvaluation in {{US}} Housing Markets}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{250\bibrangedash 257}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1038/s41558-023-01594-8
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/TG5BZU6R/GourevitchKousky2023_unpriced-climate-risk-and-the-potential.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41558-023-01594-8
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41558-023-01594-8
+      \endverb
+      \keyw{Climate-change adaptation,Climate-change impacts,Environmental economics}
+    \endentry
+    \entry{hinoburke2020-DoesInformationClimate}{online}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7ae86296ffef20fa40572eb8cf2cd69c}{%
+           family={Hino},
+           familyi={H\bibinitperiod},
+           given={Miyuki},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cc8245e7c2a58c63604e2816e127e747}{%
+           family={Burke},
+           familyi={B\bibinitperiod},
+           given={Marshall},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \strng{fullhash}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \strng{fullhashraw}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \strng{bibnamehash}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \strng{authorbibnamehash}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \strng{authornamehash}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \strng{authorfullhash}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \strng{authorfullhashraw}{3aad72ae1421ac7a4fee3d7028cbe0c8}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Floods and other climate hazards pose a widespread and growing threat to housing and infrastructure around the world. By incorporating climate risk into asset prices, markets can discourage excessive development in hazardous areas. However, the extent to which markets actually price these risks remains poorly understood. Here we measure the effect of information about flood risk on residential property values in the United States. Using multiple empirical approaches and two decades of sales data covering the universe of homes in the US, we find little evidence that housing markets fully price information about flood risk in aggregate. However, the price penalty for flood risk is larger for commercial buyers and in states where sellers must disclose information about flood risk to potential buyers, suggesting that policies to improve risk communication could influence market outcomes. Our findings indicate that floodplain homes in the US are currently overvalued by a total of \$34B, raising concerns about the stability of real estate markets as climate risks become more salient and severe.}
+      \field{eprinttype}{National Bureau of Economic Research}
+      \field{month}{2}
+      \field{number}{26807}
+      \field{series}{Working {{Paper Series}}}
+      \field{title}{Does {{Information About Climate Risk Affect Property Values}}?}
+      \field{type}{Working Paper}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3386/w26807
+      \endverb
+      \verb{eprint}
+      \verb 26807
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/BIZ7RFQ8/HinoBurke2020_does-information-about-climate-risk-affe.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nber.org/papers/w26807
+      \endverb
+      \verb{url}
+      \verb https://www.nber.org/papers/w26807
+      \endverb
+      \keyw{✅}
+    \endentry
+    \entry{murfinspiegel2020-RiskSeaLevel}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=1457bd1a767b69adeddba4ac7e880817}{%
+           family={Murfin},
+           familyi={M\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abde834dcb7a3fd9336f22c4d53b20f8}{%
+           family={Spiegel},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Oxford University Press, The Society for Financial Studies]}%
+      }
+      \strng{namehash}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \strng{fullhash}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \strng{fullhashraw}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \strng{bibnamehash}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \strng{authorbibnamehash}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \strng{authornamehash}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \strng{authorfullhash}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \strng{authorfullhashraw}{4d5f57e10bf4be816fc6d1944b0f7012}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using a comprehensive database of coastal home sales merged with data on elevation relative to local tides, we compare prices for houses based on their inundation threshold under projections of sea level rise. The analysis separates the sensitivity of housing to rising seas from other confounding characteristics by exploiting cross-sectional differences in relative sea level rise due to vertical land motion. This provides variation in the expected time to inundation for properties of similar elevation and distance from the coast. In a variety of specifications and test settings, we find precisely estimated null results suggesting limited price effects.}
+      \field{eprinttype}{jstor}
+      \field{issn}{0893-9454}
+      \field{journaltitle}{The Review of Financial Studies}
+      \field{number}{3}
+      \field{title}{Is the {{Risk}} of {{Sea Level Rise Capitalized}} in {{Residential Real Estate}}?}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{33}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1217\bibrangedash 1255}
+      \range{pages}{39}
+      \verb{eprint}
+      \verb 48574184
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/48574184
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/48574184
+      \endverb
+    \endentry
+    \entry{perles-ribesetal2025-RelationshipShorttermRentals}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e6d218ebea344317fd7af58877fea3d1}{%
+           family={Perles-Ribes},
+           familyi={P\bibinithyphendelim R\bibinitperiod},
+           given={J.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c88cc55e0ac1c6e22651b5c33b10a33}{%
+           family={Ramón-Rodríguez},
+           familyi={R\bibinithyphendelim R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19c246d55d7d739463a20e96c8fc9a91}{%
+           family={Torregrosa-Martí},
+           familyi={T\bibinithyphendelim M\bibinitperiod},
+           given={Teresa},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e75682207f1933e4eaca5ea8d3561be0}{%
+           family={Ivars-Baidal},
+           familyi={I\bibinithyphendelim B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8ef97fb810b1e4dd0df49b52ed326574}
+      \strng{fullhash}{0eec79698f252c0a31d6226241ad4880}
+      \strng{fullhashraw}{0eec79698f252c0a31d6226241ad4880}
+      \strng{bibnamehash}{0eec79698f252c0a31d6226241ad4880}
+      \strng{authorbibnamehash}{0eec79698f252c0a31d6226241ad4880}
+      \strng{authornamehash}{8ef97fb810b1e4dd0df49b52ed326574}
+      \strng{authorfullhash}{0eec79698f252c0a31d6226241ad4880}
+      \strng{authorfullhashraw}{0eec79698f252c0a31d6226241ad4880}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The rise of short-term rentals (STRs), particularly through platforms like Airbnb, has significantly influenced real estate markets, sparking widespread academic and social debate. While extensive research has focused on urban contexts, studies on traditional coastal tourist destinations remain limited. This research examines the case of Calpe, a sun-and-beach tourist destination on the Spanish Mediterranean coastline. Using time series analysis techniques for the period 2010–2024, the relationship between STRs, rental prices, and property sales is explored. Findings indicate that STR proliferation typically correlates with higher housing prices and rental prices. However, after incorporating relevant control variables an inverse relationship is revealed for the case of rental prices. The study underscores the need for localized regulatory approaches to mitigate STR impacts and balance tourism’s economic benefits with social sustainability. These insights offer critical guidance for policymakers addressing housing challenges in established tourist destinations.}
+      \field{day}{16}
+      \field{issn}{1940-7963, 1940-7971}
+      \field{journaltitle}{Journal of Policy Research in Tourism, Leisure and Events}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{shortjournal}{Journal of Policy Research in Tourism, Leisure and Events}
+      \field{title}{The Relationship among Short-Term Rentals, House Prices and Rental Prices in Consolidated Tourism Destinations}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/19407963.2025.2490245
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/9XIGCP6N/Perles-RibesRamón-Rodríguez2025_the-relationship-among-short-term-rental.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/19407963.2025.2490245
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/19407963.2025.2490245
+      \endverb
+      \keyw{✅}
+    \endentry
+    \entry{putra2017-RealPropertyMarket}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=93e7fff22db1cb8cab5a4380061c9f75}{%
+           family={Putra},
+           familyi={P\bibinitperiod},
+           given={Handi\bibnamedelima Chandra},
+           giveni={H\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Rutgers, The State University of New Jersey}%
+      }
+      \list{location}{1}{%
+        {New Brunswick, New Jersey}%
+      }
+      \strng{namehash}{93e7fff22db1cb8cab5a4380061c9f75}
+      \strng{fullhash}{93e7fff22db1cb8cab5a4380061c9f75}
+      \strng{fullhashraw}{93e7fff22db1cb8cab5a4380061c9f75}
+      \strng{bibnamehash}{93e7fff22db1cb8cab5a4380061c9f75}
+      \strng{authorbibnamehash}{93e7fff22db1cb8cab5a4380061c9f75}
+      \strng{authornamehash}{93e7fff22db1cb8cab5a4380061c9f75}
+      \strng{authorfullhash}{93e7fff22db1cb8cab5a4380061c9f75}
+      \strng{authorfullhashraw}{93e7fff22db1cb8cab5a4380061c9f75}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{Real {{Property Market Responses}} to {{Coastal Flooding}}}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/FC32QYTQ/Putrareal-property-market-responses-to-coasta.pdf
+      \endverb
+    \endentry
+    \entry{sussmanetal2014-EstimatesChangesCountylevel}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=2ff7e16b35524cf1134b15cb06ba3c77}{%
+           family={Sussman},
+           familyi={S\bibinitperiod},
+           given={Frances},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=676ce22f8e006751a2c04b70dfc31736}{%
+           family={Saha},
+           familyi={S\bibinitperiod},
+           given={Bansari},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca941f09fb419fb4546650ba33330c07}{%
+           family={Bierwagen},
+           familyi={B\bibinitperiod},
+           given={Britta\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61d146921188c010ef91b522899f7209}{%
+           family={Weaver},
+           familyi={W\bibinitperiod},
+           given={Christopher\bibnamedelima P.},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=04e84916ef213d9fa123e6e54b2546de}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={Will},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6714f670ea4a220db77f90987092c19}{%
+           family={Morefield},
+           familyi={M\bibinitperiod},
+           given={Philip\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b1c4da12b7282757fa1d62c3cd2a547e}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {World Scientific Publishing Co.}%
+      }
+      \strng{namehash}{523976b6e61a253a2e145566a040a7ba}
+      \strng{fullhash}{121a06da8a1e34d049d7281352fc5920}
+      \strng{fullhashraw}{121a06da8a1e34d049d7281352fc5920}
+      \strng{bibnamehash}{121a06da8a1e34d049d7281352fc5920}
+      \strng{authorbibnamehash}{121a06da8a1e34d049d7281352fc5920}
+      \strng{authornamehash}{523976b6e61a253a2e145566a040a7ba}
+      \strng{authorfullhash}{121a06da8a1e34d049d7281352fc5920}
+      \strng{authorfullhashraw}{121a06da8a1e34d049d7281352fc5920}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Climate in a given location influences people's housing decisions, and changes in climate may affect these decisions in ways that alter our understanding of desirable locations. This study examines the potential sensitivity of future housing prices in the United States to changes in temperature, precipitation, and humidity by developing a hedonic regression model of the relationship between climate variables and housing prices and exploring implications of different climate futures for the amenity value of climate in these prices. The model shows a significant relationship between housing prices in urban areas and certain climate variables. The study then examines the sensitivity of the amenity value of climate to future climate scenarios. Results suggest that, nationally, climate change represents a disamenity, particularly in central-to-southeastern states. However, detailed housing prices vary spatially and among scenarios. Seasonal variation in temperature, including the relative magnitudes of the change in January and July temperatures, is a key determinant of housing price change, contributing to variation across both climate scenarios and geographic location.}
+      \field{issn}{2010-0078}
+      \field{journaltitle}{Climate Change Economics}
+      \field{month}{8}
+      \field{number}{03}
+      \field{shortjournal}{Clim. Change Econ.}
+      \field{title}{Estimates of Changes in County-Level Housing Prices in the United States under Scenarios of Future Climate Change}
+      \field{urlday}{2}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{05}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1450009}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1142/S2010007814500092
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/BQD77S7D/SussmanSaha2014_estimates-of-changes-in-county-level-hou.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/S2010007814500092
+      \endverb
+      \verb{url}
+      \verb https://www.worldscientific.com/doi/abs/10.1142/S2010007814500092
+      \endverb
+      \keyw{Amenity value,climate change,downscaled climate data,hedonic housing model,quality of life}
+    \endentry
+    \entry{valenzuela-martinetal2025-ExplanatoryFactorsDistribution}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=13fcd9d6b01d0d20870f656186b04398}{%
+           family={Valenzuela-Martin},
+           familyi={V\bibinithyphendelim M\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38941e62fcf3178d6685fb0a26cdf9f1}{%
+           family={Miguel},
+           familyi={M\bibinitperiod},
+           given={Sofía\bibnamedelimb Mendoza\bibnamedelima De},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae05a5ca7041b3851d93b60a015427e6}{%
+           family={Villar-Navascués},
+           familyi={V\bibinithyphendelim N\bibinitperiod},
+           given={Rubén},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07a25748a7e9877d5830d9d52d694853}{%
+           family={Gálvez-Pérez},
+           familyi={G\bibinithyphendelim P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a151e440aef84d5a50f47918b7411493}{%
+           family={Abad},
+           familyi={A\bibinitperiod},
+           given={Begoña\bibnamedelima Guirao},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2321f469cdb64d8d7fbc9132a5fd71c8}{%
+           family={Bañón},
+           familyi={B\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e9ab674128f62af7923c6b46b21d9c1d}
+      \strng{fullhash}{383df1e68d55c924ddea8fe0433b4cc7}
+      \strng{fullhashraw}{383df1e68d55c924ddea8fe0433b4cc7}
+      \strng{bibnamehash}{383df1e68d55c924ddea8fe0433b4cc7}
+      \strng{authorbibnamehash}{383df1e68d55c924ddea8fe0433b4cc7}
+      \strng{authornamehash}{e9ab674128f62af7923c6b46b21d9c1d}
+      \strng{authorfullhash}{383df1e68d55c924ddea8fe0433b4cc7}
+      \strng{authorfullhashraw}{383df1e68d55c924ddea8fe0433b4cc7}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The popularization of the use of STRs as an alternative to traditional accommodation has significantly changed the accommodation sector. This is not a new phenomenon; however their exponential growth accounts for a disruptive scope in many cities. In this context, the article aims to identify the factors that drive the location of STRs in the city of Alicante, a traditional sun and beach destination, to assess whether there is a relationship with second homes and whether the influence of this factor varies spatially, which could indicate the existence of different patterns of use and occupation of these dwellings by their owners. A Geographically Weighted Regression model is used to identify its determining factors. To complement the main methodology, a clustering analysis was carried out considering the number of blocked days per month of each STRs with the purpose of spatially characterizing the typology of the STRs offer in Alicante. The results of the research show, on the one hand, that there are four factors that explain the location of the STRs in Alicante: the percentage of non-main housing, the percentage of foreign population, the percentage of main housing in rental regime and the distance to the main beaches of the municipality. On the other hand, the STRs with the highest number of blocked days are concentrated in Playa de San Juan, while the majority of STRs without blocked days, which are identified as commercial dwellings, are located in the city center.}
+      \field{day}{2}
+      \field{issn}{1940-7963, 1940-7971}
+      \field{journaltitle}{Journal of Policy Research in Tourism, Leisure and Events}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{4}
+      \field{shortjournal}{Journal of Policy Research in Tourism, Leisure and Events}
+      \field{shorttitle}{Explanatory Factors for the Distribution of Short-Term Rentals in Coastal Destinations}
+      \field{title}{Explanatory Factors for the Distribution of Short-Term Rentals in Coastal Destinations: The Impact of Second Homes in {{Alicante}}}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{17}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1056\bibrangedash 1074}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1080/19407963.2025.2466192
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/B8DURK5T/Valenzuela-MartinMiguel2025_explanatory-factors-for-the-distribution.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/19407963.2025.2466192
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/19407963.2025.2466192
+      \endverb
+    \endentry
+    \entry{wassmer2022-ValueProximityVacation}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ba78734db5a49044ea421a91315cf0bd}{%
+           family={Wassmer},
+           familyi={W\bibinitperiod},
+           given={Robert\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Inc}%
+      }
+      \strng{namehash}{ba78734db5a49044ea421a91315cf0bd}
+      \strng{fullhash}{ba78734db5a49044ea421a91315cf0bd}
+      \strng{fullhashraw}{ba78734db5a49044ea421a91315cf0bd}
+      \strng{bibnamehash}{ba78734db5a49044ea421a91315cf0bd}
+      \strng{authorbibnamehash}{ba78734db5a49044ea421a91315cf0bd}
+      \strng{authornamehash}{ba78734db5a49044ea421a91315cf0bd}
+      \strng{authorfullhash}{ba78734db5a49044ea421a91315cf0bd}
+      \strng{authorfullhashraw}{ba78734db5a49044ea421a91315cf0bd}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Based upon a hedonic regression analysis of home sales in the City of South Lake Tahoe (CA), a vacation home rental (VHR) sells for more than a similar non-VHR. In addition, the presence of VHRs within a quarter-mile radius of a home sale also raises its value. However, the overall effect on the value of all home sale values from the presence of VHRs in South Lake Tahoe is negative. VHRs benefit owners and neighbors near them, but overall reduce the city’s residential property values. These findings offer a logical basis for the heated discussions often observed over planning activities that restrict the presence of VHRs and/or attempt to mitigate their neighborhood effects. The paper concludes with implications for planning policy directed at VHRs.}
+      \field{day}{1}
+      \field{issn}{0739-456X}
+      \field{journaltitle}{Journal of Planning Education and Research}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{The {{Value}} of {{Proximity}} to a {{Vacation Home Rental}} in a {{Resort Community}}}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{42}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{638\bibrangedash 653}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1177/0739456X19844814
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/8AQM82AR/Wassmer2022_the-value-of-proximity-to-a-vacation-hom.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/0739456X19844814
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/0739456X19844814
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

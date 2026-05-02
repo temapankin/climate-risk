@@ -36,7 +36,13 @@
       "Bash(Rscript 20_models_hedonic.r)",
       "Bash(kpsewhich sectsty.sty)",
       "Bash(kpsewhich titlesec.sty)",
-      "Bash(tlmgr install *)"
+      "Bash(tlmgr install *)",
+      "Bash(pdflatex -interaction=nonstopmode main.tex)",
+      "Bash(awk '/^@.*{gibsonetal2017-ClimateChangeFlood/,/^}/' /Volumes/SSD/climate-risk/references.bib)",
+      "Bash(biber main *)",
+      "Bash(Rscript 11_eda-viz-paper.r)",
+      "Bash(Rscript -e \"requireNamespace\\('ggspatial', quietly = TRUE\\)\")",
+      "Bash(awk '{print $NF}')"
     ]
   }
 }

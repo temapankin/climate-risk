@@ -7,9 +7,13 @@
 \usepackage{amsmath}
 \usepackage{enumitem}
 \usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{references.bib}
 \usepackage{booktabs}
 \usepackage{float}
 \usepackage{titlesec}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
 
 \usepackage[colorlinks=true,
   linkcolor=black,
@@ -29,7 +33,7 @@ in the Jersey Shore Housing Market}
 \noindent\textbf{Artem Pankin}\\
 MCRP Program, Rutgers University, New Brunswick, New Jersey, USA\\
 \textbf{Email}:\\
-artem.pankin@rutgers.edu
+\href{mailto:artem.pankin@rutgers.edu}{artem.pankin@rutgers.edu}
 
 \vspace{1.2em}
 \noindent\textit{Jersey Shore Seminar, Spring 2026}
@@ -51,20 +55,90 @@ artem.pankin@rutgers.edu
 \section{Introduction}
 
 \section{Literature Review}
+Literature on climate risk capitalization in housing markets has grown significantly in recent years, as flooding and sea-level rise becomes
+bigger concern for property-owners. As housing is the usually the main financial asset of the populations, and major part of the wealth accumulation,
+scholarship has been attempting at evaluating whether climate has effect on the housing price, as well as the extent of it. Overall, there is a consensus of the presence of the aforementioned effect: properties located in flood-zone or in zones of possible sea-level rise, get a discount when sold or accessed. However, researchers point out that this effect is heterogeneous and depends on variety of factors of the locality \parencite{murfinspiegel2020-RiskSeaLevel, baldaufetal2020-DoesClimateChange, sussmanetal2014-EstimatesChangesCountylevel}. 
+
+\textcite{gourevitchetal2023-UnpricedClimateRisk} find that residential properties exposed to the flood risk are overvalues by around \$130 billion, especially those located in coastal areas with no laws regarding disclosure of flood risk. Another estimate by \textcite{hinoburke2020-DoesInformationClimate} provides a value of \$34 billion for floodplain homes overvaluation, while pointing out that this effect is more important for commercial property rather than residential. Contrary to that, \textcite{putra2017-RealPropertyMarket} highlights that presence in the high risk flood zones increasingly residential property, especially those that were previously affected by the natural disaster based on the case-study of housing submarket in the state of New Jersey. \textcite{gibsonetal2017-ClimateChangeFlood} suggests that each flood risk event, such as hurricane or publication of the new flood risk map decreases sale price of property by 5 percent. Similarly, other studies find that rather than climate risk affecting property values by itself, the more important aspect is whether information about climate risk exists in the housing market, both in terms of public awarness, avaliable data due to laws and regulations, news or whther community beliefs in climate change \parencite{hinoburke2020-DoesInformationClimate, buntenkahn2014-ImpactEmergingClimate, chen2025-DoesPublicConcern, baldaufetal2020-DoesClimateChange}. 
+
+As climate risk capitalization in property values is a heterogeneous effect, the interest of current paper lies in the realm of whether this effect is different for seasonal and year-round residential properties. Second home tourism and short-term rental properties have shown to have significant influence on the housing submarkets and local economies \parencite{wassmer2022-ValueProximityVacation, collado-gonzalezetal2025-SecondHomesTourism,perles-ribesetal2025-RelationshipShorttermRentals, gil2024-NotGentrificationNot, valenzuela-martinetal2025-ExplanatoryFactorsDistribution}. Despite considerable amount of scholarship focused on climate risk capitalization in property values and residential properties in particular, there is very limited coverage of how climate risk capitalization is different based on the seasonality status of the property, or in other words, whether there is any significant interaction between seasonality status of the property and climate risk capitalization. Therefore, the research question that guides this paper could be formulated as is there a difference in terms of climate risk price adjustment for seasonal, meaning second home or short-term rentals, versus year-round, meaning properties where residents reside for the most of the year, residential properties? 
+
+MORE HERE ABOUT WHY IT IS RELEVANT AND IMPORTANT Q
 
 \section{Data and Methods}
 
-\subsection{Data}
-    \subsubsection{Property}
-    \subsubsection{Flooding}
-    \subsubsection{Seasonality}
+    \subsection{Jersey Shore as a Study Area}
 
-\subsection{Methods}
-    \subsubsection{Regression Analysis}
-    \subsubsection{Model Specification}
+    This study specifically focuses on the Jersey Shore housing submarket, as a market that has significant risk of climate risk capitalization, as has been highlighted by previous studies \parencite{andrews-PersistingJerseyShore, putra2017-RealPropertyMarket}. I define study area using the coastal planning area that is defined in the New Jersey Coastal Area Facility Review Act of 1974, which authorized Department of Environmental Protection to manage development along the coastline, and is thus coastal planning area. Simplified boundary of the area is presented in \autoref{fig:study-area}. It consists of the part of four counties: Atlantic, Cape May, Monmouth, and Ocean. Data collection and analysis described in the next sections is performed for this area.
 
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.90\textwidth]{figures/paper/fig1_parcels_county.png}
+      \caption{Study area boundary and parcel distribution in the Jersey Shore sample. \textit{Notes}: The map shows parcels retained after applying the coastal-zone mask. \textit{Source}: Author's processing of NJ MOD-IV parcel records and NJ parcel geometry data.}
+      \label{fig:study-area}
+    \end{figure}
 
+    \subsection{Property Data}
 
+    As the base dataset, this paper utilizes New Jersey MOD-IV historical database. It contains of real estate parcel data maintained by municipal assessors, and includes information of parcel characteristics, including accessed value of land and dwellings, building characteristics, property taxes. Specifically, I collect data on residential parcels defined through property tax classes for 10 years, ranging from 2015 to 2025. In order to enrich collected data using other datasources and select only parcels located at the Jersey Shore, I join the parcel data with spatial data on parcel geometries, available through NJ GIS website. 
+
+    \subsection{Additional Datasources}
+
+    As a proxy for flood risk, I collect Federal Emergency Management Agency's (FEMA) National Flood Hazard Layer (NFHL) for the state of NJ. It consists of information on spatially referenced flood risk zones with different levels of risk. As a proxy for seasonality status of the parcel, I download American Community Survey (ACS) data on number of seasonal housing units and total number of housing units at the census tract level for two time periods (2013 and 2023). US Census Bureau defines seasonal housing unit as "seasonal housing units are those intended for occupancy only during certain seasons of the year and are found primarily in resort area", i.e., units that are occupied persons with usual residence elsewhere only during parcilar times, which fits into the essense of second homes and short-term rental market at the Shore. 
+
+    \subsection{Regression Analysis}
+
+    To examine the climate risk capitalization at the Jersey Shore's housing submarket, this study employs hedonic regression approach on a panel data. Hedonic regression have been conventionally accepted models for studies where dependent variable (DV) is related to the price of goods or services, including housing price. Such approach has been also employed in previous studies of climate risk capitalization (see for instance \cite{putra2017-RealPropertyMarket}). As described below, DV of the current study is sales price, which is regressed against variables of interests related to flooding risk, housing seasonality and selected controls, making such research design applicable to the aforementioned research question. I describe model specification, included variables, their cleaning, and transformation, as well as research design choices in the following sections. 
+
+        \subsubsection{Dependent Variable}
+
+        Dependent variable of the regressions model is sales price of the parcel. MOD-IV historical database includes information on sales price and sales year, meaning when this parcel of land was sold and for what dollar value. Each parcel can have unlimited amount of transaction events that would be reflected in the database. However, based on the conducted explanatory data analysis, very few parcels in the sample, have had multiple transaction. Most of them have one or two records transactions. It is important to note, that MOD-IV collects sales price information for the last sale that have occurred to the property, which means that if the parcel was last sold in the year 2000, that would be recorded sale price that we utilize as DV. 
+
+        To account for this aspect, we adjust sales price from nominal dollar value to real value in 2020 dollars, using Consumer Price Index data and sales year variable provided in the MOD-IV database. Year 2020 is selected as a reference year in order to avoid effects of post COVID-19 rise in housing prices. 
+        
+        Additionally, all the nominal sales are excluded from the analysis, meaning transactions that did not occur in market conditions, but were rather transfer of property rights within family or other related parties. These transactions usually are noted by the sale price of \$0 or \$1. Additionally, I filter out records where sales price is less than \$25,000 for the same reason of them not being real market-rate sale transactions. The value threshold is determined by scholarship conventions. The dependent variable is log-transformed to avoid common for the sales price data skewness to the right. 
+
+        Figure \ref{fig:median-sale-price} shows median sale price aggregated at the census tract level. More than half of the tracts has a median selling price within the range of \$100,000 to \$300,000. The spatial pattern of median price is evident as well: tracts closer to the ocean have on average higher selling price compared to the inland tracts. This observation is consistent with other studies related to the Shore, and can be explained by the fact that market actors value proximity to the ocean more due to proximity to the beach and the ocean view.
+
+        \begin{figure}[H]
+          \centering
+          \includegraphics[width=0.90\textwidth]{figures/paper/fig2a_sales_map.png}
+          \caption{Median sale price by census tract (map panel 2a). \textit{Notes}: Values are tract-level medians based on filtered arm's-length residential sales. \textit{Source}: Author's processing of NJ MOD-IV records.}
+          \label{fig:median-sale-price}
+        \end{figure}
+
+        \subsubsection{Independent Variables}
+
+        There are three independent variables (IV) of interest. First, flood zone, a categorical variable, which is generated from the FEMA NFHL data, which classify floodplain into multiple zones. For simplification, those zones are aggregated into four types: high, moderate, and low risk, as well as undetermined zone, which represent open water areas of the shore and areas for which FEMA do not provide a classification. All the parcels in the undetermined zones are dropped from the analysis. As can been seen in figure 3, majority of the parcels in our study area have low level of flood risk. Second most populous category is high risk, while very few parcels have moderate risk of flooding. 
+
+        Second, IV of interest is distance to the shore, generated using spatial analysis techniques. Scholarship on climate risk capitalization has proven it to be an important variable, which however, might have unexpected effect. On one hand, being close to the shore implies higher risk of flooding during natural hazards, as well as long-term damage due to sea-level rise. On the other hand, being close to the Shore, especially having view on the water or being in walking proximity to the beach is considered advantage for the residential property. As evident from the figure 4, a major part of parcels in the sample are in close proximity to the ocean, which also correlates with having high level of flood risk. 
+
+        Third, seasonality variable, which is defined through proxy of percent of the seasonal units in the census tract and generated from ACS data on number of seasonal and total number of housing units in the tract. The proxy is calculated as 
+
+        \begin{equation}
+        \text{Percent of seasonal units}_{i} = \frac{\text{Seasonal units}_{i}}{\text{Total units}_{i}}, \quad \forall\, i \in \{\text{census tracts}\}
+        \end{equation}
+
+        Figure \ref{fig:seasonal-share-map} illustrates high variability of this variable across the study area. It is evident, that census tracts located near to the shore have a higher share of seasonal housing unit, which is expected as those are considered tourist areas. Surprisingly, north of the Shore has on average lower share of seasonal units compared to the middle and southern part of it. It is important to note the potential limitation of such proxy variable: as our original data is at the parcel level, while seasonality variable is at the census tract level, such mismatch created multiple challenges for the research design in terms of accuracy of measurment as well as the inclusion of fixed effects at the census tract level to the model. I describe these limitations and potential solutions in \autoref{sec:limitations}.
+
+        \begin{figure}[H]
+          \centering
+          \includegraphics[width=0.90\textwidth]{figures/paper/fig4_seasonal.png}
+          \caption{Share of seasonal housing units by census tract (map panel 4). \textit{Notes}: Seasonal share is defined as seasonal units divided by total housing units within each tract. \textit{Source}: Author's processing of ACS tract-level housing tables.}
+          \label{fig:seasonal-share-map}
+        \end{figure}
+
+        Lastly, as this study is concerned with the interaction of seasonality and climate risk, I also introduce two interaction terms into the model: interaction between distance to shore and percent of seasonal units, and interaction between flood zone and percent of the seasonal units which serve as the main variables of interest in accordance with the research question. 
+        
+        \subsubsection{Control Variables}
+
+        Additionally, our model specification includes control variables, namely age of the building, which has been shown to have an effect on the sales price, and accessed value of land (parcel) and accessed value of improvements (building on the parcel). Whilst classical hedonic regression analysis studies generally take building characteristics into account, such as material, number of floors, presence of garage and square footage, the MOD-IV database is of substandard quality and the building description variable is imbalanced. Utilizing the MOD-IV database would therefore result in a substantial reduction in our sample size. Because of that, I instead control for land and improvement value accessed by the municipality, which should serve as a reasonable control for the market sale price as it has direct effect on it. 
+
+        \subsubsection{Final Model Specification}
+
+        Table X provides summary statistics of the selected variables. 
+
+        As 
 
 
 
@@ -72,8 +146,9 @@ artem.pankin@rutgers.edu
 \section{Results}
 
 \section{Discussion}
-
-\section{Conclusion}
+    \subsection{Seasonality of Flooding and Housing Prices}
+    \subsection{Policy Implications}
+    \subsection{Limitations and Future Research}\label{sec:limitations}
 
 \printbibliography
 
