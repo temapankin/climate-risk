@@ -1,8 +1,20 @@
-data
+data/
 .claude/
 CLAUDE.md
-data/parcels_modiv_joined.parquet
-data/
 problems.md
-._problems.md
-.claude/settings.local.json
+references.bib
+
+# macOS resource forks
+._*
+.DS_Store
+
+# LaTeX aux files
+main.aux
+main.bbl
+main.bbl-SAVE-ERROR
+main.bcf
+main.blg
+main.log
+main.out
+main.run.xml
+main.synctex.gz
