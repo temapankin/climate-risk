@@ -121,6 +121,84 @@
       \endverb
       \keyw{✅}
     \endentry
+    \entry{basileetal2014-ModelingRegionalEconomicb}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b5fc752e0bea850dfb6b964dfd9c95e2}{%
+           family={Basile},
+           familyi={B\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d3bb62a2ac2ffafc2e9842e4d1e18a7}{%
+           family={Durbán},
+           familyi={D\bibinitperiod},
+           given={María},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c457206ca53e7d482b286cfeb7d3a02}{%
+           family={Mínguez},
+           familyi={M\bibinitperiod},
+           given={Román},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=748c1097b67bba472d2051c94bfc06d9}{%
+           family={María\bibnamedelima Montero},
+           familyi={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=332fc493fd439cb908f8111285dcf7d1}{%
+           family={Mur},
+           familyi={M\bibinitperiod},
+           given={Jesús},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ebae2111d117ae9dcb4a975d1cf779e9}
+      \strng{fullhash}{f12171644605f630c87f347f9af11d15}
+      \strng{fullhashraw}{f12171644605f630c87f347f9af11d15}
+      \strng{bibnamehash}{f12171644605f630c87f347f9af11d15}
+      \strng{authorbibnamehash}{f12171644605f630c87f347f9af11d15}
+      \strng{authornamehash}{ebae2111d117ae9dcb4a975d1cf779e9}
+      \strng{authorfullhash}{f12171644605f630c87f347f9af11d15}
+      \strng{authorfullhashraw}{f12171644605f630c87f347f9af11d15}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Spatial modeling of economic phenomena requires the adoption of complex econometric tools, which allow us to deal with important methodological issues, such as spatial dependence, spatial unobserved heterogeneity and nonlinearities. In this paper we describe some recently developed econometric approaches (i.e. Spatial Autoregressive Semiparametric Geoadditive Models), which address the three issues simultaneously. We also illustrate the relative performance of these methods with an application to the case of house prices in the Lucas County.}
+      \field{issn}{01651889}
+      \field{journaltitle}{Journal of Economic Dynamics and Control}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shortjournal}{Journal of Economic Dynamics and Control}
+      \field{shorttitle}{Modeling Regional Economic Dynamics}
+      \field{title}{Modeling Regional Economic Dynamics: {{Spatial}} Dependence, Spatial Heterogeneity and Nonlinearities}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{48}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{229\bibrangedash 245}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.jedc.2014.06.011
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/C7XDX6RD/BasileDurbán2014_modeling-regional-economic-dynamics-spa.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0165188914001493
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0165188914001493
+      \endverb
+    \endentry
     \entry{buntenkahn2014-ImpactEmergingClimate}{report}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bc0ef1600106b9e12e9a6f71d32fe7e5}{%
@@ -419,6 +497,63 @@
       \verb https://www.tandfonline.com/doi/full/10.1080/07352166.2023.2242532
       \endverb
       \keyw{✅}
+    \endentry
+    \entry{gottlieb2013-ResidentialShortTermRentals}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=851f91372784b297b58fbfea11174ce9}{%
+           family={Gottlieb},
+           familyi={G\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{851f91372784b297b58fbfea11174ce9}
+      \strng{fullhash}{851f91372784b297b58fbfea11174ce9}
+      \strng{fullhashraw}{851f91372784b297b58fbfea11174ce9}
+      \strng{bibnamehash}{851f91372784b297b58fbfea11174ce9}
+      \strng{authorbibnamehash}{851f91372784b297b58fbfea11174ce9}
+      \strng{authornamehash}{851f91372784b297b58fbfea11174ce9}
+      \strng{authorfullhash}{851f91372784b297b58fbfea11174ce9}
+      \strng{authorfullhashraw}{851f91372784b297b58fbfea11174ce9}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The country has been in the midst of an economic recession, leaving many people with the need to supplement their traditional incomes by alternative means. Motivated home owners are leveraging their largest asset by renting out their homes for short periods of time. These homes include single-family residences commonly located in a residential neighborhood or zoning district. This phenomenon is growing rapidly across the country and presenting policy concerns for state and local governments. The explosion of websites allowing home owners to advertise their residential properties for rent has amplified the short-term rental industry.}
+      \field{day}{1}
+      \field{issn}{1548-0755}
+      \field{journaltitle}{Planning \& Environmental Law}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shorttitle}{Residential {{Short-Term Rentals}}}
+      \field{title}{Residential {{Short-Term Rentals}}: {{Should Local Governments Regulate}} the '{{Industry}}'?}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{65}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4\bibrangedash 9}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1080/15480755.2013.766496
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/T555N2NS/Gottlieb2013_residential-short-term-rentals-should-l.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/15480755.2013.766496
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/15480755.2013.766496
+      \endverb
     \endentry
     \entry{gourevitchetal2023-UnpricedClimateRisk}{article}{}{}
       \name{author}{7}{}{%
@@ -742,6 +877,70 @@
       \verb{file}
       \verb /Users/artyom/Zotero/storage/FC32QYTQ/Putrareal-property-market-responses-to-coasta.pdf
       \endverb
+    \endentry
+    \entry{secanmegbolugbe1997-SpatialDependenceHouse}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,useprefix=true,hash=02fa58cebd43e9b4d101317a1d70866a}{%
+           family={Can},
+           familyi={C\bibinitperiod},
+           given={Ay},
+           giveni={A\bibinitperiod},
+           givenun=0,
+           prefix={se},
+           prefixi={s\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=571ebbbf83394ad11243868d0e3b12f7}{%
+           family={Megbolugbe},
+           familyi={M\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d81a5e10c429c5e06eb845502f1dc82a}
+      \strng{fullhash}{d81a5e10c429c5e06eb845502f1dc82a}
+      \strng{fullhashraw}{d81a5e10c429c5e06eb845502f1dc82a}
+      \strng{bibnamehash}{d81a5e10c429c5e06eb845502f1dc82a}
+      \strng{authorbibnamehash}{d81a5e10c429c5e06eb845502f1dc82a}
+      \strng{authornamehash}{d81a5e10c429c5e06eb845502f1dc82a}
+      \strng{authorfullhash}{d81a5e10c429c5e06eb845502f1dc82a}
+      \strng{authorfullhashraw}{d81a5e10c429c5e06eb845502f1dc82a}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Accurate estimation of prevailing metropolitan housing prices is important for both business and research investigations of housing and mortgage markets. This is typically done by constructing quality-adjusted house price indices from hedonic price regressions for given metropolitan areas. A major limitation of currently available indices is their insensitivity to the geographic location of dwellings within the metropolitan area. Indices are constructed based on models that do not incorporate the underlying spatial structure in housing data sets. In this article, we argue that spatial structure, especially spatial dependence latent in housing data sets, will affect the precision and accuracy of resulting price estimates. We illustrate the importance of spatial dependence in both the specification and estimation of hedonic price models. Assessments are made on the importance of spatial dependence both on parameter estimates and on the accuracy of resulting indices.}
+      \field{day}{1}
+      \field{issn}{1573-045X}
+      \field{journaltitle}{The Journal of Real Estate Finance and Economics}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{The Journal of Real Estate Finance and Economics}
+      \field{title}{Spatial {{Dependence}} and {{House Price Index Construction}}}
+      \field{urlday}{3}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{14}
+      \field{year}{1997}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{203\bibrangedash 222}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1023/A:1007744706720
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/KHZGLKC5/Se CanMegbolugbe1997_spatial-dependence-and-house-price-index.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1023/A:1007744706720
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1023/A:1007744706720
+      \endverb
+      \keyw{GIS,hedonic house price model,house price index,locational effects,spatial dependence}
     \endentry
     \entry{sussmanetal2014-EstimatesChangesCountylevel}{article}{}{}
       \name{author}{7}{}{%
@@ -1083,6 +1282,84 @@
       \endverb
       \keyw{✅}
     \endentry
+    \entry{basileetal2014-ModelingRegionalEconomicb}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b5fc752e0bea850dfb6b964dfd9c95e2}{%
+           family={Basile},
+           familyi={B\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d3bb62a2ac2ffafc2e9842e4d1e18a7}{%
+           family={Durbán},
+           familyi={D\bibinitperiod},
+           given={María},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c457206ca53e7d482b286cfeb7d3a02}{%
+           family={Mínguez},
+           familyi={M\bibinitperiod},
+           given={Román},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=748c1097b67bba472d2051c94bfc06d9}{%
+           family={María\bibnamedelima Montero},
+           familyi={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=332fc493fd439cb908f8111285dcf7d1}{%
+           family={Mur},
+           familyi={M\bibinitperiod},
+           given={Jesús},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ebae2111d117ae9dcb4a975d1cf779e9}
+      \strng{fullhash}{f12171644605f630c87f347f9af11d15}
+      \strng{fullhashraw}{f12171644605f630c87f347f9af11d15}
+      \strng{bibnamehash}{f12171644605f630c87f347f9af11d15}
+      \strng{authorbibnamehash}{f12171644605f630c87f347f9af11d15}
+      \strng{authornamehash}{ebae2111d117ae9dcb4a975d1cf779e9}
+      \strng{authorfullhash}{f12171644605f630c87f347f9af11d15}
+      \strng{authorfullhashraw}{f12171644605f630c87f347f9af11d15}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Spatial modeling of economic phenomena requires the adoption of complex econometric tools, which allow us to deal with important methodological issues, such as spatial dependence, spatial unobserved heterogeneity and nonlinearities. In this paper we describe some recently developed econometric approaches (i.e. Spatial Autoregressive Semiparametric Geoadditive Models), which address the three issues simultaneously. We also illustrate the relative performance of these methods with an application to the case of house prices in the Lucas County.}
+      \field{issn}{01651889}
+      \field{journaltitle}{Journal of Economic Dynamics and Control}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shortjournal}{Journal of Economic Dynamics and Control}
+      \field{shorttitle}{Modeling Regional Economic Dynamics}
+      \field{title}{Modeling Regional Economic Dynamics: {{Spatial}} Dependence, Spatial Heterogeneity and Nonlinearities}
+      \field{urlday}{24}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{48}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{229\bibrangedash 245}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.jedc.2014.06.011
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/C7XDX6RD/BasileDurbán2014_modeling-regional-economic-dynamics-spa.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0165188914001493
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0165188914001493
+      \endverb
+    \endentry
     \entry{buntenkahn2014-ImpactEmergingClimate}{report}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=bc0ef1600106b9e12e9a6f71d32fe7e5}{%
@@ -1381,6 +1658,63 @@
       \verb https://www.tandfonline.com/doi/full/10.1080/07352166.2023.2242532
       \endverb
       \keyw{✅}
+    \endentry
+    \entry{gottlieb2013-ResidentialShortTermRentals}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=851f91372784b297b58fbfea11174ce9}{%
+           family={Gottlieb},
+           familyi={G\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{851f91372784b297b58fbfea11174ce9}
+      \strng{fullhash}{851f91372784b297b58fbfea11174ce9}
+      \strng{fullhashraw}{851f91372784b297b58fbfea11174ce9}
+      \strng{bibnamehash}{851f91372784b297b58fbfea11174ce9}
+      \strng{authorbibnamehash}{851f91372784b297b58fbfea11174ce9}
+      \strng{authornamehash}{851f91372784b297b58fbfea11174ce9}
+      \strng{authorfullhash}{851f91372784b297b58fbfea11174ce9}
+      \strng{authorfullhashraw}{851f91372784b297b58fbfea11174ce9}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The country has been in the midst of an economic recession, leaving many people with the need to supplement their traditional incomes by alternative means. Motivated home owners are leveraging their largest asset by renting out their homes for short periods of time. These homes include single-family residences commonly located in a residential neighborhood or zoning district. This phenomenon is growing rapidly across the country and presenting policy concerns for state and local governments. The explosion of websites allowing home owners to advertise their residential properties for rent has amplified the short-term rental industry.}
+      \field{day}{1}
+      \field{issn}{1548-0755}
+      \field{journaltitle}{Planning \& Environmental Law}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shorttitle}{Residential {{Short-Term Rentals}}}
+      \field{title}{Residential {{Short-Term Rentals}}: {{Should Local Governments Regulate}} the '{{Industry}}'?}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{65}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4\bibrangedash 9}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1080/15480755.2013.766496
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/T555N2NS/Gottlieb2013_residential-short-term-rentals-should-l.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/15480755.2013.766496
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/15480755.2013.766496
+      \endverb
     \endentry
     \entry{gourevitchetal2023-UnpricedClimateRisk}{article}{}{}
       \name{author}{7}{}{%
@@ -1704,6 +2038,70 @@
       \verb{file}
       \verb /Users/artyom/Zotero/storage/FC32QYTQ/Putrareal-property-market-responses-to-coasta.pdf
       \endverb
+    \endentry
+    \entry{secanmegbolugbe1997-SpatialDependenceHouse}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,useprefix=true,hash=02fa58cebd43e9b4d101317a1d70866a}{%
+           family={Can},
+           familyi={C\bibinitperiod},
+           given={Ay},
+           giveni={A\bibinitperiod},
+           givenun=0,
+           prefix={se},
+           prefixi={s\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=571ebbbf83394ad11243868d0e3b12f7}{%
+           family={Megbolugbe},
+           familyi={M\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d81a5e10c429c5e06eb845502f1dc82a}
+      \strng{fullhash}{d81a5e10c429c5e06eb845502f1dc82a}
+      \strng{fullhashraw}{d81a5e10c429c5e06eb845502f1dc82a}
+      \strng{bibnamehash}{d81a5e10c429c5e06eb845502f1dc82a}
+      \strng{authorbibnamehash}{d81a5e10c429c5e06eb845502f1dc82a}
+      \strng{authornamehash}{d81a5e10c429c5e06eb845502f1dc82a}
+      \strng{authorfullhash}{d81a5e10c429c5e06eb845502f1dc82a}
+      \strng{authorfullhashraw}{d81a5e10c429c5e06eb845502f1dc82a}
+      \field{sortinit}{s}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Accurate estimation of prevailing metropolitan housing prices is important for both business and research investigations of housing and mortgage markets. This is typically done by constructing quality-adjusted house price indices from hedonic price regressions for given metropolitan areas. A major limitation of currently available indices is their insensitivity to the geographic location of dwellings within the metropolitan area. Indices are constructed based on models that do not incorporate the underlying spatial structure in housing data sets. In this article, we argue that spatial structure, especially spatial dependence latent in housing data sets, will affect the precision and accuracy of resulting price estimates. We illustrate the importance of spatial dependence in both the specification and estimation of hedonic price models. Assessments are made on the importance of spatial dependence both on parameter estimates and on the accuracy of resulting indices.}
+      \field{day}{1}
+      \field{issn}{1573-045X}
+      \field{journaltitle}{The Journal of Real Estate Finance and Economics}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{The Journal of Real Estate Finance and Economics}
+      \field{title}{Spatial {{Dependence}} and {{House Price Index Construction}}}
+      \field{urlday}{3}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{14}
+      \field{year}{1997}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{203\bibrangedash 222}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1023/A:1007744706720
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/KHZGLKC5/Se CanMegbolugbe1997_spatial-dependence-and-house-price-index.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1023/A:1007744706720
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1023/A:1007744706720
+      \endverb
+      \keyw{GIS,hedonic house price model,house price index,locational effects,spatial dependence}
     \endentry
     \entry{sussmanetal2014-EstimatesChangesCountylevel}{article}{}{}
       \name{author}{7}{}{%

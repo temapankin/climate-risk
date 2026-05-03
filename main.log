@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.25)  2 MAY 2026 20:30
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.25)  2 MAY 2026 21:29
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Volumes/SSD/climate-risk/main
@@ -760,89 +760,80 @@ Package hyperref Info: Link coloring ON on input line 24.
  [1
 
 {/Users/artyom/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<figures/paper/fig1_parcels_county.png, id=106, 419.166pt x 650.43pt>
+<figures/paper/fig1_parcels_county.png, id=110, 419.166pt x 650.43pt>
 File: figures/paper/fig1_parcels_county.png Graphic file (type png)
 <use figures/paper/fig1_parcels_county.png>
-Package luatex.def Info: figures/paper/fig1_parcels_county.png  used on input line 78.
+Package luatex.def Info: figures/paper/fig1_parcels_county.png  used on input line 79.
 (luatex.def)             Requested size: 225.4804pt x 349.88713pt.
-<figures/paper/fig2a_sales_map.png, id=107, 419.166pt x 650.43pt>
+<figures/paper/fig2a_sales_map.png, id=111, 419.166pt x 650.43pt>
 File: figures/paper/fig2a_sales_map.png Graphic file (type png)
 <use figures/paper/fig2a_sales_map.png>
-Package luatex.def Info: figures/paper/fig2a_sales_map.png  used on input line 85.
+Package luatex.def Info: figures/paper/fig2a_sales_map.png  used on input line 86.
 (luatex.def)             Requested size: 225.4804pt x 349.88713pt.
  [2] [3<./figures/paper/fig1_parcels_county.png><./figures/paper/fig2a_sales_map.png>]
-<figures/paper/figS1_price2020_hist.png, id=128, 433.62pt x 289.08pt>
+<figures/paper/figS1_price2020_hist.png, id=133, 433.62pt x 289.08pt>
 File: figures/paper/figS1_price2020_hist.png Graphic file (type png)
 <use figures/paper/figS1_price2020_hist.png>
-Package luatex.def Info: figures/paper/figS1_price2020_hist.png  used on input line 117.
+Package luatex.def Info: figures/paper/figS1_price2020_hist.png  used on input line 118.
 (luatex.def)             Requested size: 155.02pt x 103.3453pt.
-<figures/paper/figS4_land_hist.png, id=129, 433.62pt x 289.08pt>
+<figures/paper/figS4_land_hist.png, id=134, 433.62pt x 289.08pt>
 File: figures/paper/figS4_land_hist.png Graphic file (type png)
 <use figures/paper/figS4_land_hist.png>
-Package luatex.def Info: figures/paper/figS4_land_hist.png  used on input line 123.
+Package luatex.def Info: figures/paper/figS4_land_hist.png  used on input line 124.
 (luatex.def)             Requested size: 155.02pt x 103.3453pt.
-<figures/paper/figS5_improve_hist.png, id=130, 433.62pt x 289.08pt>
+<figures/paper/figS5_improve_hist.png, id=135, 433.62pt x 289.08pt>
 File: figures/paper/figS5_improve_hist.png Graphic file (type png)
 <use figures/paper/figS5_improve_hist.png>
-Package luatex.def Info: figures/paper/figS5_improve_hist.png  used on input line 129.
+Package luatex.def Info: figures/paper/figS5_improve_hist.png  used on input line 130.
 (luatex.def)             Requested size: 155.02pt x 103.3453pt.
  [4]
-<figures/paper/fig2c_flood_bar.png, id=144, 578.16pt x 361.35pt>
+<figures/paper/fig2c_flood_bar.png, id=149, 578.16pt x 361.35pt>
 File: figures/paper/fig2c_flood_bar.png Graphic file (type png)
 <use figures/paper/fig2c_flood_bar.png>
-Package luatex.def Info: figures/paper/fig2c_flood_bar.png  used on input line 149.
+Package luatex.def Info: figures/paper/fig2c_flood_bar.png  used on input line 150.
 (luatex.def)             Requested size: 225.4804pt x 140.92041pt.
-<figures/paper/fig3_flood_distance.png, id=145, 578.16pt x 361.35pt>
+<figures/paper/fig3_flood_distance.png, id=150, 578.16pt x 361.35pt>
 File: figures/paper/fig3_flood_distance.png Graphic file (type png)
 <use figures/paper/fig3_flood_distance.png>
-Package luatex.def Info: figures/paper/fig3_flood_distance.png  used on input line 156.
+Package luatex.def Info: figures/paper/fig3_flood_distance.png  used on input line 157.
 (luatex.def)             Requested size: 225.4804pt x 140.92041pt.
- [5<./figures/paper/figS1_price2020_hist.png><./figures/paper/figS4_land_hist.png><./figures/paper/figS5_improve_hist.png><./figures/paper/fig2c_flood_bar.png><./figures/paper/fig3_flood_distance.png>]
-<figures/paper/fig4_seasonal.png, id=155, 397.485pt x 578.16pt>
+ [5<./figures/paper/figS1_price2020_hist.png><./figures/paper/figS4_land_hist.png><./figures/paper/figS5_improve_hist.png>]
+<figures/paper/fig4_seasonal.png, id=165, 397.485pt x 578.16pt>
 File: figures/paper/fig4_seasonal.png Graphic file (type png)
 <use figures/paper/fig4_seasonal.png>
-Package luatex.def Info: figures/paper/fig4_seasonal.png  used on input line 174.
+Package luatex.def Info: figures/paper/fig4_seasonal.png  used on input line 175.
 (luatex.def)             Requested size: 281.85587pt x 409.98479pt.
- [6<./figures/paper/fig4_seasonal.png>] [7]
-Overfull \hbox (2.43672pt too wide) in paragraph at lines 202--202
+ [6<./figures/paper/fig2c_flood_bar.png><./figures/paper/fig3_flood_distance.png>] [7<./figures/paper/fig4_seasonal.png>] [8]
+Overfull \hbox (2.43672pt too wide) in paragraph at lines 211--211
 \TU/lmr/m/n/10.95 des-ti-na-tions: The im-pact of sec-ond homes in Al-i-cante. \TU/lmr/m/it/10.95 Jour-nal of Pol-icy Re-search in Tourism,
  []
 
-[8] (./main.aux)
+[9] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: F5EEB74BA83EB67E291B4A817ED31F30;2549.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 20359 strings out of 475900
+ 20401 strings out of 475900
  125165,1373583 words of node,token memory allocated
- 667 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 16 attribute, 71 glue_spec, 16 attribute_list, 1 write, 8 pdf_action nodes
-   avail lists: 2:816,3:517,4:102,5:428,6:45,7:8687,8:151,9:333,10:14,11:675,12:3
- 42612 multiletter control sequences out of 65536+600000
- 37 fonts using 2785951 bytes
- 60i,8n,68p,1596b,5048s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (8 pages, 1675796 bytes).
+ 687 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 18 attribute, 71 glue_spec, 18 attribute_list, 1 write, 10 pdf_action nodes
+   avail lists: 2:888,3:556,4:110,5:440,6:43,7:8916,8:151,9:381,10:18,11:687,12:5
+ 42649 multiletter control sequences out of 65536+600000
+ 46 fonts using 3345119 bytes
+ 60i,11n,68p,1596b,5048s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (9 pages, 1727324 bytes).
 
-PDF statistics: 252 PDF objects out of 1000 (max. 8388607)
- 212 compressed objects within 3 object streams
- 45 named destinations out of 1000 (max. 1048576)
+PDF statistics: 299 PDF objects out of 1000 (max. 8388607)
+ 250 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 1048576)
  129 words of extra memory for PDF output out of 10000 (max. 100000000)
 

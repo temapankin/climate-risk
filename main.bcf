@@ -3091,11 +3091,17 @@
     <bcf:citekey order="11" intorder="3">perles-ribesetal2025-RelationshipShorttermRentals</bcf:citekey>
     <bcf:citekey order="11" intorder="4">gil2024-NotGentrificationNot</bcf:citekey>
     <bcf:citekey order="11" intorder="5">valenzuela-martinetal2025-ExplanatoryFactorsDistribution</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">andrews-PersistingJerseyShore</bcf:citekey>
-    <bcf:citekey order="12" intorder="2">putra2017-RealPropertyMarket</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">putra2017-RealPropertyMarket</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">putra2017-RealPropertyMarket</bcf:citekey>
-    <bcf:citekey order="14" intorder="2">murfinspiegel2020-RiskSeaLevel</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">gourevitchetal2023-UnpricedClimateRisk</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">gottlieb2013-ResidentialShortTermRentals</bcf:citekey>
+    <bcf:citekey order="13" intorder="2">perles-ribesetal2025-RelationshipShorttermRentals</bcf:citekey>
+    <bcf:citekey order="13" intorder="3">collado-gonzalezetal2025-SecondHomesTourism</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">andrews-PersistingJerseyShore</bcf:citekey>
+    <bcf:citekey order="14" intorder="2">putra2017-RealPropertyMarket</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">putra2017-RealPropertyMarket</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">putra2017-RealPropertyMarket</bcf:citekey>
+    <bcf:citekey order="16" intorder="2">murfinspiegel2020-RiskSeaLevel</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">secanmegbolugbe1997-SpatialDependenceHouse</bcf:citekey>
+    <bcf:citekey order="17" intorder="2">basileetal2014-ModelingRegionalEconomicb</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
