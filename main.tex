@@ -16,9 +16,9 @@
 \usepackage{titlesec}
 \usepackage{indentfirst}
 \usepackage{etoolbox}
-\linespread{1.5}
+\linespread{1.2}
 \setlength{\parindent}{0.5in}    % first-line indent = 0.5 inch
-\setlength{\parskip}{1.5pt}        % no extra space between paragraphs
+% \setlength{\parskip}{1.3pt}        % no extra space between paragraphs
 \AtBeginEnvironment{table}{\setlength{\parskip}{0pt}}
 
 
@@ -79,7 +79,7 @@ As climate risk capitalization in property values is a heterogeneous effect, the
 
     \subsection{Jersey Shore as a Study Area}
 
-    This study specifically focuses on the Jersey Shore housing submarket, as a market that has significant risk of climate risk capitalization, as has been highlighted by previous studies \parencite{andrews-PersistingJerseyShore, putra2017-RealPropertyMarket}. I define study area using the coastal planning area that is defined in the New Jersey Coastal Area Facility Review Act of 1974, which authorized Department of Environmental Protection to manage development along the coastline, and is thus coastal planning area. Simplified boundary of the area is presented in Figure~\ref{fig:maps-overview}\subref{fig:map-study-area}. It consists of the part of four counties: Atlantic, Cape May, Monmouth, and Ocean. Data collection and analysis described in the next sections is performed for this area.
+    This study specifically focuses on the Jersey Shore housing submarket, as a market that has significant risk of climate risk capitalization, as has been highlighted by previous studies \parencite{andrews2025-PersistingJerseyShore, putra2017-RealPropertyMarket}. I define study area using the coastal planning area that is defined in the New Jersey Coastal Area Facility Review Act of 1974, which authorized Department of Environmental Protection to manage development along the coastline, and is thus coastal planning area. Simplified boundary of the area is presented in Figure~\ref{fig:maps-overview}\subref{fig:map-study-area}. It consists of the part of four counties: Atlantic, Cape May, Monmouth, and Ocean. Data collection and analysis described in the next sections is performed for this area.
 
     \begin{figure}[t]
       \centering
@@ -168,16 +168,18 @@ As climate risk capitalization in property values is a heterogeneous effect, the
 
         \subsubsection{Independent Variables}
 
-        There are three independent variables (IV) of interest. First, flood zone, a categorical variable, which is generated from the FEMA NFHL data, which classify floodplain into multiple zones. For simplification, those zones are aggregated into four types: high, moderate, and low risk, as well as undetermined zone, which represent open water areas of the shore and areas for where flooding risk exists but was not assessed. All the parcels in the undetermined zones are dropped from the analysis, as it is not feasible to meaningfully compare this category to zones with quantified flood risk. Low-risk served as the omitted reference category in the regression analysis. As can been seen in Figure~\ref{fig:flood-overview}\subref{fig:flood-bar}, majority of the parcels in our study area have low level of flood risk. Second most populous category is high risk, while very few parcels have moderate risk of flooding. 
-
-        Second, IV of interest is distance to the shore, generated using spatial analysis techniques. Scholarship on climate risk capitalization has proven it to be an important variable \parencite{putra2017-RealPropertyMarket, murfinspiegel2020-RiskSeaLevel}, which however, might have unexpected effect. On one hand, being close to the shore implies higher risk of flooding during natural hazards, as well as long-term damage due to sea-level rise. On the other hand, being close to the Shore, especially having view on the water or being in walking proximity to the beach is considered advantage for the residential property. As evident from the Figure~\ref{fig:flood-overview}\subref{fig:flood-distance}, a major part of parcels in the sample are in close proximity to the ocean, which also correlates with having high level of flood risk. This variable is also log-transformed to account for the effect that distance has on property values: difference between being 200 and 1000 feet away is assumed to be significant for the property values, while being 5 or 5.1 miles away is not supposed to have any effect. 
-
         \begin{figure}[H]
           \centering
           \includegraphics[width=0.6\textwidth]{figures/paper/fig4_seasonal.png}
           \caption{\textit{Share of seasonal housing units by census tract.} \textit{Note.} Percent of seasonal units derived from ACS data; tracts closer to the ocean tend to have a higher share of seasonal units.}
           \label{fig:seasonal}
         \end{figure}
+
+        There are three independent variables (IV) of interest. First, flood zone, a categorical variable, which is generated from the FEMA NFHL data, which classify floodplain into multiple zones. For simplification, those zones are aggregated into four types: high, moderate, and low risk, as well as undetermined zone, which represent open water areas of the shore and areas for where flooding risk exists but was not assessed. All the parcels in the undetermined zones are dropped from the analysis, as it is not feasible to meaningfully compare this category to zones with quantified flood risk. Low-risk served as the omitted reference category in the regression analysis. As can been seen in Figure~\ref{fig:flood-overview}\subref{fig:flood-bar}, majority of the parcels in our study area have low level of flood risk. Second most populous category is high risk, while very few parcels have moderate risk of flooding. 
+
+        Second, IV of interest is distance to the shore, generated using spatial analysis techniques. Scholarship on climate risk capitalization has proven it to be an important variable \parencite{putra2017-RealPropertyMarket, murfinspiegel2020-RiskSeaLevel}, which however, might have unexpected effect. On one hand, being close to the shore implies higher risk of flooding during natural hazards, as well as long-term damage due to sea-level rise. On the other hand, being close to the Shore, especially having view on the water or being in walking proximity to the beach is considered advantage for the residential property. As evident from the Figure~\ref{fig:flood-overview}\subref{fig:flood-distance}, a major part of parcels in the sample are in close proximity to the ocean, which also correlates with having high level of flood risk. This variable is also log-transformed to account for the effect that distance has on property values: difference between being 200 and 1000 feet away is assumed to be significant for the property values, while being 5 or 5.1 miles away is not supposed to have any effect. 
+
+   
 
         Third, seasonality variable, which is defined through proxy of percent of the seasonal units in the census tract and generated from ACS data on number of seasonal and total number of housing units in the tract. The proxy is calculated as 
 
@@ -214,20 +216,21 @@ As climate risk capitalization in property values is a heterogeneous effect, the
 
         Additionally, main model is compared to ordinary least squares (OLS) model, fixed time effects model, and model with fixed time effects and fixed entity effects on the census tract level. Due to sample size (n = 2,246,512), clustered standard errors are reported on county or census tract level for the corresponding fixed effects models. 
 
+\clearpage
 \input{figures/hedonic_regression_results}
 
 \section{Results}
 
 Results of the regression analysis are reported in \autoref{tab:hedonic-results}. 
 
+First, the results of the OLS model highlight that multiple variables of interests are significant at the conventional level. Dstance to ocean, which has a negative coefficient, meaning that 1\% increase in distance increases sale price by 0.04\% holding other variables constant. Being in the moderate flood risk zone decreases sell price by approximately 2.64\% compared to the low flood risk zone, however being in the high risk zone does not show similar significant effect. Seasonality variable is significant and has a positive coefficient, meaning that a 10 percentage point increase in the share of seasonal units is associated with approximately a 1.9\% increase in sale price, holding other variables constant. However, this main effect cannot be interpreted in isolation: because the model also includes the interaction $\log(\text{Distance}) \times \text{Pct.\ Seasonal}$ ($\hat{\beta} = -0.196$), the full marginal effect of seasonality on log sale price is $0.188 - 0.196 \times \log(\text{Distance})$. At close distances the net effect is positive, but it diminishes and eventually reverses as distance to Shore increases, meaning the positive seasonality effect on price is concentrated in parcels nearest to the water. All of the interaction terms are significant, with $\log(\text{Distance}) \times \text{Pct.\ Seasonal}$ and $\text{High Risk} \times \text{Pct.\ Seasonal}$ having a negative effect on the sale price, while $\text{Moderate Risk} \times \text{Pct.\ Seasonal}$ surprisingly has a positive coefficient. The model's $R^2$ is 0.66, which means that 66\% of variation in the data is explained by the model. However, as study's sample is pooled cross-sectional data, we can assume that OLS models overestimate coefficients due to unobserved heterogeneity that affects sales price, such as neighborhood characteristics. We can also assume that the model underestimates standard errors due to the size of the sample, and therefore inference is affected. 
+
 \begin{figure}[H]
   \centering
   \includegraphics[width=\textwidth]{figures/paper/fig5_coefplot.png}
-  \caption{\textit{Coefficient estimates for variables of interest across hedonic regression specifications.} \textit{Note.} Points denote point estimates with 95\% confidence intervals. Gray circles represent the baseline OLS model; blue triangles represent the model with year fixed effects; dark blue squares represent the model with year and county fixed effects. The dependent variable is log sale price (2020 USD). Standard errors in all fixed-effects specifications are clustered at the county level. The vertical dashed line at zero serves as a reference for null effects. Wide confidence intervals for the interaction terms reflect the small number of clustering units ($n = 4$ counties) rather than model misspecification.}
+  \caption{\textit{Coefficient estimates for variables of interest across hedonic regression specifications.} \textit{Note.} Points denote point estimates with 95\% confidence intervals. Gray circles represent the baseline OLS model; blue triangles represent the model with year fixed effects; dark blue squares represent the model with year and county fixed effects. The vertical dashed line at zero serves as a reference for null effects. Wide confidence intervals for the interaction terms reflect the small number of clustering units ($n = 4$ counties) rather than model misspecification.}
   \label{fig:coefplot}
 \end{figure}
-
-First, the results of the OLS model highlight that multiple variables of interests are significant at the conventional level. Dstance to ocean, which has a negative coefficient, meaning that 1\% increase in distance increases sale price by 0.04\% holding other variables constant. Being in the moderate flood risk zone decreases sell price by approximately 2.64\% compared to the low flood risk zone, however being in the high risk zone does not show similar significant effect. Seasonality variable is significant and has a positive coefficient, meaning that a 10 percentage point increase in the share of seasonal units is associated with approximately a 1.9\% increase in sale price, holding other variables constant. However, this main effect cannot be interpreted in isolation: because the model also includes the interaction $\log(\text{Distance}) \times \text{Pct.\ Seasonal}$ ($\hat{\beta} = -0.196$), the full marginal effect of seasonality on log sale price is $0.188 - 0.196 \times \log(\text{Distance})$. At close distances the net effect is positive, but it diminishes and eventually reverses as distance to Shore increases, meaning the positive seasonality effect on price is concentrated in parcels nearest to the water. All of the interaction terms are significant, with $\log(\text{Distance}) \times \text{Pct.\ Seasonal}$ and $\text{High Risk} \times \text{Pct.\ Seasonal}$ having a negative effect on the sale price, while $\text{Moderate Risk} \times \text{Pct.\ Seasonal}$ surprisingly has a positive coefficient. The model's $R^2$ is 0.66, which means that 66\% of variation in the data is explained by the model. However, as study's sample is pooled cross-sectional data, we can assume that OLS models overestimate coefficients due to unobserved heterogeneity that affects sales price, such as neighborhood characteristics. We can also assume that the model underestimates standard errors due to the size of the sample, and therefore inference is affected. 
 
 When the year fixed effects are introduced, $R^2$ increases to 0.71, signifying that time variation has significant explanatory power in the model. However, this also leads to most of the coefficients of variables of interest loosing significance due to the fact that standard errors are clustered on the county level. However, interaction between distance and seasonality remains significant at the conventional level. Moreover, magnitude of the coefficient only slightly changes, indicating the correct specification of the model and importance of these variables. 
 

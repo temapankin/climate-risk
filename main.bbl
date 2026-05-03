@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global/global}
-    \entry{andrews-PersistingJerseyShore}{article}{}{}
+    \entry{andrews2025-PersistingJerseyShore}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9a63ac498dc7b35a10c0ecc2c2e10421}{%
            family={Andrews},
@@ -27,6 +27,9 @@
            given={Clinton\bibnamedelima J},
            giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis, MN}%
       }
       \strng{namehash}{9a63ac498dc7b35a10c0ecc2c2e10421}
       \strng{fullhash}{9a63ac498dc7b35a10c0ecc2c2e10421}
@@ -38,13 +41,17 @@
       \strng{authorfullhashraw}{9a63ac498dc7b35a10c0ecc2c2e10421}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Many coastal settlements persist despite repeated damage from storms and flooding. This may be less about willful ignorance and more about the attractiveness of coastal amenities outweighing the perceived risks of living in a location for certain people. This study investigates how resort municipalities located along the beaches of the Jersey Shore differ from the rest of New Jersey, USA, with the purpose of clarifying the special features of Shore communities’ housing stocks, real estate markets, risks, and populations. The case study uses data from the U.S. Census and other governmental sources to create a quantitative portrait of the Shore and presents logistic regression model results showing that features associated with Shore communities include high seasonal vacancy rates, high median housing values, high FEMA damage claims, and year-round populations with lower non-white percentage and lower median household incomes than the statewide values. Jersey Shore municipalities host many second homes, have housing values that are higher than the statewide average and show little net growth in population and housing units, but see continued housing investment (new construction and alterations) at a rate averaging USD 2.2 billion annually in 2023 USD over 20 years. Implications for public policy are to incentivize risk management behavior by second-home owners and owner-occupiers differently from one another, and view nostalgia-based arguments for special treatment with skepticism.}
+      \field{eventtitle}{Association of {{Collegiate Schools}} of {{Planning Annual Conference}}}
       \field{langid}{english}
       \field{title}{Persisting on the {{Jersey Shore}}}
+      \field{year}{2025}
+      \field{dateera}{ce}
       \verb{file}
       \verb /Users/artyom/Zotero/storage/C8N9P2NW/Andrewspersisting-on-the-jersey-shore.pdf
       \endverb
@@ -1058,6 +1065,12 @@
       \field{title}{{{DEFINITIONS AND EXPLANATIONS}}}
       \verb{file}
       \verb /Users/artyom/Zotero/storage/7GF6N4IJ/definitions.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.census.gov/housing/hvs/definitions.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.census.gov/housing/hvs/definitions.pdf
       \endverb
     \endentry
     \entry{valenzuela-martinetal2025-ExplanatoryFactorsDistribution}{article}{}{}
@@ -1205,7 +1218,7 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global/global}
-    \entry{andrews-PersistingJerseyShore}{article}{}{}
+    \entry{andrews2025-PersistingJerseyShore}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9a63ac498dc7b35a10c0ecc2c2e10421}{%
            family={Andrews},
@@ -1213,6 +1226,9 @@
            given={Clinton\bibnamedelima J},
            giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Minneapolis, MN}%
       }
       \strng{namehash}{9a63ac498dc7b35a10c0ecc2c2e10421}
       \strng{fullhash}{9a63ac498dc7b35a10c0ecc2c2e10421}
@@ -1224,13 +1240,17 @@
       \strng{authorfullhashraw}{9a63ac498dc7b35a10c0ecc2c2e10421}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Many coastal settlements persist despite repeated damage from storms and flooding. This may be less about willful ignorance and more about the attractiveness of coastal amenities outweighing the perceived risks of living in a location for certain people. This study investigates how resort municipalities located along the beaches of the Jersey Shore differ from the rest of New Jersey, USA, with the purpose of clarifying the special features of Shore communities’ housing stocks, real estate markets, risks, and populations. The case study uses data from the U.S. Census and other governmental sources to create a quantitative portrait of the Shore and presents logistic regression model results showing that features associated with Shore communities include high seasonal vacancy rates, high median housing values, high FEMA damage claims, and year-round populations with lower non-white percentage and lower median household incomes than the statewide values. Jersey Shore municipalities host many second homes, have housing values that are higher than the statewide average and show little net growth in population and housing units, but see continued housing investment (new construction and alterations) at a rate averaging USD 2.2 billion annually in 2023 USD over 20 years. Implications for public policy are to incentivize risk management behavior by second-home owners and owner-occupiers differently from one another, and view nostalgia-based arguments for special treatment with skepticism.}
+      \field{eventtitle}{Association of {{Collegiate Schools}} of {{Planning Annual Conference}}}
       \field{langid}{english}
       \field{title}{Persisting on the {{Jersey Shore}}}
+      \field{year}{2025}
+      \field{dateera}{ce}
       \verb{file}
       \verb /Users/artyom/Zotero/storage/C8N9P2NW/Andrewspersisting-on-the-jersey-shore.pdf
       \endverb
@@ -2244,6 +2264,12 @@
       \field{title}{{{DEFINITIONS AND EXPLANATIONS}}}
       \verb{file}
       \verb /Users/artyom/Zotero/storage/7GF6N4IJ/definitions.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.census.gov/housing/hvs/definitions.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.census.gov/housing/hvs/definitions.pdf
       \endverb
     \endentry
     \entry{valenzuela-martinetal2025-ExplanatoryFactorsDistribution}{article}{}{}
