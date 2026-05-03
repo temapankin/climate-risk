@@ -576,11 +576,11 @@
            given={Carolyn},
            giveni={C\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=0dd885ef51f83cf43d73c4fea803f9b6}{%
+        {{un=0,uniquepart=base,hash=2a5ea96c1e544caa311c032ec43b9662}{%
            family={Liao},
            familyi={L\bibinitperiod},
-           given={Yanjun\bibnamedelima (Penny)},
-           giveni={Y\bibinitperiod\bibinitdelim (\bibinitperiod},
+           given={Yanjun},
+           giveni={Y\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=b6607f7ad25d72632206596225cedd11}{%
            family={Nolte},
@@ -611,13 +611,13 @@
         {Nature Publishing Group}%
       }
       \strng{namehash}{6ae3378e3815872742463d08ec061d09}
-      \strng{fullhash}{6b33ca8eca7e80e6ff29f877b23ebd74}
-      \strng{fullhashraw}{6b33ca8eca7e80e6ff29f877b23ebd74}
-      \strng{bibnamehash}{6b33ca8eca7e80e6ff29f877b23ebd74}
-      \strng{authorbibnamehash}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \strng{fullhash}{f0b238195bf18620521b341fde9e02fa}
+      \strng{fullhashraw}{f0b238195bf18620521b341fde9e02fa}
+      \strng{bibnamehash}{f0b238195bf18620521b341fde9e02fa}
+      \strng{authorbibnamehash}{f0b238195bf18620521b341fde9e02fa}
       \strng{authornamehash}{6ae3378e3815872742463d08ec061d09}
-      \strng{authorfullhash}{6b33ca8eca7e80e6ff29f877b23ebd74}
-      \strng{authorfullhashraw}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \strng{authorfullhash}{f0b238195bf18620521b341fde9e02fa}
+      \strng{authorfullhashraw}{f0b238195bf18620521b341fde9e02fa}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -715,6 +715,75 @@
       \verb https://www.nber.org/papers/w26807
       \endverb
       \keyw{✅}
+    \endentry
+    \entry{leeetal2016-ModifiableArealUnit}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9a070b49f93222a6bda832b076836da6}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Gunhak},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42bfb82284025ff065027b0cbebb78d0}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Daeheon},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d1780b9af0bb16bcb0f0d1a1808f030}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Kamyoung},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{bfc2875ab75ff63a868e23e2cd41dbfc}
+      \strng{fullhash}{b2dcb19389cd91d908955c5fe82c4bc8}
+      \strng{fullhashraw}{b2dcb19389cd91d908955c5fe82c4bc8}
+      \strng{bibnamehash}{b2dcb19389cd91d908955c5fe82c4bc8}
+      \strng{authorbibnamehash}{b2dcb19389cd91d908955c5fe82c4bc8}
+      \strng{authornamehash}{bfc2875ab75ff63a868e23e2cd41dbfc}
+      \strng{authorfullhash}{b2dcb19389cd91d908955c5fe82c4bc8}
+      \strng{authorfullhashraw}{b2dcb19389cd91d908955c5fe82c4bc8}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When geographically aggregated data are included in hedonic models, the resulting coefficients are biased by the spatial scale and spatial configuration of variable measurement. We explore the effects of this modifiable areal unit problem (MAUP) within the context of hedonic price models with an individual-level dependent variable. Specifically, we developed standard and spatial hedonic regression models in order to examine the effects of the MAUP on model fit and coefficient estimates. Our empirical analysis documents several significant scale and zoning effects in the hedonic modeling framework. First, neighborhood characteristics are clearly important in efforts to improve model fit—and they are more significant contributors in the standard model than in the spatial hedonic model. For aggregation scale, the model fit change of the standard model is relatively large, whereas the change is more modest for spatial models. The patterns of change in model fit for standard and spatial hedonic models clearly diverge from one another, implying the existence of a scale level showing a maximum functional range of the submarket on which scale dependencies are expected to have an impact. Regarding the zoning effect, the model fits for both standard and spatial hedonic models vary according to the submarket systems.}
+      \field{day}{17}
+      \field{issn}{0272-3638}
+      \field{journaltitle}{Urban Geography}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{The Modifiable Areal Unit Problem in Hedonic House-Price Models}
+      \field{urlday}{3}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{37}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{223\bibrangedash 245}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1080/02723638.2015.1057397
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/XJ5DE46L/LeeCho2016_the-modifiable-areal-unit-problem-in-hed.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/02723638.2015.1057397
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/02723638.2015.1057397
+      \endverb
+      \keyw{aggregation scale,hedonic analysis,housing,modifiable areal unit problem (MAUP),neighborhood effects,spatial autocorrelation}
     \endentry
     \entry{murfinspiegel2020-RiskSeaLevel}{article}{}{}
       \name{author}{2}{}{%
@@ -1775,11 +1844,11 @@
            given={Carolyn},
            giveni={C\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=0dd885ef51f83cf43d73c4fea803f9b6}{%
+        {{un=0,uniquepart=base,hash=2a5ea96c1e544caa311c032ec43b9662}{%
            family={Liao},
            familyi={L\bibinitperiod},
-           given={Yanjun\bibnamedelima (Penny)},
-           giveni={Y\bibinitperiod\bibinitdelim (\bibinitperiod},
+           given={Yanjun},
+           giveni={Y\bibinitperiod},
            givenun=0}}%
         {{un=0,uniquepart=base,hash=b6607f7ad25d72632206596225cedd11}{%
            family={Nolte},
@@ -1810,13 +1879,13 @@
         {Nature Publishing Group}%
       }
       \strng{namehash}{6ae3378e3815872742463d08ec061d09}
-      \strng{fullhash}{6b33ca8eca7e80e6ff29f877b23ebd74}
-      \strng{fullhashraw}{6b33ca8eca7e80e6ff29f877b23ebd74}
-      \strng{bibnamehash}{6b33ca8eca7e80e6ff29f877b23ebd74}
-      \strng{authorbibnamehash}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \strng{fullhash}{f0b238195bf18620521b341fde9e02fa}
+      \strng{fullhashraw}{f0b238195bf18620521b341fde9e02fa}
+      \strng{bibnamehash}{f0b238195bf18620521b341fde9e02fa}
+      \strng{authorbibnamehash}{f0b238195bf18620521b341fde9e02fa}
       \strng{authornamehash}{6ae3378e3815872742463d08ec061d09}
-      \strng{authorfullhash}{6b33ca8eca7e80e6ff29f877b23ebd74}
-      \strng{authorfullhashraw}{6b33ca8eca7e80e6ff29f877b23ebd74}
+      \strng{authorfullhash}{f0b238195bf18620521b341fde9e02fa}
+      \strng{authorfullhashraw}{f0b238195bf18620521b341fde9e02fa}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{extradatescope}{labelyear}
@@ -1914,6 +1983,75 @@
       \verb https://www.nber.org/papers/w26807
       \endverb
       \keyw{✅}
+    \endentry
+    \entry{leeetal2016-ModifiableArealUnit}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=9a070b49f93222a6bda832b076836da6}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Gunhak},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42bfb82284025ff065027b0cbebb78d0}{%
+           family={Cho},
+           familyi={C\bibinitperiod},
+           given={Daeheon},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d1780b9af0bb16bcb0f0d1a1808f030}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Kamyoung},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{bfc2875ab75ff63a868e23e2cd41dbfc}
+      \strng{fullhash}{b2dcb19389cd91d908955c5fe82c4bc8}
+      \strng{fullhashraw}{b2dcb19389cd91d908955c5fe82c4bc8}
+      \strng{bibnamehash}{b2dcb19389cd91d908955c5fe82c4bc8}
+      \strng{authorbibnamehash}{b2dcb19389cd91d908955c5fe82c4bc8}
+      \strng{authornamehash}{bfc2875ab75ff63a868e23e2cd41dbfc}
+      \strng{authorfullhash}{b2dcb19389cd91d908955c5fe82c4bc8}
+      \strng{authorfullhashraw}{b2dcb19389cd91d908955c5fe82c4bc8}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When geographically aggregated data are included in hedonic models, the resulting coefficients are biased by the spatial scale and spatial configuration of variable measurement. We explore the effects of this modifiable areal unit problem (MAUP) within the context of hedonic price models with an individual-level dependent variable. Specifically, we developed standard and spatial hedonic regression models in order to examine the effects of the MAUP on model fit and coefficient estimates. Our empirical analysis documents several significant scale and zoning effects in the hedonic modeling framework. First, neighborhood characteristics are clearly important in efforts to improve model fit—and they are more significant contributors in the standard model than in the spatial hedonic model. For aggregation scale, the model fit change of the standard model is relatively large, whereas the change is more modest for spatial models. The patterns of change in model fit for standard and spatial hedonic models clearly diverge from one another, implying the existence of a scale level showing a maximum functional range of the submarket on which scale dependencies are expected to have an impact. Regarding the zoning effect, the model fits for both standard and spatial hedonic models vary according to the submarket systems.}
+      \field{day}{17}
+      \field{issn}{0272-3638}
+      \field{journaltitle}{Urban Geography}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{The Modifiable Areal Unit Problem in Hedonic House-Price Models}
+      \field{urlday}{3}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{37}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{223\bibrangedash 245}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1080/02723638.2015.1057397
+      \endverb
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/XJ5DE46L/LeeCho2016_the-modifiable-areal-unit-problem-in-hed.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/02723638.2015.1057397
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/02723638.2015.1057397
+      \endverb
+      \keyw{aggregation scale,hedonic analysis,housing,modifiable areal unit problem (MAUP),neighborhood effects,spatial autocorrelation}
     \endentry
     \entry{murfinspiegel2020-RiskSeaLevel}{article}{}{}
       \name{author}{2}{}{%

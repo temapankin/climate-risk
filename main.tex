@@ -132,7 +132,7 @@ As climate risk capitalization in property values is a heterogeneous effect, the
             \caption{Assessed improvement value}
             \label{fig:hist-improve}
           \end{subfigure}
-          \caption{\textit{Distributions of sale price and assessed values.} \textit{Note.} Sale price is inflation-adjusted to 2020 dollars and excludes non-market transactions below \$25,000; land and improvement values are as assessed by the municipality.}
+          \caption{\textit{Distributions of sale price and assessed values.} \textit{Note.} Sale price is inflation-adjusted to 2020 dollars and excludes non-market transactions below \$20,000; land and improvement values are as assessed by the municipality.}
           \label{fig:value-hists}
         \end{figure}
 
@@ -162,11 +162,11 @@ As climate risk capitalization in property values is a heterogeneous effect, the
 
         To account for this aspect, we adjust sales price from nominal dollar value to real value in 2020 dollars, using Consumer Price Index data and sales year variable provided in the MOD-IV database. Year 2020 is selected as a reference year in order to avoid effects of post COVID-19 rise in housing prices. 
         
-        Additionally, all the nominal sales are excluded from the analysis, meaning transactions that did not occur in market conditions, but were rather transfer of property rights within family or other related parties. These transactions usually are noted by the sale price of \$0 or \$1. Additionally, I filter out records where sales price is less than \$25,000 for the same reason of them not being real market-rate sale transactions. The value threshold is determined by scholarship conventions. The dependent variable is log-transformed to avoid common for the sales price data skewness to the right. 
+        Additionally, all the nominal sales are excluded from the analysis, meaning transactions that did not occur in market conditions, but were rather transfer of property rights within family or other related parties. These transactions usually are noted by the sale price of \$0 or \$1. Additionally, I filter out records where sales price is less than \$20,000 for the same reason of them not being real market-rate sale transactions. The value threshold is determined by scholarship conventions. The dependent variable is log-transformed to avoid common for the sales price data skewness to the right. 
 
         Figure~\ref{fig:maps-overview}\subref{fig:map-sale-price} shows median sale price aggregated at the census tract level. More than half of the tracts has a median selling price within the range of \$100,000 to \$300,000. The spatial pattern of median price is evident as well: tracts closer to the ocean have on average higher selling price compared to the inland tracts. This observation is consistent with other studies related to the Shore, and can be explained by the fact that market actors value proximity to the ocean more due to proximity to the beach and the ocean view.        
 
-        \subsubsection{Independent Variables}
+        \subsubsection{Independent Variables}\label{sec:ivs}
 
         \begin{figure}[H]
           \centering
@@ -199,9 +199,7 @@ As climate risk capitalization in property values is a heterogeneous effect, the
 
 \input{figures/summary_statistics}
 
-        Table~\ref{tab:sumstats} provides summary statistics of the variables included in the model.
-
-
+        Table~\ref{tab:sumstats} provides summary statistics of the variables included in the model. Median Price of sale in 2020 dollars is 341,629. Mean price of sales is \$490,680 with maximum value of more than 85 million dollars. This highlighs skew in the distribution discussed before. Mean distance to ocean is 3.9 miles with maximum distance of 16 miles. Share of seasonal units ranges from 0 to 0.8 with mean 0.19, highlighting that there are few census tracts with high level of seasonality. It also means that there are tracts where almost all the housing units are seasonal. Average age of the dwelling is 50 years, with average assessed value of \$217,070. Average assessed value of the land is slightly higher at \$235,487. 
 
         After performing all transformation and data cleaning, as well as excluding any observations with missing values, our sample size is 2,246,512 observation of parcel-level pooled cross-sectional data for years 2015 to 2025.
 
@@ -216,12 +214,11 @@ As climate risk capitalization in property values is a heterogeneous effect, the
 
         Additionally, main model is compared to ordinary least squares (OLS) model, fixed time effects model, and model with fixed time effects and fixed entity effects on the census tract level. Due to sample size (n = 2,246,512), clustered standard errors are reported on county or census tract level for the corresponding fixed effects models. 
 
-\clearpage
+\section{Results}\label{sec:results}
+
 \input{figures/hedonic_regression_results}
 
-\section{Results}
-
-Results of the regression analysis are reported in \autoref{tab:hedonic-results}. 
+Results of the regression analysis are reported in \autoref{tab:hedonic-results}.
 
 First, the results of the OLS model highlight that multiple variables of interests are significant at the conventional level. Dstance to ocean, which has a negative coefficient, meaning that 1\% increase in distance increases sale price by 0.04\% holding other variables constant. Being in the moderate flood risk zone decreases sell price by approximately 2.64\% compared to the low flood risk zone, however being in the high risk zone does not show similar significant effect. Seasonality variable is significant and has a positive coefficient, meaning that a 10 percentage point increase in the share of seasonal units is associated with approximately a 1.9\% increase in sale price, holding other variables constant. However, this main effect cannot be interpreted in isolation: because the model also includes the interaction $\log(\text{Distance}) \times \text{Pct.\ Seasonal}$ ($\hat{\beta} = -0.196$), the full marginal effect of seasonality on log sale price is $0.188 - 0.196 \times \log(\text{Distance})$. At close distances the net effect is positive, but it diminishes and eventually reverses as distance to Shore increases, meaning the positive seasonality effect on price is concentrated in parcels nearest to the water. All of the interaction terms are significant, with $\log(\text{Distance}) \times \text{Pct.\ Seasonal}$ and $\text{High Risk} \times \text{Pct.\ Seasonal}$ having a negative effect on the sale price, while $\text{Moderate Risk} \times \text{Pct.\ Seasonal}$ surprisingly has a positive coefficient. The model's $R^2$ is 0.66, which means that 66\% of variation in the data is explained by the model. However, as study's sample is pooled cross-sectional data, we can assume that OLS models overestimate coefficients due to unobserved heterogeneity that affects sales price, such as neighborhood characteristics. We can also assume that the model underestimates standard errors due to the size of the sample, and therefore inference is affected. 
 
@@ -244,19 +241,38 @@ Despite most of the coefficients for the IVs of interest are not statistically s
 
     \subsection{Seasonality of Flooding and Housing Prices}
 
+    The regression results revels several things about the 
+
     \subsection{Limitations and Future Research}\label{sec:limitations}
-    - few clusters issue
-    - township level fixed effects 
-    - MAUP problem
-    - owner solution 
-    - building controls
+
+    Results of this study should be interpreted considering several limitations. These limitations led to potential avenues for future work, discussed below.
+
+
+    First, as was discussed in the \autoref{sec:ivs}, one of the independent variables of interests, percent of the seasonal housing units, is collected at the level (census tract) other than the other variables, which creates modifiable areal unit problem (MAUP) \parencite{leeetal2016-ModifiableArealUnit}. As census tracts are spatial units that have nothing to do with the housing market, during data generation process housing units that share same seasonality character can be assigned different values due to being in different census tracts. Moreover, MAUP can affect regression results on the respective variable, as changing unit of data collection, for instance, from census tract to census census block or ZIP code, will respectively change regression coefficients, undermining the robustness of study findings.
+    
+    One of the potential solutions to this problem for current study is to utilize alternative proxy measure, for instance through owner address. MOD-IV data provides information on owner of the parcel address, so if we compare it to the physical address of the parcel, it is possible to generate the variable that shows whether owner lives in the parcel, or whether he lives in another area of state or another state. Quick validation of this variable yielded Pearson correlation coefficient value of 0.7, when compared against aggregated owner proxy to the census level seasonality. However, it is important to note that such proxy would not be able to capture the distinction between renters and seasonal residents. Therefore, additional efforts are required for the design of good seasonality proxy. 
+
+    Second, there is a limitation in clustered standard errors design of the hedonic regression, discussed in \autoref{sec:results}. While reporting clustered standard errors is required considering the sample size of the study, there is a small number of clusters issue which inflates standard errors leading to loss in statistical power and not significant coefficients. Potential solution to that limitation in future research might include clustering standard errors on a larger scale, such as for instance, state municipalities.
+
+    This also leads to another limitation.While introducing time fixed effects has shown to be beneficial for model fit and accounting for unobserved heterogeneity that affects sales price, introducing entity fixed effects on the county level does not yield significant improvement in the model. Similarly to the previous limitation, future research should consider implementing fixed effects at a larger scale, or moving towards other approaches that account for spatial dependence, such as spatial error and lag models.
+
+    Lastly, while our control variables have proved to be robust, hedonic models of property values usually benefit from introducing broader range of building characteristics controls. MOD-IV data does provide that information in form of the building description variable, though is parsing it into separate variables was a challenged during data cleaning. Therefore, future studies should consider way of generating such variables in order to include better building chanceries controls into heroic models. 
 
 
 \section{Conclusion}
 
 \subsection{Policy implications}
 
+\section*{Acknowledgments}
 
+I am extremely grateful to Marc Pfier and ... for proving simplified acss to the 
+
+\section*{Code and Data Availability}
+
+The code used in this paper can be accessed from the public GitHub repository: 
+All the data used in this paper is publicly available online. 
+
+\section*{AI Usage}
 
 \printbibliography
 
