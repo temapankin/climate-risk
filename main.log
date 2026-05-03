@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.25)  3 MAY 2026 13:57
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.4.25)  3 MAY 2026 15:01
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/Volumes/SSD/climate-risk/main
@@ -698,26 +698,26 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
  (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -795,8 +795,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 33.
-Package biblatex Info: Reference segment=0 on input line 33.
+Package biblatex Info: Reference section=0 on input line 30.
+Package biblatex Info: Reference segment=0 on input line 30.
  (/Users/artyom/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
  (/Users/artyom/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -804,7 +804,7 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: luatex.def on input line 149.
  (/Users/artyom/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 33.
+Package hyperref Info: Link coloring ON on input line 30.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 
@@ -815,90 +815,90 @@ Package hyperref Info: Link coloring ON on input line 33.
 <figures/paper/fig1_parcels_county.png, id=115, 419.166pt x 650.43pt>
 File: figures/paper/fig1_parcels_county.png Graphic file (type png)
 <use figures/paper/fig1_parcels_county.png>
-Package luatex.def Info: figures/paper/fig1_parcels_county.png  used on input line 88.
+Package luatex.def Info: figures/paper/fig1_parcels_county.png  used on input line 85.
 (luatex.def)             Requested size: 225.4804pt x 349.88713pt.
 <figures/paper/fig2a_sales_map.png, id=116, 419.166pt x 650.43pt>
 File: figures/paper/fig2a_sales_map.png Graphic file (type png)
 <use figures/paper/fig2a_sales_map.png>
-Package luatex.def Info: figures/paper/fig2a_sales_map.png  used on input line 95.
+Package luatex.def Info: figures/paper/fig2a_sales_map.png  used on input line 92.
 (luatex.def)             Requested size: 225.4804pt x 349.88713pt.
  [2] [3<./figures/paper/fig1_parcels_county.png><./figures/paper/fig2a_sales_map.png>]
 <figures/paper/figS1_price2020_hist.png, id=138, 433.62pt x 289.08pt>
 File: figures/paper/figS1_price2020_hist.png Graphic file (type png)
 <use figures/paper/figS1_price2020_hist.png>
-Package luatex.def Info: figures/paper/figS1_price2020_hist.png  used on input line 119.
+Package luatex.def Info: figures/paper/figS1_price2020_hist.png  used on input line 116.
 (luatex.def)             Requested size: 155.02pt x 103.3453pt.
 <figures/paper/figS4_land_hist.png, id=139, 433.62pt x 289.08pt>
 File: figures/paper/figS4_land_hist.png Graphic file (type png)
 <use figures/paper/figS4_land_hist.png>
-Package luatex.def Info: figures/paper/figS4_land_hist.png  used on input line 125.
+Package luatex.def Info: figures/paper/figS4_land_hist.png  used on input line 122.
 (luatex.def)             Requested size: 155.02pt x 103.3453pt.
 <figures/paper/figS5_improve_hist.png, id=140, 433.62pt x 289.08pt>
 File: figures/paper/figS5_improve_hist.png Graphic file (type png)
 <use figures/paper/figS5_improve_hist.png>
-Package luatex.def Info: figures/paper/figS5_improve_hist.png  used on input line 131.
+Package luatex.def Info: figures/paper/figS5_improve_hist.png  used on input line 128.
 (luatex.def)             Requested size: 155.02pt x 103.3453pt.
 <figures/paper/fig2c_flood_bar.png, id=141, 578.16pt x 361.35pt>
 File: figures/paper/fig2c_flood_bar.png Graphic file (type png)
 <use figures/paper/fig2c_flood_bar.png>
-Package luatex.def Info: figures/paper/fig2c_flood_bar.png  used on input line 143.
+Package luatex.def Info: figures/paper/fig2c_flood_bar.png  used on input line 140.
 (luatex.def)             Requested size: 225.4804pt x 140.92041pt.
 <figures/paper/fig3_flood_distance.png, id=142, 578.16pt x 361.35pt>
 File: figures/paper/fig3_flood_distance.png Graphic file (type png)
 <use figures/paper/fig3_flood_distance.png>
-Package luatex.def Info: figures/paper/fig3_flood_distance.png  used on input line 150.
+Package luatex.def Info: figures/paper/fig3_flood_distance.png  used on input line 147.
 (luatex.def)             Requested size: 225.4804pt x 140.92041pt.
  [4<./figures/paper/figS1_price2020_hist.png><./figures/paper/figS4_land_hist.png><./figures/paper/figS5_improve_hist.png>]
 <figures/paper/fig4_seasonal.png, id=152, 397.485pt x 578.16pt>
 File: figures/paper/fig4_seasonal.png Graphic file (type png)
 <use figures/paper/fig4_seasonal.png>
-Package luatex.def Info: figures/paper/fig4_seasonal.png  used on input line 173.
+Package luatex.def Info: figures/paper/fig4_seasonal.png  used on input line 170.
 (luatex.def)             Requested size: 281.85587pt x 409.98479pt.
  [5<./figures/paper/fig2c_flood_bar.png><./figures/paper/fig3_flood_distance.png>] [6<./figures/paper/fig4_seasonal.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 186.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 183.
  (/Users/artyom/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 186.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 183.
  (/Users/artyom/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [7] (./figures/summary_statistics.tex) [8] (./figures/hedonic_regression_results.tex)
 <figures/paper/fig5_coefplot.png, id=200, 650.43pt x 433.62pt>
 File: figures/paper/fig5_coefplot.png Graphic file (type png)
 <use figures/paper/fig5_coefplot.png>
-Package luatex.def Info: figures/paper/fig5_coefplot.png  used on input line 227.
+Package luatex.def Info: figures/paper/fig5_coefplot.png  used on input line 224.
 (luatex.def)             Requested size: 469.75502pt x 313.17879pt.
- [9] [10] [11<./figures/paper/fig5_coefplot.png>] [12] [13] [14]
-Overfull \hbox (2.43672pt too wide) in paragraph at lines 278--278
+ [9] [10] [11<./figures/paper/fig5_coefplot.png>] [12] [13] [14] [15]
+Overfull \hbox (2.43672pt too wide) in paragraph at lines 284--284
 \TU/lmr/m/n/10.95 des-ti-na-tions: The im-pact of sec-ond homes in Al-i-cante. \TU/lmr/m/it/10.95 Jour-nal of Pol-icy Re-search in Tourism,
  []
 
-[15] (./main.aux)
+[16] (./main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: B5BB804ED4A52C56BA2F5E92393EE80E;2643.
+(rerunfilecheck)             Checksum: FE75E4488B07E70F5D33E57CDF3C70BD;2666.
 Package logreq Info: Writing requests to 'main.run.xml'.
 
 \openout1 = main.run.xml
 )
 
 Here is how much of LuaTeX's memory you used:
- 22171 strings out of 475900
+ 22177 strings out of 475900
  125165,1373583 words of node,token memory allocated
  701 words of node memory still in use:
    6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 20 attribute, 71 glue_spec, 20 attribute_list, 1 write, 11 pdf_action nodes
-   avail lists: 2:1294,3:522,4:106,5:453,6:36,7:10253,8:151,9:1325,10:27,11:657,12:5
- 44319 multiletter control sequences out of 65536+600000
+   avail lists: 2:1299,3:522,4:106,5:453,6:36,7:10253,8:151,9:1326,10:29,11:662,12:5
+ 44324 multiletter control sequences out of 65536+600000
  76 fonts using 5413887 bytes
  64i,16n,101p,2032b,5184s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman8-regular.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman9-italic.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman17-regular.otf></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/artyom/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (15 pages, 1868229 bytes).
+Output written on main.pdf (16 pages, 1873855 bytes).
 
-PDF statistics: 373 PDF objects out of 1000 (max. 8388607)
- 308 compressed objects within 4 object streams
- 62 named destinations out of 1000 (max. 1048576)
+PDF statistics: 383 PDF objects out of 1000 (max. 8388607)
+ 317 compressed objects within 4 object streams
+ 63 named destinations out of 1000 (max. 1048576)
  137 words of extra memory for PDF output out of 10000 (max. 100000000)
 

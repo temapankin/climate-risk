@@ -3103,7 +3103,12 @@
     <bcf:citekey order="17" intorder="2">murfinspiegel2020-RiskSeaLevel</bcf:citekey>
     <bcf:citekey order="18" intorder="1">secanmegbolugbe1997-SpatialDependenceHouse</bcf:citekey>
     <bcf:citekey order="18" intorder="2">basileetal2014-ModelingRegionalEconomicb</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">leeetal2016-ModifiableArealUnit</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">hinoburke2020-DoesInformationClimate</bcf:citekey>
+    <bcf:citekey order="19" intorder="2">chen2025-DoesPublicConcern</bcf:citekey>
+    <bcf:citekey order="19" intorder="3">baldaufetal2020-DoesClimateChange</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">gourevitchetal2023-UnpricedClimateRisk</bcf:citekey>
+    <bcf:citekey order="20" intorder="2">murfinspiegel2020-RiskSeaLevel</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">leeetal2016-ModifiableArealUnit</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
