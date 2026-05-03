@@ -69,13 +69,25 @@ MORE HERE ABOUT WHY IT IS RELEVANT AND IMPORTANT Q
 
     \subsection{Jersey Shore as a Study Area}
 
-    This study specifically focuses on the Jersey Shore housing submarket, as a market that has significant risk of climate risk capitalization, as has been highlighted by previous studies \parencite{andrews-PersistingJerseyShore, putra2017-RealPropertyMarket}. I define study area using the coastal planning area that is defined in the New Jersey Coastal Area Facility Review Act of 1974, which authorized Department of Environmental Protection to manage development along the coastline, and is thus coastal planning area. Simplified boundary of the area is presented in \autoref{fig:study-area}. It consists of the part of four counties: Atlantic, Cape May, Monmouth, and Ocean. Data collection and analysis described in the next sections is performed for this area.
+    This study specifically focuses on the Jersey Shore housing submarket, as a market that has significant risk of climate risk capitalization, as has been highlighted by previous studies \parencite{andrews-PersistingJerseyShore, putra2017-RealPropertyMarket}. I define study area using the coastal planning area that is defined in the New Jersey Coastal Area Facility Review Act of 1974, which authorized Department of Environmental Protection to manage development along the coastline, and is thus coastal planning area. Simplified boundary of the area is presented in Figure~\ref{fig:maps-overview}\subref{fig:map-study-area}. It consists of the part of four counties: Atlantic, Cape May, Monmouth, and Ocean. Data collection and analysis described in the next sections is performed for this area.
 
-    \begin{figure}[H]
+    \begin{figure}[t]
       \centering
-      \includegraphics[width=0.90\textwidth]{figures/paper/fig1_parcels_county.png}
-      \caption{Study area boundary and parcel distribution in the Jersey Shore sample. \textit{Notes}: The map shows parcels retained after applying the coastal-zone mask. \textit{Source}: Author's processing of NJ MOD-IV parcel records and NJ parcel geometry data.}
-      \label{fig:study-area}
+      \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/paper/fig1_parcels_county.png}
+        \caption{Study area and parcel distribution}
+        \label{fig:map-study-area}
+      \end{subfigure}
+      \hfill
+      \begin{subfigure}[t]{0.48\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/paper/fig2a_sales_map.png}
+        \caption{Median sale price by tract}
+        \label{fig:map-sale-price}
+      \end{subfigure}
+      \caption{Spatial context and key variable used in the analysis. \textit{Note.} Figure (a) shows the Jersey Shore study area and parcel sample by county; figure (b) maps census tract-level median sale price (2023).}
+      \label{fig:maps-overview}
     \end{figure}
 
     \subsection{Property Data}
@@ -98,20 +110,56 @@ MORE HERE ABOUT WHY IT IS RELEVANT AND IMPORTANT Q
         
         Additionally, all the nominal sales are excluded from the analysis, meaning transactions that did not occur in market conditions, but were rather transfer of property rights within family or other related parties. These transactions usually are noted by the sale price of \$0 or \$1. Additionally, I filter out records where sales price is less than \$25,000 for the same reason of them not being real market-rate sale transactions. The value threshold is determined by scholarship conventions. The dependent variable is log-transformed to avoid common for the sales price data skewness to the right. 
 
-        Figure \ref{fig:median-sale-price} shows median sale price aggregated at the census tract level. More than half of the tracts has a median selling price within the range of \$100,000 to \$300,000. The spatial pattern of median price is evident as well: tracts closer to the ocean have on average higher selling price compared to the inland tracts. This observation is consistent with other studies related to the Shore, and can be explained by the fact that market actors value proximity to the ocean more due to proximity to the beach and the ocean view.
-
-        \begin{figure}[H]
+        \begin{figure}[t]
           \centering
-          \includegraphics[width=0.90\textwidth]{figures/paper/fig2a_sales_map.png}
-          \caption{Median sale price by census tract (map panel 2a). \textit{Notes}: Values are tract-level medians based on filtered arm's-length residential sales. \textit{Source}: Author's processing of NJ MOD-IV records.}
-          \label{fig:median-sale-price}
+          \begin{subfigure}[t]{0.33\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{figures/paper/figS1_price2020_hist.png}
+            \caption{Sale price (2020 \$)}
+            \label{fig:hist-price}
+          \end{subfigure}%
+          \begin{subfigure}[t]{0.33\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{figures/paper/figS4_land_hist.png}
+            \caption{Assessed land value}
+            \label{fig:hist-land}
+          \end{subfigure}%
+          \begin{subfigure}[t]{0.33\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{figures/paper/figS5_improve_hist.png}
+            \caption{Assessed improvement value}
+            \label{fig:hist-improve}
+          \end{subfigure}
+          \caption{Distributions of sale price and assessed values. \textit{Note.} Sale price is inflation-adjusted to 2020 dollars and excludes non-market transactions below \$25,000; land and improvement values are as assessed by the municipality.}
+          \label{fig:value-hists}
         \end{figure}
+
+        Figure~\ref{fig:maps-overview}\subref{fig:map-sale-price} shows median sale price aggregated at the census tract level. More than half of the tracts has a median selling price within the range of \$100,000 to \$300,000. The spatial pattern of median price is evident as well: tracts closer to the ocean have on average higher selling price compared to the inland tracts. This observation is consistent with other studies related to the Shore, and can be explained by the fact that market actors value proximity to the ocean more due to proximity to the beach and the ocean view.
 
         \subsubsection{Independent Variables}
 
-        There are three independent variables (IV) of interest. First, flood zone, a categorical variable, which is generated from the FEMA NFHL data, which classify floodplain into multiple zones. For simplification, those zones are aggregated into four types: high, moderate, and low risk, as well as undetermined zone, which represent open water areas of the shore and areas for which FEMA do not provide a classification. All the parcels in the undetermined zones are dropped from the analysis. As can been seen in figure 3, majority of the parcels in our study area have low level of flood risk. Second most populous category is high risk, while very few parcels have moderate risk of flooding. 
+        There are three independent variables (IV) of interest. First, flood zone, a categorical variable, which is generated from the FEMA NFHL data, which classify floodplain into multiple zones. For simplification, those zones are aggregated into four types: high, moderate, and low risk, as well as undetermined zone, which represent open water areas of the shore and areas for which FEMA do not provide a classification. All the parcels in the undetermined zones are dropped from the analysis. As can been seen in Figure~\ref{fig:flood-overview}\subref{fig:flood-bar}, majority of the parcels in our study area have low level of flood risk. Second most populous category is high risk, while very few parcels have moderate risk of flooding. 
 
-        Second, IV of interest is distance to the shore, generated using spatial analysis techniques. Scholarship on climate risk capitalization has proven it to be an important variable, which however, might have unexpected effect. On one hand, being close to the shore implies higher risk of flooding during natural hazards, as well as long-term damage due to sea-level rise. On the other hand, being close to the Shore, especially having view on the water or being in walking proximity to the beach is considered advantage for the residential property. As evident from the figure 4, a major part of parcels in the sample are in close proximity to the ocean, which also correlates with having high level of flood risk. 
+        Second, IV of interest is distance to the shore, generated using spatial analysis techniques. Scholarship on climate risk capitalization has proven it to be an important variable \parencite{putra2017-RealPropertyMarket, murfinspiegel2020-RiskSeaLevel}, which however, might have unexpected effect. On one hand, being close to the shore implies higher risk of flooding during natural hazards, as well as long-term damage due to sea-level rise. On the other hand, being close to the Shore, especially having view on the water or being in walking proximity to the beach is considered advantage for the residential property. As evident from the Figure~\ref{fig:flood-overview}\subref{fig:flood-distance}, a major part of parcels in the sample are in close proximity to the ocean, which also correlates with having high level of flood risk.
+
+        \begin{figure}[t]
+          \centering
+          \begin{subfigure}[t]{0.48\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{figures/paper/fig2c_flood_bar.png}
+            \caption{Distribution of parcels by flood risk zone}
+            \label{fig:flood-bar}
+          \end{subfigure}
+          \hfill
+          \begin{subfigure}[t]{0.48\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{figures/paper/fig3_flood_distance.png}
+            \caption{Distribution of parcels by distance to shore}
+            \label{fig:flood-distance}
+          \end{subfigure}
+          \caption{Flood risk and proximity to shore for parcels in the study area. \textit{Note.} Figure (a) shows the share of parcels by FEMA flood risk zone; figure (b) shows the distribution of parcel distances to the shoreline.}
+          \label{fig:flood-overview}
+        \end{figure}
 
         Third, seasonality variable, which is defined through proxy of percent of the seasonal units in the census tract and generated from ACS data on number of seasonal and total number of housing units in the tract. The proxy is calculated as 
 
@@ -119,26 +167,26 @@ MORE HERE ABOUT WHY IT IS RELEVANT AND IMPORTANT Q
         \text{Percent of seasonal units}_{i} = \frac{\text{Seasonal units}_{i}}{\text{Total units}_{i}}, \quad \forall\, i \in \{\text{census tracts}\}
         \end{equation}
 
-        Figure \ref{fig:seasonal-share-map} illustrates high variability of this variable across the study area. It is evident, that census tracts located near to the shore have a higher share of seasonal housing unit, which is expected as those are considered tourist areas. Surprisingly, north of the Shore has on average lower share of seasonal units compared to the middle and southern part of it. It is important to note the potential limitation of such proxy variable: as our original data is at the parcel level, while seasonality variable is at the census tract level, such mismatch created multiple challenges for the research design in terms of accuracy of measurment as well as the inclusion of fixed effects at the census tract level to the model. I describe these limitations and potential solutions in \autoref{sec:limitations}.
+        It is important to note the potential limitation of such proxy variable: as our original data is at the parcel level, while seasonality variable is at the census tract level, such mismatch created multiple challenges for the research design in terms of accuracy of measurment as well as the inclusion of fixed effects at the census tract level to the model. I describe these limitations and potential solutions in \autoref{sec:limitations}. \autoref{fig:seasonal} demonstrates the spatial distribution of seasonality units at the Shore. Census tracts located near to the shore have a higher share of seasonal housing units, which is expected as those are considered tourist areas. Surprisingly, north of the Shore has on average lower share of seasonal units compared to the middle and southern part of it. 
 
-        \begin{figure}[H]
+        \begin{figure}[t]
           \centering
-          \includegraphics[width=0.90\textwidth]{figures/paper/fig4_seasonal.png}
-          \caption{Share of seasonal housing units by census tract (map panel 4). \textit{Notes}: Seasonal share is defined as seasonal units divided by total housing units within each tract. \textit{Source}: Author's processing of ACS tract-level housing tables.}
-          \label{fig:seasonal-share-map}
+          \includegraphics[width=0.6\textwidth]{figures/paper/fig4_seasonal.png}
+          \caption{Share of seasonal housing units by census tract. \textit{Note.} Percent of seasonal units derived from ACS data; tracts closer to the ocean tend to have a higher share of seasonal units. } 
+          \label{fig:seasonal}
         \end{figure}
 
         Lastly, as this study is concerned with the interaction of seasonality and climate risk, I also introduce two interaction terms into the model: interaction between distance to shore and percent of seasonal units, and interaction between flood zone and percent of the seasonal units which serve as the main variables of interest in accordance with the research question. 
         
         \subsubsection{Control Variables}
 
-        Additionally, our model specification includes control variables, namely age of the building, which has been shown to have an effect on the sales price, and accessed value of land (parcel) and accessed value of improvements (building on the parcel). Whilst classical hedonic regression analysis studies generally take building characteristics into account, such as material, number of floors, presence of garage and square footage, the MOD-IV database is of substandard quality and the building description variable is imbalanced. Utilizing the MOD-IV database would therefore result in a substantial reduction in our sample size. Because of that, I instead control for land and improvement value accessed by the municipality, which should serve as a reasonable control for the market sale price as it has direct effect on it. 
+        Additionally, our model specification includes control variables, namely age of the building, which has been shown to have an effect on the sales price, and accessed value of land (parcel) and accessed value of improvements (building on the parcel). Whilst classical hedonic regression analysis studies generally take building characteristics into account, such as material, number of floors, presence of garage and square footage, the MOD-IV database is of substandard quality and the building description variable is imbalanced. Utilizing the MOD-IV database would therefore result in a substantial reduction in our sample size. Because of that, I instead control for land and improvement value accessed by the municipality, which should serve as a reasonable control for the market sale price as it has direct effect on it. Both of these variables are log-transformed as price distribution tend to have right skewness, which tranfsforms them into close to normal distribution, as can be seen in \autoref{fig:hist-land} and \autoref{fig:hist-improve}. 
 
         \subsubsection{Final Model Specification}
 
-        Table X provides summary statistics of the selected variables. 
+        Table provides summary statistics of the included into the model variables. 
 
-        As 
+        
 
 
 

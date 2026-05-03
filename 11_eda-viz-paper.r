@@ -83,18 +83,17 @@ fig1 <- ggplot() +
       override.aes = list(fill = "lightyellow", alpha = 0.5, linewidth = 1)
     )
   ) +
-  coord_sf(
-    xlim = st_bbox(cafra_mask)[c("xmin", "xmax")],
-    ylim = st_bbox(cafra_mask)[c("ymin", "ymax")]
-  ) +
- theme_void() +
-  labs(title = NULL) +
   coord_sf(xlim = SHORE_XLIM, ylim = SHORE_YLIM, expand = FALSE) +
   SCALE_BAR +
-  theme(plot.margin = margin(0, 0, 0, 0),
-        legend.box.margin = margin(0, 0, 0, 0))
+  labs(x = NULL, y = NULL) +
+  theme_void() +
+  theme(legend.position      = c(1.1, 0.3),
+        legend.justification = c(1, 0.8),
+        plot.margin = margin(0, 0, 0, 0),
+        legend.box.margin = margin(0, 0, 0, 0)
+        )
 
-ggsave(file.path(paper_dir, "fig1_parcels_county.png"), fig1, width = 5, height = 10, dpi = 300, bg = "white")
+ggsave(file.path(paper_dir, "fig1_parcels_county.png"), fig1, width = 5.8, height = 9, dpi = 300, bg = "white")
 
 
 
@@ -212,11 +211,10 @@ map_paper_2a <- ggplot() +
   theme_void() +
   theme(legend.position      = c(1.1, 0.6),
         legend.justification = c(1, 0.8),
-        plot.margin = margin(0, 0, 0, -50),
+        plot.margin = margin(0, 0, 0, 0),
         legend.box.margin = margin(0, 0, 0, 0)
-)
+  )
 
-# bar_inset_right placed flush at the far right; bars extend leftward into map
 fig2a_paper <- map_paper_2a +
   inset_element(bar_inset_right, left = 0.5, bottom = 0.05, right = 1.1, top = 0.35)
 
@@ -320,7 +318,7 @@ fig4 <- ggplot() +
     legend.position = "right"
   )
 
-ggsave("figures/fig4_seasonal.png", fig4, width = 7, height = 9, dpi = 300, bg = "white")
+ggsave("figures/fig4_seasonal.png", fig4, width = 5.8, height = 9, dpi = 300, bg = "white")
 
 # ── Paper version (NJ background, coord crop, scale bar, no title) ───────────
 fig4_paper <- ggplot() +
@@ -342,7 +340,7 @@ fig4_paper <- ggplot() +
         plot.margin = margin(0, 0, 0, 0),
         legend.box.margin = margin(0, 0, 0, 0))
 ggsave(file.path(paper_dir, "fig4_seasonal.png"),
-       fig4_paper, width = 5.5, height = 8, dpi = 300, bg = "white")
+       fig4_paper, width = 5.4, height = 8, dpi = 300, bg = "white")
 
 # ── Model variable distributions ─────────────────────────────────────────────
 # Loads the same cleaned sample used in 20_models_hedonic.r
