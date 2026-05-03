@@ -55,6 +55,71 @@ df_clean <- df |>
 
 cat(sprintf("Observations: %s\n", format(nrow(df_clean), big.mark = ",")))
 
+# ── Summary statistics table ───────────────────────────────────────────────────
+sumstats_data <- df_clean |>
+  transmute(
+    `Sale Price (2020 \\$)`        = sale_price_2020,
+    `Distance to Ocean (mi)`       = dist_to_ocean_mi,
+    `Flood Risk: High`             = as.integer(flood_risk == "High"),
+    `Flood Risk: Moderate`         = as.integer(flood_risk == "Moderate"),
+    `Flood Risk: Low`              = as.integer(flood_risk == "Low"),
+    `Pct. Seasonal Units`          = pct_seasonal,
+    `Age (years)`                  = age,
+    `Land Value (\\$)`             = land_value,
+    `Improvement Value (\\$)`      = improvement_value
+  )
+
+sumstats_rows <- lapply(names(sumstats_data), function(v) {
+  x <- sumstats_data[[v]]
+  is_binary <- all(x %in% 0:1, na.rm = TRUE)
+  large     <- !is_binary && max(abs(x), na.rm = TRUE) >= 1000
+  fmtf <- if (is_binary) function(z) sprintf("%.3f", z)
+          else if (large) function(z) formatC(round(z), format = "f", digits = 0, big.mark = ",")
+          else function(z) sprintf("%.3f", z)
+  data.frame(
+    Variable = v,
+    N        = formatC(sum(!is.na(x)), format = "d", big.mark = ","),
+    Mean     = fmtf(mean(x, na.rm = TRUE)),
+    SD       = fmtf(sd(x, na.rm = TRUE)),
+    Min      = fmtf(min(x, na.rm = TRUE)),
+    Median   = fmtf(median(x, na.rm = TRUE)),
+    Max      = fmtf(max(x, na.rm = TRUE)),
+    stringsAsFactors = FALSE
+  )
+})
+
+sumstats_df <- do.call(rbind, sumstats_rows)
+
+# Write LaTeX manually for full control
+ss_tex <- c(
+  "\\begin{table}[h!]",
+  "\\centering",
+  "\\caption{Summary Statistics}",
+  "\\label{tab:sumstats}",
+  "\\begin{tabular}{lrrrrrr}",
+  "\\toprule",
+  "Variable & $N$ & Mean & SD & Min & Median & Max \\\\",
+  "\\midrule"
+)
+
+for (i in seq_len(nrow(sumstats_df))) {
+  r <- sumstats_df[i, ]
+  ss_tex <- c(ss_tex, sprintf(
+    "%s & %s & %s & %s & %s & %s & %s \\\\",
+    r$Variable, r$N, r$Mean, r$SD, r$Min, r$Median, r$Max
+  ))
+}
+
+ss_tex <- c(ss_tex,
+  "\\bottomrule",
+  "\\multicolumn{7}{l}{\\footnotesize \\textit{Note.} Flood risk indicators are dummy variables (0/1). Sale price is inflation-adjusted to 2020 dollars.} \\\\",
+  "\\end{tabular}",
+  "\\end{table}"
+)
+
+writeLines(ss_tex, "figures/summary_statistics.tex")
+message("Saved → figures/summary_statistics.tex")
+
 # Fit the hedonic regression model
 m1 <- feols(log_price ~ log_dist + flood_risk + pct_seasonal + log_dist:pct_seasonal + flood_risk:pct_seasonal + age + log_land + log_improve, data = df_clean)
 

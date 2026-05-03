@@ -1035,6 +1035,31 @@
       \endverb
       \keyw{Amenity value,climate change,downscaled climate data,hedonic housing model,quality of life}
     \endentry
+    \entry{uscensusbureau-DEFINITIONSEXPLANATIONS}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb461c0c6976b357452502c0cb338c70}{%
+           family={{US Census Bureau}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{fullhash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{fullhashraw}{fb461c0c6976b357452502c0cb338c70}
+      \strng{bibnamehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authorbibnamehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authornamehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authorfullhash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authorfullhashraw}{fb461c0c6976b357452502c0cb338c70}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{DEFINITIONS AND EXPLANATIONS}}}
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/7GF6N4IJ/definitions.pdf
+      \endverb
+    \endentry
     \entry{valenzuela-martinetal2025-ExplanatoryFactorsDistribution}{article}{}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=13fcd9d6b01d0d20870f656186b04398}{%
@@ -2195,6 +2220,31 @@
       \verb https://www.worldscientific.com/doi/abs/10.1142/S2010007814500092
       \endverb
       \keyw{Amenity value,climate change,downscaled climate data,hedonic housing model,quality of life}
+    \endentry
+    \entry{uscensusbureau-DEFINITIONSEXPLANATIONS}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb461c0c6976b357452502c0cb338c70}{%
+           family={{US Census Bureau}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{fullhash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{fullhashraw}{fb461c0c6976b357452502c0cb338c70}
+      \strng{bibnamehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authorbibnamehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authornamehash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authorfullhash}{fb461c0c6976b357452502c0cb338c70}
+      \strng{authorfullhashraw}{fb461c0c6976b357452502c0cb338c70}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{DEFINITIONS AND EXPLANATIONS}}}
+      \verb{file}
+      \verb /Users/artyom/Zotero/storage/7GF6N4IJ/definitions.pdf
+      \endverb
     \endentry
     \entry{valenzuela-martinetal2025-ExplanatoryFactorsDistribution}{article}{}{}
       \name{author}{6}{}{%

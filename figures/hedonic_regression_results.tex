@@ -1,8 +1,10 @@
 
 \begin{table}[htbp]
    \caption{Hedonic Regression Results}
+   \label{tab:hedonic-results}
    \bigskip
    \centering
+   \begin{adjustbox}{max width=\textwidth}
    \begin{tabular}{lcccc}
       \toprule
        & \multicolumn{4}{c}{log(Sale Price, 2020\$)}\\
@@ -42,6 +44,11 @@
       Census Tract fixed effects            &                         &                 &                  & $\checkmark$\\   
       \bottomrule
    \end{tabular}
+   \end{adjustbox}
+   \vspace{0.8em}
+   \begin{minipage}{\textwidth}
+      \small\textit{Note.} Significance codes: $^{*}p<0.05$;\; $^{**}p<0.01$;\; $^{***}p<0.001$. Standard errors in parentheses.
+   \end{minipage}
 \end{table}
 
 

@@ -3097,11 +3097,12 @@
     <bcf:citekey order="13" intorder="3">collado-gonzalezetal2025-SecondHomesTourism</bcf:citekey>
     <bcf:citekey order="14" intorder="1">andrews-PersistingJerseyShore</bcf:citekey>
     <bcf:citekey order="14" intorder="2">putra2017-RealPropertyMarket</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">putra2017-RealPropertyMarket</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">uscensusbureau-DEFINITIONSEXPLANATIONS</bcf:citekey>
     <bcf:citekey order="16" intorder="1">putra2017-RealPropertyMarket</bcf:citekey>
-    <bcf:citekey order="16" intorder="2">murfinspiegel2020-RiskSeaLevel</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">secanmegbolugbe1997-SpatialDependenceHouse</bcf:citekey>
-    <bcf:citekey order="17" intorder="2">basileetal2014-ModelingRegionalEconomicb</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">putra2017-RealPropertyMarket</bcf:citekey>
+    <bcf:citekey order="17" intorder="2">murfinspiegel2020-RiskSeaLevel</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">secanmegbolugbe1997-SpatialDependenceHouse</bcf:citekey>
+    <bcf:citekey order="18" intorder="2">basileetal2014-ModelingRegionalEconomicb</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

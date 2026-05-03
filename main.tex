@@ -5,20 +5,29 @@
 \usepackage{subcaption}
 \usepackage{multicol}
 \usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{adjustbox}
 \usepackage{enumitem}
 \usepackage[style=apa, backend=biber]{biblatex}
 \addbibresource{references.bib}
 \usepackage{booktabs}
+\usepackage{threeparttable}
 \usepackage{float}
 \usepackage{titlesec}
+\usepackage{indentfirst}
+\usepackage{etoolbox}
+\linespread{1.5}
+\setlength{\parindent}{0.5in}    % first-line indent = 0.5 inch
+\setlength{\parskip}{1.5pt}        % no extra space between paragraphs
+\AtBeginEnvironment{table}{\setlength{\parskip}{0pt}}
 
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{0.8em}
 
 \usepackage[colorlinks=true,
   linkcolor=black,
   citecolor=black,
   urlcolor=black]{hyperref}
+
+\fontsize{12}{14}\selectfont
 
 
 \begin{document}
@@ -87,7 +96,7 @@ As climate risk capitalization in property values is a heterogeneous effect, the
         \caption{Median sale price by tract}
         \label{fig:map-sale-price}
       \end{subfigure}
-      \caption{Spatial context and key variable used in the analysis. \textit{Note.} Figure (a) shows the Jersey Shore study area and parcel sample by county; figure (b) maps census tract-level median sale price (2023).}
+      \caption{\textit{Spatial context and key variable used in the analysis.} \textit{Note.} Figure (a) shows the Jersey Shore study area and parcel sample by county; figure (b) maps census tract-level median sale price (2023).}
       \label{fig:maps-overview}
     \end{figure}
 
@@ -97,21 +106,13 @@ As climate risk capitalization in property values is a heterogeneous effect, the
 
     \subsection{Additional Datasources}
 
-    As a proxy for flood risk, I collect Federal Emergency Management Agency's (FEMA) National Flood Hazard Layer (NFHL) for the state of NJ. It consists of information on spatially referenced flood risk zones with different levels of risk. As a proxy for seasonality status of the parcel, I download American Community Survey (ACS) data on number of seasonal housing units and total number of housing units at the census tract level for two time periods (2013 and 2023). US Census Bureau defines seasonal housing unit as "seasonal housing units are those intended for occupancy only during certain seasons of the year and are found primarily in resort area", i.e., units that are occupied persons with usual residence elsewhere only during parcilar times, which fits into the essense of second homes and short-term rental market at the Shore. 
+    As a proxy for flood risk, I collect Federal Emergency Management Agency's (FEMA) National Flood Hazard Layer (NFHL) for the state of NJ. It consists of information on spatially referenced flood risk zones with different levels of risk. As a proxy for seasonality status of the parcel, I download American Community Survey (ACS) data on number of seasonal housing units and total number of housing units at the census tract level for two time periods (2013 and 2023). US Census Bureau defines seasonal housing unit as "seasonal housing units are those intended for occupancy only during certain seasons of the year and are found primarily in resort area" \parencite{uscensusbureau-DEFINITIONSEXPLANATIONS}, i.e., units that are occupied persons with usual residence elsewhere only during parcilar times, which fits into the essense of second homes and short-term rental market at the Shore. 
 
     \subsection{Regression Analysis}
 
     To examine the climate risk capitalization at the Jersey Shore's housing submarket, this study employs hedonic regression approach for pooled cross-sectional data. Hedonic regression have been conventionally accepted models for studies where dependent variable (DV) is related to the price of goods or services, including housing price. Such approach has been also employed in previous studies of climate risk capitalization (see for instance \cite{putra2017-RealPropertyMarket}). As described below, DV of the current study is sales price, which is regressed against variables of interests related to flooding risk, housing seasonality and selected controls, making such research design applicable to the aforementioned research question. I describe model specification, included variables, their cleaning, and transformation, as well as research design choices in the following sections. 
 
-        \subsubsection{Dependent Variable}
-
-        Dependent variable of the regressions model is sales price of the parcel. MOD-IV historical database includes information on sales price and sales year, meaning when this parcel of land was sold and for what dollar value. Each parcel can have unlimited amount of transaction events that would be reflected in the database. However, based on the conducted explanatory data analysis, very few parcels in the sample, have had multiple transaction. Most of them have one or two records transactions. It is important to note, that MOD-IV collects sales price information for the last sale that have occurred to the property, which means that if the parcel was last sold in the year 2000, that would be recorded sale price that we utilize as DV. 
-
-        To account for this aspect, we adjust sales price from nominal dollar value to real value in 2020 dollars, using Consumer Price Index data and sales year variable provided in the MOD-IV database. Year 2020 is selected as a reference year in order to avoid effects of post COVID-19 rise in housing prices. 
-        
-        Additionally, all the nominal sales are excluded from the analysis, meaning transactions that did not occur in market conditions, but were rather transfer of property rights within family or other related parties. These transactions usually are noted by the sale price of \$0 or \$1. Additionally, I filter out records where sales price is less than \$25,000 for the same reason of them not being real market-rate sale transactions. The value threshold is determined by scholarship conventions. The dependent variable is log-transformed to avoid common for the sales price data skewness to the right. 
-
-        \begin{figure}[t]
+         \begin{figure}[t]
           \centering
           \begin{subfigure}[t]{0.33\textwidth}
             \centering
@@ -131,19 +132,11 @@ As climate risk capitalization in property values is a heterogeneous effect, the
             \caption{Assessed improvement value}
             \label{fig:hist-improve}
           \end{subfigure}
-          \caption{Distributions of sale price and assessed values. \textit{Note.} Sale price is inflation-adjusted to 2020 dollars and excludes non-market transactions below \$25,000; land and improvement values are as assessed by the municipality.}
+          \caption{\textit{Distributions of sale price and assessed values.} \textit{Note.} Sale price is inflation-adjusted to 2020 dollars and excludes non-market transactions below \$25,000; land and improvement values are as assessed by the municipality.}
           \label{fig:value-hists}
         \end{figure}
 
-        Figure~\ref{fig:maps-overview}\subref{fig:map-sale-price} shows median sale price aggregated at the census tract level. More than half of the tracts has a median selling price within the range of \$100,000 to \$300,000. The spatial pattern of median price is evident as well: tracts closer to the ocean have on average higher selling price compared to the inland tracts. This observation is consistent with other studies related to the Shore, and can be explained by the fact that market actors value proximity to the ocean more due to proximity to the beach and the ocean view.
-
-        \subsubsection{Independent Variables}
-
-        There are three independent variables (IV) of interest. First, flood zone, a categorical variable, which is generated from the FEMA NFHL data, which classify floodplain into multiple zones. For simplification, those zones are aggregated into four types: high, moderate, and low risk, as well as undetermined zone, which represent open water areas of the shore and areas for where flooding risk exists but was not assessed. All the parcels in the undetermined zones are dropped from the analysis, as it is not feasible to meaningfully compare this category to zones with quantified flood risk. Low-risk served as the omitted reference category in the regression analysis. As can been seen in Figure~\ref{fig:flood-overview}\subref{fig:flood-bar}, majority of the parcels in our study area have low level of flood risk. Second most populous category is high risk, while very few parcels have moderate risk of flooding. 
-
-        Second, IV of interest is distance to the shore, generated using spatial analysis techniques. Scholarship on climate risk capitalization has proven it to be an important variable \parencite{putra2017-RealPropertyMarket, murfinspiegel2020-RiskSeaLevel}, which however, might have unexpected effect. On one hand, being close to the shore implies higher risk of flooding during natural hazards, as well as long-term damage due to sea-level rise. On the other hand, being close to the Shore, especially having view on the water or being in walking proximity to the beach is considered advantage for the residential property. As evident from the Figure~\ref{fig:flood-overview}\subref{fig:flood-distance}, a major part of parcels in the sample are in close proximity to the ocean, which also correlates with having high level of flood risk. This variable is also log-transformed to account for the effect that distance has on property values: difference between being 200 and 1000 feet away is assumed to be significant for the property values, while being 5 or 5.1 miles away is not supposed to have any effect. 
-
-        \begin{figure}[t]
+         \begin{figure}[t]
           \centering
           \begin{subfigure}[t]{0.48\textwidth}
             \centering
@@ -158,8 +151,32 @@ As climate risk capitalization in property values is a heterogeneous effect, the
             \caption{Distribution of parcels by distance to shore}
             \label{fig:flood-distance}
           \end{subfigure}
-          \caption{Flood risk and proximity to shore for parcels in the study area. \textit{Note.} Figure (a) shows the share of parcels by FEMA flood risk zone; figure (b) shows the distribution of parcel distances to the shoreline.}
+          \caption{\textit{Flood risk and proximity to shore for parcels in the study area.} \textit{Note.} Figure (a) shows the share of parcels by FEMA flood risk zone; figure (b) shows the distribution of parcel distances to the shoreline.}
           \label{fig:flood-overview}
+        \end{figure}
+
+
+        \subsubsection{Dependent Variable}
+
+        Dependent variable of the regressions model is sales price of the parcel. MOD-IV historical database includes information on sales price and sales year, meaning when this parcel of land was sold and for what dollar value. Each parcel can have unlimited amount of transaction events that would be reflected in the database. However, based on the conducted explanatory data analysis, very few parcels in the sample, have had multiple transaction. Most of them have one or two records transactions. It is important to note, that MOD-IV collects sales price information for the last sale that have occurred to the property, which means that if the parcel was last sold in the year 2000, that would be recorded sale price that we utilize as DV. 
+
+        To account for this aspect, we adjust sales price from nominal dollar value to real value in 2020 dollars, using Consumer Price Index data and sales year variable provided in the MOD-IV database. Year 2020 is selected as a reference year in order to avoid effects of post COVID-19 rise in housing prices. 
+        
+        Additionally, all the nominal sales are excluded from the analysis, meaning transactions that did not occur in market conditions, but were rather transfer of property rights within family or other related parties. These transactions usually are noted by the sale price of \$0 or \$1. Additionally, I filter out records where sales price is less than \$25,000 for the same reason of them not being real market-rate sale transactions. The value threshold is determined by scholarship conventions. The dependent variable is log-transformed to avoid common for the sales price data skewness to the right. 
+
+        Figure~\ref{fig:maps-overview}\subref{fig:map-sale-price} shows median sale price aggregated at the census tract level. More than half of the tracts has a median selling price within the range of \$100,000 to \$300,000. The spatial pattern of median price is evident as well: tracts closer to the ocean have on average higher selling price compared to the inland tracts. This observation is consistent with other studies related to the Shore, and can be explained by the fact that market actors value proximity to the ocean more due to proximity to the beach and the ocean view.        
+
+        \subsubsection{Independent Variables}
+
+        There are three independent variables (IV) of interest. First, flood zone, a categorical variable, which is generated from the FEMA NFHL data, which classify floodplain into multiple zones. For simplification, those zones are aggregated into four types: high, moderate, and low risk, as well as undetermined zone, which represent open water areas of the shore and areas for where flooding risk exists but was not assessed. All the parcels in the undetermined zones are dropped from the analysis, as it is not feasible to meaningfully compare this category to zones with quantified flood risk. Low-risk served as the omitted reference category in the regression analysis. As can been seen in Figure~\ref{fig:flood-overview}\subref{fig:flood-bar}, majority of the parcels in our study area have low level of flood risk. Second most populous category is high risk, while very few parcels have moderate risk of flooding. 
+
+        Second, IV of interest is distance to the shore, generated using spatial analysis techniques. Scholarship on climate risk capitalization has proven it to be an important variable \parencite{putra2017-RealPropertyMarket, murfinspiegel2020-RiskSeaLevel}, which however, might have unexpected effect. On one hand, being close to the shore implies higher risk of flooding during natural hazards, as well as long-term damage due to sea-level rise. On the other hand, being close to the Shore, especially having view on the water or being in walking proximity to the beach is considered advantage for the residential property. As evident from the Figure~\ref{fig:flood-overview}\subref{fig:flood-distance}, a major part of parcels in the sample are in close proximity to the ocean, which also correlates with having high level of flood risk. This variable is also log-transformed to account for the effect that distance has on property values: difference between being 200 and 1000 feet away is assumed to be significant for the property values, while being 5 or 5.1 miles away is not supposed to have any effect. 
+
+        \begin{figure}[H]
+          \centering
+          \includegraphics[width=0.6\textwidth]{figures/paper/fig4_seasonal.png}
+          \caption{\textit{Share of seasonal housing units by census tract.} \textit{Note.} Percent of seasonal units derived from ACS data; tracts closer to the ocean tend to have a higher share of seasonal units.}
+          \label{fig:seasonal}
         \end{figure}
 
         Third, seasonality variable, which is defined through proxy of percent of the seasonal units in the census tract and generated from ACS data on number of seasonal and total number of housing units in the tract. The proxy is calculated as 
@@ -170,13 +187,6 @@ As climate risk capitalization in property values is a heterogeneous effect, the
 
         It is important to note the potential limitation of such proxy variable: as our original data is at the parcel level, while seasonality variable is at the census tract level, such mismatch created multiple challenges for the research design in terms of accuracy of measurment as well as the inclusion of fixed effects at the census tract level to the model. I describe these limitations and potential solutions in \autoref{sec:limitations}. \autoref{fig:seasonal} demonstrates the spatial distribution of seasonality units at the Shore. Census tracts located near to the shore have a higher share of seasonal housing units, which is expected as those are considered tourist areas. Surprisingly, north of the Shore has on average lower share of seasonal units compared to the middle and southern part of it. 
 
-        \begin{figure}[t]
-          \centering
-          \includegraphics[width=0.6\textwidth]{figures/paper/fig4_seasonal.png}
-          \caption{Share of seasonal housing units by census tract. \textit{Note.} Percent of seasonal units derived from ACS data; tracts closer to the ocean tend to have a higher share of seasonal units. } 
-          \label{fig:seasonal}
-        \end{figure}
-
         Lastly, as this study is concerned with the interaction of seasonality and climate risk, I also introduce two interaction terms into the model: interaction between distance to shore and percent of seasonal units, and interaction between flood zone and percent of the seasonal units which serve as the main variables of interest in accordance with the research question. 
         
         \subsubsection{Control Variables}
@@ -185,7 +195,11 @@ As climate risk capitalization in property values is a heterogeneous effect, the
 
         \subsubsection{Final Model Specification}
 
-        Table provides summary statistics of the included into the model variables. 
+\input{figures/summary_statistics}
+
+        Table~\ref{tab:sumstats} provides summary statistics of the variables included in the model.
+
+
 
         After performing all transformation and data cleaning, as well as excluding any observations with missing values, our sample size is 2,246,512 observation of parcel-level pooled cross-sectional data for years 2015 to 2025.
 
@@ -200,14 +214,47 @@ As climate risk capitalization in property values is a heterogeneous effect, the
 
         Additionally, main model is compared to ordinary least squares (OLS) model, fixed time effects model, and model with fixed time effects and fixed entity effects on the census tract level. Due to sample size (n = 2,246,512), clustered standard errors are reported on county or census tract level for the corresponding fixed effects models. 
 
+\input{figures/hedonic_regression_results}
+
 \section{Results}
 
+Results of the regression analysis are reported in \autoref{tab:hedonic-results}. 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{figures/paper/fig5_coefplot.png}
+  \caption{\textit{Coefficient estimates for variables of interest across hedonic regression specifications.} \textit{Note.} Points denote point estimates with 95\% confidence intervals. Gray circles represent the baseline OLS model; blue triangles represent the model with year fixed effects; dark blue squares represent the model with year and county fixed effects. The dependent variable is log sale price (2020 USD). Standard errors in all fixed-effects specifications are clustered at the county level. The vertical dashed line at zero serves as a reference for null effects. Wide confidence intervals for the interaction terms reflect the small number of clustering units ($n = 4$ counties) rather than model misspecification.}
+  \label{fig:coefplot}
+\end{figure}
+
+First, the results of the OLS model highlight that multiple variables of interests are significant at the conventional level. Dstance to ocean, which has a negative coefficient, meaning that 1\% increase in distance increases sale price by 0.04\% holding other variables constant. Being in the moderate flood risk zone decreases sell price by approximately 2.64\% compared to the low flood risk zone, however being in the high risk zone does not show similar significant effect. Seasonality variable is significant and has a positive coefficient, meaning that a 10 percentage point increase in the share of seasonal units is associated with approximately a 1.9\% increase in sale price, holding other variables constant. However, this main effect cannot be interpreted in isolation: because the model also includes the interaction $\log(\text{Distance}) \times \text{Pct.\ Seasonal}$ ($\hat{\beta} = -0.196$), the full marginal effect of seasonality on log sale price is $0.188 - 0.196 \times \log(\text{Distance})$. At close distances the net effect is positive, but it diminishes and eventually reverses as distance to Shore increases, meaning the positive seasonality effect on price is concentrated in parcels nearest to the water. All of the interaction terms are significant, with $\log(\text{Distance}) \times \text{Pct.\ Seasonal}$ and $\text{High Risk} \times \text{Pct.\ Seasonal}$ having a negative effect on the sale price, while $\text{Moderate Risk} \times \text{Pct.\ Seasonal}$ surprisingly has a positive coefficient. The model's $R^2$ is 0.66, which means that 66\% of variation in the data is explained by the model. However, as study's sample is pooled cross-sectional data, we can assume that OLS models overestimate coefficients due to unobserved heterogeneity that affects sales price, such as neighborhood characteristics. We can also assume that the model underestimates standard errors due to the size of the sample, and therefore inference is affected. 
+
+When the year fixed effects are introduced, $R^2$ increases to 0.71, signifying that time variation has significant explanatory power in the model. However, this also leads to most of the coefficients of variables of interest loosing significance due to the fact that standard errors are clustered on the county level. However, interaction between distance and seasonality remains significant at the conventional level. Moreover, magnitude of the coefficient only slightly changes, indicating the correct specification of the model and importance of these variables. 
+
+When the county level fixed effects are added in addition to the year fixed effects, $R^2$ marginally increases, indicating that county-level fixed effects are have very little explanatory power. However, some of the coefficients, namely distance to the shore and percent of seasonal units, gain significance, indicating that standards errors of model 2 were inflated due to between-county confounding. Importantly, most of the coefficient remain stable, indicating the correct specification of the model. The only exception is coefficient for the seasonality variable which increases from 0.1955 to 0.2261. 
+
+Lastly, when the standard errors are clustered at the census block level, $R^2$ increases from 0.71 to 0.74, indicating a better fit of the model compared to the model 3. It also means that census tracts account for unobserved heterogeneity in the data better. Moreover, distance to shore coefficient gains significant but the direction of the effect is changes. This is explained by the fact that the effect that was previously captured by the interaction term between seasonality and distance to shore have moved to the distance to shore variable. It is also important to note, that all the control variables remain significant in all 4 models and do not radically fluctuate in coefficients from model to model, indicating correct model specification.
+
+Despite most of the coefficients for the IVs of interest are not statistically significant at the conventional level, there is an argument to be made that it is caused by the clustered standart error specification, rather than model misspecification or no assosiation between variables present. When the standard errors are clustered at the county level, SEs are inflated due to small number of entities (n=4). It is further proven by the fact that introducing fixed effects barely moves magnitude of the coefficients. \autoref{fig:coefplot} highlights this idea: while point estimates remain the same with very little variation, low number of clusters for standard error inflates them and therefore leads to loss of statistical power rather than absence of an effect. This limitation and its potential solutions are further described in \autoref{sec:limitations}. 
+
 \section{Discussion}
+
     \subsection{Seasonality of Flooding and Housing Prices}
-    \subsection{Policy Implications}
+
     \subsection{Limitations and Future Research}\label{sec:limitations}
+    - few clusters issue
+    - township level fixed effects 
+    - MAUP problem
+    - owner solution 
+    - building controls
+
+
+\section{Conclusion}
+
+\subsection{Policy implications}
+
+
 
 \printbibliography
 
 \end{document}
-
