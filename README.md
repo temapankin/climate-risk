@@ -42,7 +42,6 @@ The study area follows the New Jersey **Coastal Area Facility Review Act (CAFRA)
 | NJ MOD-IV Historical Database | Municipal tax assessor records: sale price, assessed values, building characteristics | ~40.9 M rows, 2010–2025 |
 | NJ Statewide Parcels GDB | GIS parcel geometries (`Cad_parcel_mod4`) | 3.48 M parcels |
 | FEMA NFHL (2025) | National Flood Hazard Layer — flood zone classifications statewide | Polygon |
-| FEMA FRD, Atlantic County (2017) | Flood Risk Database — annualized average loss estimates | Polygon |
 | ACS 5-Year Estimates (2013, 2023) | Seasonal housing units and total units by census tract | Tract |
 | CAFRA Boundary | NJ coastal planning zone (DEP) | Polygon |
 | CPIAUCSL | CPI for inflation adjustment to 2020 dollars | Annual |
@@ -59,7 +58,8 @@ Notebooks and scripts must be run sequentially — each stage produces outputs c
 01_processing.ipynb      MOD-IV × GIS join via DuckDB → parcels_modiv_joined.parquet (12.5 GB)
                          CAFRA clip → parcels_shore.parquet (6.1 M rows)
 
-02_features.ipynb        FEMA flood zone spatial join → parcel_flood_features.parquet
+02_features.ipynb        FEMA flood zone spatial join → updates parcels_shore.parquet in place
+                         (adds FLD_ZONE, flood_risk, dist_to_ocean_mi columns)
                          Interactive folium map of flood zones
 
 03_mod4-eda.ipynb        Exploratory analysis of shore parcels (distributions, sale price
@@ -75,7 +75,7 @@ Notebooks and scripts must be run sequentially — each stage produces outputs c
 
 08_cleaning.ipynb        Final cleaning → parcels_shore_clean.parquet
 
-09_owenrship.ipynb       Owner-address vs. parcel-address proxy for seasonality
+09_ownership.ipynb       Owner-address vs. parcel-address proxy for seasonality
                          (Pearson r = 0.70 vs. ACS seasonal share)
 
 10_eda-viz.r             EDA visualizations (maps, distributions, bivariate)
@@ -95,7 +95,7 @@ A pooled cross-sectional hedonic model with fixed effects estimated via `fixest`
 $$\ln(\text{SalePrice}_{it}) = \beta_1 \log(\text{Distance})_i + \beta_2 \text{PctSeasonal}_i + \beta_3 \text{FloodZone}_i$$
 $$+ \beta_4 (\text{FloodZone} \times \text{PctSeasonal}) + \beta_5 (\log(\text{Distance}) \times \text{PctSeasonal}) + \boldsymbol{\gamma}'\mathbf{C}_{it} + \alpha_i + \delta_t + u_{it}$$
 
-**Dependent variable**: log of CPI-adjusted sale price (2020 dollars), restricted to market transactions ≥ $20,000.
+**Dependent variable**: log of CPI-adjusted sale price (2020 dollars), restricted to market transactions > $25,000.
 
 **Controls**: log assessed land value, log assessed improvement value, building age.
 
@@ -153,7 +153,7 @@ Rscript -e "install.packages(c('tidyverse','fixest','sf','tigris','arrow','patch
 ├── 06_sales-adj.ipynb       # CPI adjustment
 ├── 07_building_desc.ipynb   # Building description parsing
 ├── 08_cleaning.ipynb        # Final dataset cleaning
-├── 09_owenrship.ipynb       # Owner-address seasonality proxy
+├── 09_ownership.ipynb       # Owner-address seasonality proxy
 ├── 10_eda-viz.r             # EDA figures
 ├── 11_eda-viz-paper.r       # Paper-quality EDA figures
 ├── 12_viz-results.r         # Result figures (coefplot, margins)
